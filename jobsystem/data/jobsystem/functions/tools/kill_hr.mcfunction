@@ -1,0 +1,1 @@
+kill @e[name="仕事紹介人",sort=nearest,limit=1]

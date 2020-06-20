@@ -1,0 +1,1 @@
+give @p emerald{display:{Name:'{"text":"復活のクリスタル","color":"green","bold":true,"italic":true,"underlined":true}',Lore:['{"text":"さまよえる魂たちに救いの手を差し伸べる","color":"white"}','{"text":"インベントリから投げることで発動","color":"gray"}','{"text":"発動後しばらくクールタイムが必要","color":"gray"}']},reviveItem:1b} 1
