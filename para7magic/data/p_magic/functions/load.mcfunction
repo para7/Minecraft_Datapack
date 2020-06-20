@@ -14,11 +14,15 @@ scoreboard objectives add PMag_MSelect dummy
 # 系統変更のクールタイム
 # scoreboard objectives add PMag_MFaithable dummy
 
+#ガチャ
 scoreboard objectives add PMag_MGacha minecraft.killed:minecraft.ender_dragon
+#システム
+scoreboard objectives add PMag_Enable dummy
 
 # オフハンド処理のスキップ
 scoreboard objectives add PMag_Equip dummy
 scoreboard objectives add PMag_Executable dummy
+
 
 # 最上級魔法の習得状況
 scoreboard objectives add PMag_Xelement dummy

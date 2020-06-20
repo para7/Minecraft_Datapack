@@ -21,7 +21,7 @@ execute if entity @s[scores={PMag_MFaith=2,PMag_MSelect=3,PMag_MP=17..}] run sco
 
 # コントロール
 execute if entity @s[scores={PMag_MFaith=3,PMag_MSelect=1,PMag_MP=11..}] run function p_magic:exe/control/magic1
-execute if entity @s[scores={PMag_MFaith=3,PMag_MSelect=1,PMag_MP=11..}] run scoreboard players remove @s PMag_MP 17
+execute if entity @s[scores={PMag_MFaith=3,PMag_MSelect=1,PMag_MP=11..}] run scoreboard players remove @s PMag_MP 11
 
 execute if entity @s[scores={PMag_MFaith=3,PMag_MSelect=2,PMag_MP=9..}] run function p_magic:exe/control/magic2
 execute if entity @s[scores={PMag_MFaith=3,PMag_MSelect=2,PMag_MP=9..}] run scoreboard players remove @s PMag_MP 9

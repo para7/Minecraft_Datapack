@@ -1,4 +1,4 @@
-# tell @a next
+tell @a faithcheck
 
 execute if block ~ ~ ~ minecraft:enchanting_table if entity @s[scores={PMag_Enable=0}] run function p_magic:faith/faith1
 

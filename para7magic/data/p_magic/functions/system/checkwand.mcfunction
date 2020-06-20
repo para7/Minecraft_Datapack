@@ -1,4 +1,4 @@
-# tell @a checkwand
+tell @a checkwand
 # 杖の種類を判別して処理を渡す
 
 #選択杖
