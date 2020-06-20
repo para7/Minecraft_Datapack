@@ -2,7 +2,7 @@
 
 # function para7_utils:set_friendmob_tag
 
-execute as @e[distance=..28,type=!#para7_utils:friendmob,sort=random,limit=4] at @s run summon minecraft:lightning_bolt ~ ~ ~
+execute as @e[distance=..28,type=!#para7_utils:friendmob,sort=random,limit=5] at @s run summon minecraft:lightning_bolt ~ ~ ~
 
 # execute as @e[distance=..20,tag=MOB_NotFriend,sort=nearest,limit=5] at @s run effect give @s glowing
 

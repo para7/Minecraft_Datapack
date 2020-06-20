@@ -9,7 +9,6 @@ scoreboard players set @s PMag_MaxMP 10
 scoreboard players operation @s PMag_MaxMP += @s PMag_Level
 scoreboard players operation @s PMag_MaxMP += @s PMag_Level
 scoreboard players operation @s PMag_MaxMP += @s PMag_Level
-scoreboard players operation @s PMag_MaxMP += @s PMag_Level
 
 scoreboard players operation @s PMag_MP < @s PMag_MaxMP
 
