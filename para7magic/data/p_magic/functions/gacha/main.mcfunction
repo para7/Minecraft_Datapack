@@ -1,4 +1,2 @@
 
-function p_magic:gacha/summon
-
-kill @e[nbt={Item:{id:"minecraft:written_book",Count:1b,tag:{PMGachaSelector:1b}}},sort=random,limit=3]
+execute as @e[type=minecraft:ender_dragon,limit=1] at @s run function p_magic:gacha/summon
