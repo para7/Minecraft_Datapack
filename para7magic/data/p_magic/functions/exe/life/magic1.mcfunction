@@ -6,7 +6,7 @@ effect give @e[distance=..10,type=#para7_utils:friendmob] minecraft:instant_heal
 
 execute at @e[distance=..10,type=#para7_utils:friendmob] run particle minecraft:heart ~ ~1 ~ 0.5 0.5 0.5 1 6
 
-playsound minecraft:entity.player.levelup player @a ~ ~ ~ 1 2.0
+playsound minecraft:entity.player.levelup player @a ~ ~ ~ 2 2.0
 
 playsound minecraft:entity.evoker.cast_spell master @a ~ ~ ~ 2 2
 playsound minecraft:entity.evoker.cast_spell master @a ~ ~ ~ 2 0.5

@@ -34,5 +34,4 @@ scoreboard objectives add PMag_Xmagic2 dummy
 scoreboard objectives add PMag_Xmagic3 dummy
 scoreboard objectives add PMag_Xmagic4 dummy
 # scoreboard objectives add PMag_Xchaos dummy
-
 scoreboard objectives add PMag_KillDragon minecraft.killed:minecraft.ender_dragon

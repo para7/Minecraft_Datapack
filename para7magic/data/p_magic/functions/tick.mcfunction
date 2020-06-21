@@ -23,12 +23,16 @@ execute as @a[scores={PMag_UseSoup=1..}] at @s run scoreboard players add @s PMa
 
 scoreboard players add @a[scores={PMag_UseBed=1..}] PMag_MP 99999
 
+#ガチャ
+execute as @a[scores={PMag_KillDragon=1..}] at @s run function p_magic:gacha/main
+
 scoreboard players set @a PMag_UseWand 0
 scoreboard players set @a PMag_UseBed 0
 scoreboard players set @a PMag_UseSoup 0
 scoreboard players set @a PMag_Enable 0
 scoreboard players set @a PMag_Equip 0
 scoreboard players set @a PMag_DropWBook 0
+scoreboard players set @a PMag_KillDragon 0
 
 # scoreboard players remove @a PMag_MFaithable 1000
 # scoreboard players set @a[scores={PMag_MFaithable=..0}] PMag_MFaithable 0
