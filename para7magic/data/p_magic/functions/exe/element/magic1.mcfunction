@@ -12,6 +12,6 @@ playsound minecraft:entity.evoker.cast_spell master @a ~ ~ ~ 2 0.5
 playsound minecraft:entity.blaze.shoot master @a ~ ~ ~ 1 1
 playsound minecraft:entity.generic.explode master @a ~ ~ ~
 
-tellraw @a[distance=..20] [{"selector":"@s"},{"text":" は プロミネンス を唱えた！"}]
+tellraw @a[distance=..50] [{"selector":"@s"},{"text":" は プロミネンス を唱えた！"}]
 
 scoreboard players add @s PMag_Enable 1

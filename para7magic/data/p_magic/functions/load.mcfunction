@@ -1,12 +1,14 @@
 tellraw @a ["",{"text":"ぱらなの魔法MODが有効です"}]
 
 scoreboard objectives add PMag_UseWand minecraft.used:minecraft.carrot_on_a_stick
-scoreboard objectives add PMag_UseSoup minecraft.used:minecraft.beetroot_soup
 
+#MP関連
 scoreboard objectives add PMag_MP dummy
 scoreboard objectives add PMag_mpregene dummy
 scoreboard objectives add PMag_Level level
 scoreboard objectives add PMag_MaxMP dummy
+scoreboard objectives add PMag_UseSoup minecraft.used:minecraft.beetroot_soup
+scoreboard objectives add PMag_UseBed minecraft.custom:minecraft.sleep_in_bed
 
 # 魔法種別の判定
 scoreboard objectives add PMag_MFaith dummy
@@ -23,12 +25,14 @@ scoreboard objectives add PMag_Enable dummy
 scoreboard objectives add PMag_Equip dummy
 scoreboard objectives add PMag_Executable dummy
 
+# 本を投げた判定
+scoreboard objectives add PMag_DropWBook minecraft.dropped:minecraft.written_book 
 
 # 最上級魔法の習得状況
-scoreboard objectives add PMag_Xelement dummy
-scoreboard objectives add PMag_Xlife dummy
-scoreboard objectives add PMag_Xcontrol dummy
-scoreboard objectives add PMag_Xarchitect dummy
-scoreboard objectives add PMag_Xchaos dummy
+scoreboard objectives add PMag_Xmagic1 dummy
+scoreboard objectives add PMag_Xmagic2 dummy
+scoreboard objectives add PMag_Xmagic3 dummy
+scoreboard objectives add PMag_Xmagic4 dummy
+# scoreboard objectives add PMag_Xchaos dummy
 
 scoreboard objectives add PMag_KillDragon minecraft.killed:minecraft.ender_dragon

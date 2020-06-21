@@ -1,5 +1,5 @@
 
-fill ~-2 ~-1 ~-2 ~2 ~-1 ~2 minecraft:cobblestone replace minecraft:air
+fill ~-2 ~-1 ~-2 ~2 ~-1 ~ minecraft:cobblestone replace minecraft:air
 
 particle minecraft:smoke ~ ~ ~ 1.2 0.1 1.2 1 200
 

@@ -19,7 +19,7 @@ execute as @e[distance=..16] if entity @s[type=#para7_utils:undead] if block ~ ~
 execute as @e[distance=..16] if entity @s[type=#para7_utils:undead] if block ~ ~-1 ~ minecraft:ice run effect give @s minecraft:instant_health 1 2
 execute as @e[distance=..16] if entity @s[type=#para7_utils:undead] if block ~ ~-1 ~ minecraft:blue_ice run effect give @s minecraft:instant_health 1 4
 
-tellraw @a[distance=..40] [{"selector":"@s"},{"text":" は アブソリュート・ゼロ を唱えた！"}]
+tellraw @a[distance=..50] [{"selector":"@s"},{"text":" は アブソリュート・ゼロ を唱えた！"}]
 
 playsound minecraft:entity.evoker.cast_spell master @a ~ ~ ~ 2 2
 playsound minecraft:entity.evoker.cast_spell master @a ~ ~ ~ 2 0.5
