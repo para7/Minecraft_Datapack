@@ -7,7 +7,7 @@ tag @e[type=minecraft:wither] add MOB_Undead
 
 tag @e[type=minecraft:zombie] add MOB_Undead
 tag @e[type=minecraft:husk] add MOB_Undead
-tag @e[type=minecraft:zombie_pigman] add MOB_Undead
+tag @e[type=minecraft:zombified_piglin] add MOB_Undead
 tag @e[type=minecraft:zombie_villager] add MOB_Undead
 tag @e[type=minecraft:drowned] add MOB_Undead
 

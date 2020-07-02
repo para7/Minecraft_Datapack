@@ -2,6 +2,8 @@
 # instant_healthをまく
 effect give @e[type=#para7_utils:undead,distance=..60] minecraft:instant_health 1 9
 effect give @e[type=#para7_utils:friendmob,distance=..60] minecraft:instant_health 1 9
+effect give @e[type=#para7_utils:friendmob,distance=..60] minecraft:regeneration 50 1
+
 
 execute at @e[type=#para7_utils:undead,distance=..60] run playsound minecraft:entity.player.levelup player @a ~ ~ ~ 2 2.0
 execute at @e[type=#para7_utils:friendmob,distance=..60] run playsound minecraft:entity.player.levelup player @a ~ ~ ~ 2 2.0

@@ -21,7 +21,7 @@ execute if entity @s[scores={PMag_Enable=0},nbt={Inventory:[{Slot:-106b,tag:{PMw
 execute if entity @s[scores={PMag_Enable=0},nbt={Inventory:[{Slot:-106b,tag:{PMwandID:1b}}]}] run function p_magic:exe/main
 
 #信仰杖
-execute if entity @s[scores={PMag_Enable=0},nbt={Inventory:[{Slot:-106b,tag:{PMwandID:4b}}]}] run function p_magic:faith/main
+execute if entity @s[scores={PMag_Enable=0},nbt={Inventory:[{Slot:-106b,tag:{PMwandID:3b}}]}] run function p_magic:faith/main
 
 #古代杖
 execute if entity @s[scores={PMag_Enable=0},nbt={Inventory:[{Slot:-106b,tag:{PMwandID:4b}}]}] run function p_magic:oldmagic/main

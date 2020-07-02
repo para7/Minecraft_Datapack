@@ -1,7 +1,7 @@
 
-effect give @a[distance=..2] minecraft:jump_boost 14 9
-effect give @a[distance=..2] minecraft:slow_falling 20 10
-effect give @a[distance=..2] minecraft:speed 14 0
+effect give @a[distance=..2] minecraft:jump_boost 24 9
+effect give @a[distance=..2] minecraft:slow_falling 30 10
+effect give @a[distance=..2] minecraft:speed 24 0
 
 
 particle minecraft:cloud ~0 ~0.5 ~ 0.5 0.8 0.5 0.2 50 normal

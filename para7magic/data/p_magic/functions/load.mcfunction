@@ -16,8 +16,6 @@ scoreboard objectives add PMag_MSelect dummy
 # 系統変更のクールタイム
 # scoreboard objectives add PMag_MFaithable dummy
 
-#ガチャ
-scoreboard objectives add PMag_MGacha minecraft.killed:minecraft.ender_dragon
 #システム
 scoreboard objectives add PMag_Enable dummy
 

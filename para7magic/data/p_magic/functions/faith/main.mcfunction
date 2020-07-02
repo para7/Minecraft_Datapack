@@ -11,6 +11,6 @@ execute if block ~ ~-1 ~ minecraft:stone_bricks if entity @s[scores={PMag_Enable
 execute if entity @s[scores={PMag_Enable=0}] run playsound minecraft:block.dispenser.fail master @s ~ ~ ~ 1.0 1.4
 execute if entity @s[scores={PMag_Enable=0}] run tellraw @s [{"text":"このブロックからでは祈りは届きません"}]
 
-execute if entity @s[scores={PMag_Enable=1..}] run xp set @s 0 levels
+execute if entity @s[scores={PMag_Enable=1..}] run xp add @s -10 levels
 
 scoreboard players add @s PMag_Enable 1
