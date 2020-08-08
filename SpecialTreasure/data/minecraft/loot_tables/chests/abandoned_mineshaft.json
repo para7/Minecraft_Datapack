@@ -155,7 +155,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:1,Enchantments:[{id:\"minecraft:smite\",lvl:20s},{id:\"minecraft:fire_aspect\",lvl:2s}]}"
+                            "tag": "{HideFlags:1,Enchantments:[{id:\"minecraft:smite\",lvl:20s},{id:\"minecraft:fire_aspect\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;-1410997634,304500693,-1243952201,877005595],Slot:\"mainhand\"}]}"
                         }
                     ]
                 },

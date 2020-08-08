@@ -1,1 +1,1 @@
-tellraw @a ["",{"text":"Special Treasureが有効です"}]
+tellraw @a ["",{"text":"宝箱の中身が変わりました"}]
