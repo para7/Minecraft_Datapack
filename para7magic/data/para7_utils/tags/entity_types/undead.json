@@ -9,7 +9,9 @@
     "minecraft:zombified_piglin",
     "minecraft:zombie_villager",
     "minecraft:drowned",
-    "minecraft:phantom",
-    "minecraft:stray"
+    "minecraft:skeleton_horse",
+    "minecraft:zombie_horse",
+    "minecraft:stray",
+    "minecraft:phantom"
   ]
 }
