@@ -1,1 +1,0 @@
-summon item ~ ~ ~ {Item:{id:"minecraft:written_book",Count:1b,tag:{display:{Lore:['{"text":"ドラゴンが落とした書物"}']},PMGachaSelector:1b,title:"ボロボロの書物",author:"^/~')",pages:['{"text":"何かが書かれていた痕跡はあるが、ほとんど何も読めない…"}']}}}

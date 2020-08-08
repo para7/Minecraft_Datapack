@@ -5,18 +5,170 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:book",
+                    "weight": 6,
+                    "name": "minecraft:written_book",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": 1
                         },
                         {
+                            "function": "set_nbt",
+                            "tag": "{title:\"xxxx\",author:\"xxxx\",pages:['{\"text\":\"何かが書かれていた痕跡はあるが、状態が悪くほとんど何も読めない…\"}']}"
+                        },
+                        {
                             "function": "set_name",
                             "name": [
                                 {
-                                    "text": "エンドラの本"
+                                    "text": "ボロボロの書物"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "ドラゴンが落とした書物"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{PMFaith:1b,title:\"xxxx\",author:\"xxxx\",pages:['{\"text\":\"グリムの禁術\\\\n\\\\nディザスター\\\\n\\\\n強力なエネルギーを浴びせ、自分に最も近い敵を木っ端微塵に粉砕する。\"}','{\"text\":\"魔獣グリムは魔獣と呼ばれ畏れられているが、実際は猫のような可愛らしい姿だという。とても気まぐれな神なんだが、どういうわけか人に力を貸してくれる。それは人間がその力で何をしでかすのか、眺めて楽しむためらしい。\\\\n\\\\nそんな話を、どこかで聞いたな。\"}']}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "謎の書物"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "禁断の魔法について書かれた書物"
+                                },
+                                {
+                                    "text": "Qキーなどで投げ捨てると魔法習得",
+                                    "color": "gray"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{PMFaith:2b,title:\"xxxx\",author:\"xxxx\",pages:['[{\"text\":\"ミラリスの禁術\\\\n\\\\nフェニックス\\\\n\\\\n生きるものを守り、生きる屍を永遠に葬り去る、強力な魔法を展開する\"}]','{\"text\":\"女神ミラリスは聖母なんて呼ばれてるな。慈悲深い神なんて言う奴もいるが、実際はどうだが。確かにミラリスは生き物には優しいが、アンデッド達には恐ろしい天罰を下すんだ。ま、人間は自分に都合によけりゃ、なんだって褒め称えるんだろうけどな。\\\\n\\\\nそんな話を、どこかで聞いたな。\"}']}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "謎の書物"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "禁断の魔法について書かれた書物"
+                                },
+                                {
+                                    "text": "Qキーなどで投げ捨てると魔法習得",
+                                    "color": "gray"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{PMFaith:3b,title:\"xxxx\",author:\"xxxx\",pages:['{\"text\":\"フライヤの禁術\\\\n\\\\nテレポート\\\\n\\\\n視線の方向へ向かって、近距離の存在とともに超長距離を一瞬で移動する。行き先が世界の裏側だったとしても。\"}','{\"text\":\"龍神フライヤはもともと人間に興味なかったらしいな。女神ミラリスと人間が、邪神に喧嘩を売られたフライヤに協力し、邪神を追い払ったことがきっかけで、人間に力を貸してくれるようになったらしい。それが本当なら、勇敢に戦った俺たちの先祖に感謝しねえとな。\\\\n\\\\nそんな話を、どこかで聞いたな。\"}']}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "謎の書物"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "禁断の魔法について書かれた書物"
+                                },
+                                {
+                                    "text": "Qキーなどで投げ捨てると魔法習得",
+                                    "color": "gray"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{PMFaith:4b,title:\"xxxx\",author:\"xxxx\",pages:['{\"text\":\"ロードの禁術\\\\n\\\\nリインフォース\\\\n\\\\n周囲にある丸石や氷など、特定のブロックを上位のものに強化する\"}','{\"text\":\"巨神ロードは人にものを作る知恵と、その知識を授けた神らしい。おかげで人類は火で邪悪な存在を遠ざけ、壁で侵入を防げるようになったんだ。だからアンデッドを使役し、破壊を好む邪神とは仲が悪いんだってよ。\\\\n\\\\nそんな話を、どこかで聞いたな。\"}']}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "謎の書物"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "禁断の魔法について書かれた書物"
+                                },
+                                {
+                                    "text": "Qキーなどで投げ捨てると魔法習得",
+                                    "color": "gray"
                                 }
                             ]
                         }

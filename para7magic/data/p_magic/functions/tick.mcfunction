@@ -20,7 +20,8 @@ execute as @a[scores={PMag_UseSoup=1..}] at @s run scoreboard players add @s PMa
 scoreboard players add @a[scores={PMag_UseBed=1..}] PMag_MP 99999
 
 #ガチャ
-execute as @a[scores={PMag_KillDragon=1..}] at @s run function p_magic:gacha/main
+# /execute as @e[type=minecraft:ender_dragon] run data modify entity @s DeathLootTable set value "p_magic:entities/ender_dragon"
+# execute as @a[scores={PMag_KillDragon=1..}] at @s run function p_magic:gacha/main
 
 scoreboard players set @a PMag_UseWand 0
 scoreboard players set @a PMag_UseBed 0

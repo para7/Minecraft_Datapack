@@ -4,11 +4,11 @@ playsound minecraft:entity.evoker.cast_spell player @a ~ ~ ~ 2 2
 playsound minecraft:entity.evoker.cast_spell player @a ~ ~ ~ 2 0.5
 tellraw @a[distance=..50] [{"selector":"@s"},{"text":" は テレポート を唱えた！"}]
 
-teleport @e[distance=..2.5] ^ ^ ^300
+teleport @e[distance=..2.5] ^ ^ ^200
 
-playsound minecraft:entity.ender_dragon.ambient player @a ^ ^ ^300 0.8 1.5
-playsound minecraft:entity.evoker.cast_spell player @a ^ ^ ^300 2 2
-playsound minecraft:entity.evoker.cast_spell player @a ^ ^ ^300 2 0.5
+playsound minecraft:entity.ender_dragon.ambient player @a ^ ^ ^200 0.8 1.5
+playsound minecraft:entity.evoker.cast_spell player @a ^ ^ ^200 2 2
+playsound minecraft:entity.evoker.cast_spell player @a ^ ^ ^200 2 0.5
 # tellraw @a[distance=1..30] [{"selector":"@s"},{"text":" は テレポート を唱えた！"}]
 
 scoreboard players add @s PMag_Enable 1
