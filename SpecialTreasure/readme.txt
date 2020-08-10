@@ -1,3 +1,29 @@
+
+bastion_bridge
+bastion_hoglin_stable
+bastion_other
+bastion_treasure
+end_city_treasure
+nether_bridge
+pillager_outpost
+ruined_portal
+shipwreck_map
+shipwreck_supply
+shipwreck_treasure
+simple_dungeon
+stronghold_corridor
+stronghold_crossing
+stronghold_corridor
+underwater_ruin_big
+underwater_ruin_small
+
+
+bridge
+ロードストーン　確定
+
+other
+豚の鼻の模様
+
 # お宝データパック
 
 財宝を軒並み差し替える
@@ -188,13 +214,14 @@ HP＋20%
 満腹度回復を付与するポーション
 
 
+
+
 ナイフ　鉄剣　攻撃速度＋
 なべのふた　盾
 
 フィッシュキラー　釣竿　攻撃5 水棲特攻x
 
 石化薬　耐性V 移動攻撃不能
-
 
 大砲　矢がガスト火球になる
 インスタントボム　即爆破クリーパー
