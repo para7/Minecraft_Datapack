@@ -1,0 +1,95 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 6
+            },
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "quality": 2,
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:32,StoredEnchantments:[{id:\"minecraft:protection\",lvl:10s},{id:\"minecraft:fire_protection\",lvl:10s},{id:\"minecraft:feather_falling\",lvl:10s},{id:\"minecraft:blast_protection\",lvl:10s},{id:\"minecraft:projectile_protection\",lvl:10s},{id:\"minecraft:respiration\",lvl:10s},{id:\"minecraft:aqua_affinity\",lvl:10s},{id:\"minecraft:thorns\",lvl:10s},{id:\"minecraft:depth_strider\",lvl:10s},{id:\"minecraft:frost_walker\",lvl:10s},{id:\"minecraft:sharpness\",lvl:10s},{id:\"minecraft:smite\",lvl:10s},{id:\"minecraft:bane_of_arthropods\",lvl:10s},{id:\"minecraft:knockback\",lvl:10s},{id:\"minecraft:fire_aspect\",lvl:10s},{id:\"minecraft:looting\",lvl:10s},{id:\"minecraft:sweeping\",lvl:10s},{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:silk_touch\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:10s},{id:\"minecraft:fortune\",lvl:10s},{id:\"minecraft:power\",lvl:10s},{id:\"minecraft:punch\",lvl:10s},{id:\"minecraft:flame\",lvl:10s},{id:\"minecraft:luck_of_the_sea\",lvl:10s},{id:\"minecraft:lure\",lvl:10s},{id:\"minecraft:loyalty\",lvl:10s},{id:\"minecraft:impaling\",lvl:10s},{id:\"minecraft:riptide\",lvl:10s},{id:\"minecraft:channeling\",lvl:10s},{id:\"minecraft:mending\",lvl:10s},{id:\"minecraft:multishot\",lvl:10s},{id:\"minecraft:piercing\",lvl:10s},{id:\"minecraft:quick_charge\",lvl:10s},{id:\"minecraft:soul_speed\",lvl:10s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:32,StoredEnchantments:[{id:\"minecraft:binding_curse\",lvl:10s},{id:\"minecraft:vanishing_curse\",lvl:10s}]}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 2,
+                "max": 5
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:experience_bottle",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 11
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 24
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
