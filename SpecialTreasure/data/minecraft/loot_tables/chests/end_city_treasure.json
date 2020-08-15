@@ -174,7 +174,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:2,UUID:[I;-1054379744,-1494397839,-1334626672,1404222073],Slot:\"offhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:-0.4,Operation:2,UUID:[I;1231513906,-2087565257,-1835474406,-1355871394],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-82147973,1537101752,-2083564480,-1902103793],Slot:\"offhand\"}]}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:2,UUID:[I;-1054379744,-1494397839,-1334626672,1404222073],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-0.2,Operation:2,UUID:[I;1231513906,-2087565257,-1835474406,-1355871394],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-82147973,1537101752,-2083564480,-1902103793],Slot:\"offhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -205,13 +205,13 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:32,CustomPotionEffects:[{Id:23b,Amplifier:0b,Duration:216000}]}"
+                            "tag": "{HideFlags:32,CustomPotionEffects:[{Id:23b,Amplifier:0b,Duration:216000},{Id:32b,Amplifier:1b,Duration:72000}]}"
                         },
                         {
                             "function": "set_name",
                             "name": [
                                 {
-                                    "text": "霞"
+                                    "text": "幻影薬"
                                 }
                             ]
                         },
@@ -219,7 +219,7 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "を食べて生きていく"
+                                    "text": "英雄の幻をまとう"
                                 }
                             ]
                         }
@@ -267,7 +267,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;-1927057136,-1536604493,-1785278100,1766010674],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:-0.15,Operation:0,UUID:[I;797290685,1367821651,-1861915258,-945622238],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.5,Operation:2,UUID:[I;-1682466883,-40678767,-1127221993,-638399187],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:2,UUID:[I;-1610019794,592856663,-1790097372,-846753999],Slot:\"mainhand\"}]}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;-1927057136,-1536604493,-1785278100,1766010674],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.5,Operation:2,UUID:[I;-1682466883,-40678767,-1127221993,-638399187],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:2,UUID:[I;-1610019794,592856663,-1790097372,-846753999],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -313,7 +313,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:32,StoredEnchantments:[{id:\"minecraft:protection\",lvl:10sss},{id:\"minecraft:fire_protection\",lvl:10sss},{id:\"minecraft:feather_falling\",lvl:10sss},{id:\"minecraft:blast_protection\",lvl:10sss},{id:\"minecraft:projectile_protection\",lvl:10sss},{id:\"minecraft:respiration\",lvl:10sss},{id:\"minecraft:aqua_affinity\",lvl:10sss},{id:\"minecraft:thorns\",lvl:10sss},{id:\"minecraft:depth_strider\",lvl:10sss},{id:\"minecraft:frost_walker\",lvl:10sss},{id:\"minecraft:sharpness\",lvl:10sss},{id:\"minecraft:smite\",lvl:10sss},{id:\"minecraft:bane_of_arthropods\",lvl:10sss},{id:\"minecraft:knockback\",lvl:10sss},{id:\"minecraft:fire_aspect\",lvl:10sss},{id:\"minecraft:looting\",lvl:10sss},{id:\"minecraft:sweeping\",lvl:10sss},{id:\"minecraft:efficiency\",lvl:10sss},{id:\"minecraft:silk_touch\",lvl:10sss},{id:\"minecraft:unbreaking\",lvl:10sss},{id:\"minecraft:fortune\",lvl:10sss},{id:\"minecraft:power\",lvl:10sss},{id:\"minecraft:punch\",lvl:10sss},{id:\"minecraft:flame\",lvl:10sss},{id:\"minecraft:luck_of_the_sea\",lvl:10sss},{id:\"minecraft:lure\",lvl:10sss},{id:\"minecraft:loyalty\",lvl:10sss},{id:\"minecraft:impaling\",lvl:10sss},{id:\"minecraft:riptide\",lvl:10sss},{id:\"minecraft:channeling\",lvl:10sss},{id:\"minecraft:mending\",lvl:10sss},{id:\"minecraft:multishot\",lvl:10sss},{id:\"minecraft:piercing\",lvl:10sss},{id:\"minecraft:quick_charge\",lvl:10sss},{id:\"minecraft:soul_speed\",lvl:10sss}]}"
+                            "tag": "{HideFlags:32,StoredEnchantments:[{id:\"minecraft:protection\",lvl:10s},{id:\"minecraft:fire_protection\",lvl:10s},{id:\"minecraft:feather_falling\",lvl:10s},{id:\"minecraft:blast_protection\",lvl:10s},{id:\"minecraft:projectile_protection\",lvl:10s},{id:\"minecraft:respiration\",lvl:10s},{id:\"minecraft:aqua_affinity\",lvl:10s},{id:\"minecraft:thorns\",lvl:10s},{id:\"minecraft:depth_strider\",lvl:10s},{id:\"minecraft:frost_walker\",lvl:10s},{id:\"minecraft:sharpness\",lvl:10s},{id:\"minecraft:smite\",lvl:10s},{id:\"minecraft:bane_of_arthropods\",lvl:10s},{id:\"minecraft:knockback\",lvl:10s},{id:\"minecraft:fire_aspect\",lvl:10s},{id:\"minecraft:looting\",lvl:10s},{id:\"minecraft:sweeping\",lvl:10s},{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:silk_touch\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:10s},{id:\"minecraft:fortune\",lvl:10s},{id:\"minecraft:power\",lvl:10s},{id:\"minecraft:punch\",lvl:10s},{id:\"minecraft:flame\",lvl:10s},{id:\"minecraft:luck_of_the_sea\",lvl:10s},{id:\"minecraft:lure\",lvl:10s},{id:\"minecraft:loyalty\",lvl:10s},{id:\"minecraft:impaling\",lvl:10s},{id:\"minecraft:riptide\",lvl:10s},{id:\"minecraft:channeling\",lvl:10s},{id:\"minecraft:mending\",lvl:10s},{id:\"minecraft:multishot\",lvl:10s},{id:\"minecraft:piercing\",lvl:10s},{id:\"minecraft:quick_charge\",lvl:10s},{id:\"minecraft:soul_speed\",lvl:10s}]}"
                         }
                     ]
                 },
