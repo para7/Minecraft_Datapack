@@ -150,7 +150,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 15,
+                    "weight": 12,
                     "quality": -14,
                     "name": "minecraft:orange_terracotta",
                     "functions": [
@@ -165,7 +165,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 15,
+                    "weight": 10,
                     "quality": -2,
                     "name": "minecraft:iron_shovel",
                     "functions": [
@@ -227,7 +227,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 8,
                     "name": "minecraft:crossbow",
                     "functions": [
                         {
@@ -236,7 +236,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:5,Enchantments:[{id:\"minecraft:quick_charge\",lvl:10s}]}"
+                            "tag": "{RepairCost:5,Enchantments:[{id:\"minecraft:quick_charge\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.3,Operation:0,UUID:[I;1477785161,1575568935,-1465161690,-98491613],Slot:\"offhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.3,Operation:0,UUID:[I;-214608512,881609154,-1423944597,-1791952104],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",

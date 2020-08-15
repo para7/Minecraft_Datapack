@@ -11,13 +11,13 @@ stronghold_corridor
 ２階
 stronghold_crossing
 stronghold_library
+simple_dungeon
 
 
 end_city_treasure
 shipwreck_map
 shipwreck_supply
 shipwreck_treasure
-simple_dungeon
 
 underwater_ruin_big
 underwater_ruin_small
