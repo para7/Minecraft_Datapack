@@ -174,7 +174,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:2,UUID:[I;-1054379744,-1494397839,-1334626672,1404222073],Slot:\"offhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:-0.2,Operation:2,UUID:[I;1231513906,-2087565257,-1835474406,-1355871394],Slot:\"offhand\"}]}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:2,UUID:[I;-1054379744,-1494397839,-1334626672,1404222073],Slot:\"offhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:-0.4,Operation:2,UUID:[I;1231513906,-2087565257,-1835474406,-1355871394],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-82147973,1537101752,-2083564480,-1902103793],Slot:\"offhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -390,7 +390,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:32,CustomPotionEffects:[{Id:5b,Amplifier:50b,Duration:1},{Id:10b,Amplifier:0b,Duration:1200}]}"
+                            "tag": "{HideFlags:32,CustomPotionEffects:[{Id:6b,Amplifier:50b,Duration:1},{Id:10b,Amplifier:0b,Duration:1200}]}"
                         },
                         {
                             "function": "set_name",
@@ -503,8 +503,8 @@
                         {
                             "function": "set_damage",
                             "damage": {
-                                "min": 0.55,
-                                "max": 0.9
+                                "min": 0.4,
+                                "max": 0.8
                             }
                         },
                         {
