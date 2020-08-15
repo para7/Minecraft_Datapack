@@ -148,7 +148,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:3,RepairCost:17,Enchantments:[{id:\"minecraft:sharpness\",lvl:8s},{id:\"minecraft:bane_of_arthropods\",lvl:2s},{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:fire_aspect\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:2s},{id:\"minecraft:power\",lvl:2s},{id:\"minecraft:flame\",lvl:100s},{id:\"minecraft:mending\",lvl:1s}]}"
+                            "tag": "{HideFlags:1,RepairCost:17,Enchantments:[{id:\"minecraft:sharpness\",lvl:8s},{id:\"minecraft:bane_of_arthropods\",lvl:2s},{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:fire_aspect\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:2s},{id:\"minecraft:power\",lvl:2s},{id:\"minecraft:flame\",lvl:100s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-243240102,785731447,-1830536018,-1231197687],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -174,6 +174,21 @@
                                     "text": "直接殴る方が効力が高い。"
                                 }
                             ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_leggings",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:10s},{id:\"minecraft:fire_protection\",lvl:10s}]}"
                         }
                     ]
                 }
