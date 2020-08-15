@@ -2,84 +2,45 @@
     "type": "chest",
     "pools": [
         {
-            "rolls": {
-                "min": 2,
-                "max": 3
-            },
-            "bonus_rolls": {
-                "min": 1,
-                "max": 2
-            },
+            "rolls": 2,
+            "bonus_rolls": 1,
             "entries": [
                 {
                     "type": "item",
-                    "weight": 1,
-                    "quality": 1,
+                    "weight": 2,
                     "name": "minecraft:enchanted_golden_apple",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 2,
-                                "max": 4
+                                "min": 1,
+                                "max": 3
                             }
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 1,
-                    "quality": 1,
-                    "name": "minecraft:diamond_pickaxe",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{RepairCost:9999,Enchantments:[{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:10s}]}"
-                        },
-                        {
-                            "function": "set_name",
-                            "name": [
-                                {
-                                    "text": "神器鶴橋"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_lore",
-                            "lore": [
-                                {
-                                    "text": "岩をバターのように切り裂く"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 2,
-                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "quality": -1,
+                    "name": "minecraft:bamboo",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 2,
-                                "max": 5
+                                "min": 1,
+                                "max": 3
                             }
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:1b,Amplifier:1b,Duration:600},{Id:3b,Amplifier:120b,Duration:600},{Id:7b,Amplifier:2b,Duration:1},{Id:9b,Amplifier:1b,Duration:300},{Id:12b,Amplifier:1b,Duration:600},{Id:15b,Amplifier:0b,Duration:40},{Id:16b,Amplifier:1b,Duration:600},{Id:17b,Amplifier:10b,Duration:600},{Id:18b,Amplifier:3b,Duration:40},{Id:19b,Amplifier:10b,Duration:200}],CustomPotionColor:1510768}"
+                            "tag": "{Enchantments:[{id:\"minecraft:respiration\",lvl:2s},{id:\"minecraft:sharpness\",lvl:3s},{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:looting\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1,Operation:0,UUID:[I;-882794779,1332825418,-1365065684,1309819011],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-1332496295,-1414968778,-1705406821,-1099027500],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
                             "name": [
                                 {
-                                    "text": "炭鉱夫の劇薬",
-                                    "color": "light_purple"
+                                    "text": "竹槍"
                                 }
                             ]
                         },
@@ -87,10 +48,69 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "黒曜石すら易々と切り裂く怪力を得る"
-                                },
+                                    "text": "簡素だが丈夫な武器"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:bamboo",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:3,Enchantments:[{id:\"minecraft:protection\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:0.5,Operation:1,UUID:[I;866147009,1653949810,-1682641787,293163293],Slot:\"offhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:0.5,Operation:1,UUID:[I;1771252345,-1816246585,-1291247711,454567135],Slot:\"mainhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
                                 {
-                                    "text": "並みの人間が服用すると死に至る"
+                                    "text": "みなぎるいのち"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "持つだけで生命力があふれてくる"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:stone_axe",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:999,Enchantments:[{id:\"minecraft:sharpness\",lvl:8s},{id:\"minecraft:smite\",lvl:2s},{id:\"minecraft:efficiency\",lvl:9s},{id:\"minecraft:unbreaking\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;703381697,593774437,-1495950222,-1029811990],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1,Operation:0,UUID:[I;-1686944605,-447723324,-1725127707,-1867618059],Slot:\"mainhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "蛮族の斧"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "破壊に特化した斧"
                                 }
                             ]
                         }
@@ -99,8 +119,7 @@
                 {
                     "type": "item",
                     "weight": 1,
-                    "quality": 1,
-                    "name": "minecraft:diamond_helmet",
+                    "name": "minecraft:wooden_sword",
                     "functions": [
                         {
                             "function": "set_count",
@@ -108,14 +127,15 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:15,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:blast_protection\",lvl:5s}]}"
+                            "tag": "{RepairCost:999,Enchantments:[{id:\"minecraft:sharpness\",lvl:10s},{id:\"minecraft:bane_of_arthropods\",lvl:5s},{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:looting\",lvl:4s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:10,Operation:0,UUID:[I;-1732773139,-396473826,-1439659459,1381971880],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:1,Operation:0,UUID:[I;-1093613089,-1745793557,-1852003128,1452114497],Slot:\"mainhand\"}]}"
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 2,
-                    "name": "minecraft:minecart",
+                    "weight": 3,
+                    "quality": 15,
+                    "name": "minecraft:leather_chestplate",
                     "functions": [
                         {
                             "function": "set_count",
@@ -123,13 +143,13 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:-99,Operation:0,UUID:[I;-122263545,-2123149795,-1239434524,536386896],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-99,Operation:0,UUID:[I;-1022916905,84036485,-1203490539,-1514176765],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:50,Operation:0,UUID:[I;2109233273,-1084866100,-2083457851,2095991715],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.7,Operation:2,UUID:[I;826863311,-162184106,-1207656528,-1864797796],Slot:\"mainhand\"}]}"
+                            "tag": "{RepairCost:15,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:4s},{id:\"minecraft:blast_protection\",lvl:4s},{id:\"minecraft:projectile_protection\",lvl:4s},{id:\"minecraft:thorns\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;-464021598,-1893184454,-1076191458,-1372965840],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-1588189876,-287289888,-1156535259,1312141855],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.5,Operation:0,UUID:[I;-2070035680,1426409321,-2077117071,1385227577],Slot:\"chest\"}]}"
                         },
                         {
                             "function": "set_name",
                             "name": [
                                 {
-                                    "text": "トロッコ問題"
+                                    "text": "神木の鎧"
                                 }
                             ]
                         },
@@ -137,7 +157,7 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "自分が死ぬか？相手が死ぬか？"
+                                    "text": "溢れ出るパワーを感じる"
                                 }
                             ]
                         }
@@ -146,8 +166,7 @@
                 {
                     "type": "item",
                     "weight": 1,
-                    "quality": 1,
-                    "name": "minecraft:torch",
+                    "name": "minecraft:bow",
                     "functions": [
                         {
                             "function": "set_count",
@@ -155,21 +174,23 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:1,Enchantments:[{id:\"minecraft:smite\",lvl:20s},{id:\"minecraft:fire_aspect\",lvl:2s}]}"
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 2,
-                    "name": "minecraft:coal_block",
-                    "functions": [
+                            "tag": "{RepairCost:17,Enchantments:[{id:\"minecraft:power\",lvl:7s},{id:\"minecraft:punch\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.07,Operation:0,UUID:[I;-306192647,-1693365476,-1387397397,1297658471],Slot:\"mainhand\"}]}"
+                        },
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 3,
-                                "max": 5
-                            }
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "ノーマッドの弓"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "機動戦闘を得意とする流浪の民の弓"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -192,7 +213,7 @@
                             "function": "set_count",
                             "count": {
                                 "min": 1,
-                                "max": 3
+                                "max": 6
                             }
                         }
                     ]
@@ -207,20 +228,6 @@
                             "function": "set_count",
                             "count": {
                                 "min": 1,
-                                "max": 2
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 3,
-                    "name": "minecraft:tnt",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
                                 "max": 4
                             }
                         }
@@ -228,43 +235,16 @@
                 },
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 3,
                     "quality": 1,
                     "name": "minecraft:iron_ingot",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 4,
-                                "max": 10
+                                "min": 1,
+                                "max": 2
                             }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "quality": 1,
-                    "name": "minecraft:torch",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 15,
-                                "max": 30
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 2,
-                    "quality": 0,
-                    "name": "minecraft:iron_pickaxe",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
                         }
                     ]
                 },
@@ -278,7 +258,21 @@
                             "function": "set_count",
                             "count": {
                                 "min": 1,
-                                "max": 10
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ender_pearl",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
                             }
                         }
                     ]
@@ -296,45 +290,34 @@
                 },
                 {
                     "type": "item",
-                    "weight": 5,
-                    "quality": -1,
-                    "name": "minecraft:coal",
+                    "weight": 3,
+                    "name": "minecraft:glass",
                     "functions": [
                         {
                             "function": "set_count",
-                            "count": {
-                                "min": 4,
-                                "max": 9
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:obsidian",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 3,
-                                "max": 5
-                            }
+                            "count": 1
                         }
                     ]
                 },
                 {
                     "type": "item",
                     "weight": 2,
-                    "quality": 1,
+                    "name": "minecraft:leather_horse_armor",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
                     "name": "minecraft:gold_ingot",
                     "functions": [
                         {
                             "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 2
-                            }
+                            "count": 1
                         }
                     ]
                 },
@@ -349,6 +332,46 @@
                             "count": {
                                 "min": 2,
                                 "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:iron_horse_armor",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "quality": -2,
+                    "name": "minecraft:rotten_flesh",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:bamboo",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
                             }
                         }
                     ]
