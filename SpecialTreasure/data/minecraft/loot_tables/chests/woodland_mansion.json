@@ -102,6 +102,14 @@
                         {
                             "function": "set_nbt",
                             "tag": "{HideFlags:3,Enchantments:[{id:\"minecraft:sharpness\",lvl:10s},{id:\"minecraft:looting\",lvl:5s}]}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "なんだか縁起が良さそう"
+                                }
+                            ]
                         }
                     ]
                 },

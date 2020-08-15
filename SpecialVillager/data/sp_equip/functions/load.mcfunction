@@ -5,3 +5,5 @@ scoreboard objectives add SPEDropClock minecraft.dropped:minecraft.clock
 scoreboard objectives add SPEDropRedmush minecraft.dropped:minecraft.red_mushroom
 scoreboard objectives add SPEDropLapis minecraft.dropped:minecraft.lapis_lazuli
 scoreboard objectives add SPEDropTotem minecraft.dropped:minecraft.totem_of_undying
+
+scoreboard objectives add SPETradeVillager minecraft.custom:minecraft.talked_to_villager
