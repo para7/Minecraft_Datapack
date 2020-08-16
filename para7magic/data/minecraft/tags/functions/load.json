@@ -1,5 +1,6 @@
 {
   "values": [
-    "p_magic:load"
+    "p_magic:load",
+    "p_magicitem:load"
   ]
 }

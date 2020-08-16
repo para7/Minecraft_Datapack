@@ -1,5 +1,6 @@
 {
   "values": [
-    "p_magic:tick"
+    "p_magic:tick",
+    "p_magicitem:tick"
   ]
 }
