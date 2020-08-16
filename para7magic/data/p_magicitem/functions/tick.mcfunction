@@ -4,4 +4,4 @@ execute as @a[scores={SPEDropRedmush=1..}] at @s run function p_magicitem:magic/
 execute as @a[scores={SPEDropLapis=1..}] at @s run function p_magicitem:magic/check/lapis_lazuli
 execute as @a[scores={SPEDropTotem=1..}] at @s run function p_magicitem:magic/check/totem
 
-execute as @a[scores={SPETradeVillager=1..}] at @s run function p_magicitem:replacevil/main
+execute as @a[scores={PMagTradeVil=1..}] at @s run function p_magicitem:summon/check
