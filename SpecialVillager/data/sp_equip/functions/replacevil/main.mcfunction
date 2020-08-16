@@ -5,7 +5,7 @@
 # kill @e[name="廃品回収"]
 # kill @e[name="バイトくん"]
 
-execute as @e[type=minecraft:villager] at @s run function sp_equip:replacevil/check
+execute as @e[type=minecraft:villager,tag=!SPE_Replaced] at @s run function sp_equip:replacevil/check
 
 scoreboard players remove @s SPETradeVillager 1
 
