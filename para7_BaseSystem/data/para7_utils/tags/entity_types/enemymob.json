@@ -30,6 +30,8 @@
     "minecraft:magma_cube",
     "minecraft:ender_dragon",
     "minecraft:piglin",
-    "minecraft:piglin_brute"
+    "minecraft:piglin_brute",
+    "minecraft:ravager",
+    "minecraft:hoglin"
   ]
 }

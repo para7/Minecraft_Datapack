@@ -8,3 +8,4 @@ effect give @s minecraft:instant_health 1 20 true
 
 tag @s add Skill
 tag @s add Skill_Spider
+
