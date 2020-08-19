@@ -1,5 +1,9 @@
 
 execute if entity @s[type=phantom] run function vh_mode:enhance/phantom
+
+execute if entity @s[type=enderman] run function vh_mode:enhance/enderman
+
+
 execute if entity @s[type=minecraft:piglin_brute] run function vh_mode:enhance/piglin_brute
 execute if entity @s[type=minecraft:guardian] run function vh_mode:enhance/guardian
 execute if entity @s[type=minecraft:elder_guardian] run function vh_mode:enhance/elder_guardian

@@ -80,7 +80,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:7,Enchantments:[{id:\"minecraft:piercing\",lvl:10s}]}"
+                            "tag": "{RepairCost:7,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s},{id:\"minecraft:piercing\",lvl:10s}]}"
                         },
                         {
                             "function": "set_name",

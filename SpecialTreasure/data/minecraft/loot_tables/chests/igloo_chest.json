@@ -156,7 +156,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:fire_protection\",lvl:10s},{id:\"minecraft:projectile_protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;536773148,158417728,-1209972835,609575700],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:0.2,Operation:1,UUID:[I;-926167432,-511949884,-1347925377,1884164094],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;679830655,-2116009244,-1130583155,-2088565933],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.3,Operation:0,UUID:[I;-74978839,-670350000,-1345928984,-473490281],Slot:\"chest\"}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:fire_protection\",lvl:10s},{id:\"minecraft:projectile_protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;536773148,158417728,-1209972835,609575700],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:0.2,Operation:1,UUID:[I;-926167432,-511949884,-1347925377,1884164094],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;679830655,-2116009244,-1130583155,-2088565933],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.3,Operation:0,UUID:[I;-74978839,-670350000,-1345928984,-473490281],Slot:\"chest\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -269,6 +269,26 @@
                                     "text": "体の芯まで凍りつく"
                                 }
                             ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:weakness\"}"
                         }
                     ]
                 }
