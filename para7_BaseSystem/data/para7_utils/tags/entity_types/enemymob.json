@@ -32,6 +32,7 @@
     "minecraft:piglin",
     "minecraft:piglin_brute",
     "minecraft:ravager",
-    "minecraft:hoglin"
+    "minecraft:hoglin",
+    "minecraft:zoglin"
   ]
 }
