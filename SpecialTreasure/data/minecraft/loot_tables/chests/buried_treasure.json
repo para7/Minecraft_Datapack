@@ -6,6 +6,7 @@
                 "min": 1,
                 "max": 2
             },
+            "bonus_rolls": 1,
             "entries": [
                 {
                     "type": "item",
@@ -178,7 +179,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:9b,Amplifier:0b,Duration:12000},{Id:22b,Amplifier:2b,Duration:6000}]}"
+                            "tag": "{CustomPotionEffects:[{Id:9b,Amplifier:0b,Duration:12000},{Id:22b,Amplifier:4b,Duration:6000}]}"
                         },
                         {
                             "function": "set_name",
@@ -224,6 +225,37 @@
                             "lore": [
                                 {
                                     "text": "釣り（物理）"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{color:16711680},Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:thorns\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;280576171,-58767354,-1952996750,1829040198],Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;1519171584,-137870895,-1556871544,144393304],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;32082667,-1581167790,-1809680222,973729077],Slot:\"legs\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.05,Operation:0,UUID:[I;-712316773,787041984,-1279082771,2140820809],Slot:\"legs\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "怪力ベルト"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "力がみなぎってくる"
                                 }
                             ]
                         }
