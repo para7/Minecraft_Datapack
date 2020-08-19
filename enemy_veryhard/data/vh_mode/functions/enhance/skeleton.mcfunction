@@ -6,5 +6,3 @@ attribute @s minecraft:generic.max_health base set 40
 
 replaceitem entity @s armor.legs chainmail_leggings{display:{Name:'{"text":"ジャミング"}'},RepairCost:999,Damage:180,Enchantments:[{id:"minecraft:projectile_protection",lvl:10s}]} 1
 
-effect give @s minecraft:regeneration 999999 0 true
-

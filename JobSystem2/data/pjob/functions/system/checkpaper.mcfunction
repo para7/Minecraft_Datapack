@@ -8,3 +8,5 @@ execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1
 
 
 scoreboard players set @a PJDropPaper 0
+
+
