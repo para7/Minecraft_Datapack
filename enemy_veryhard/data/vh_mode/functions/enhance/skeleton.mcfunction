@@ -11,4 +11,4 @@ data merge entity @s {ArmorDropChances:[0.085f,0.00f,0.085f,0.085f]}
 effect give @s minecraft:instant_damage 1 20 true
 
 
-attribute @s minecraft:generic.follow_range base set 64
+attribute @s minecraft:generic.follow_range base set 96
