@@ -8,3 +8,5 @@ data merge entity @s {ExplosionRadius:4b}
 
 # tag @s add Skill
 # tag @s add Skill_CreeperBuff
+
+attribute @s minecraft:generic.follow_range base set 150

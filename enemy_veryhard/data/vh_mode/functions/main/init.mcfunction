@@ -9,8 +9,16 @@ execute if entity @s[type=minecraft:elder_guardian] run function vh_mode:enhance
 execute if entity @s[type=minecraft:wither_skeleton] run function vh_mode:enhance/wither_skeleton
 execute if entity @s[type=minecraft:creeper] run function vh_mode:enhance/creeper
 
+execute if entity @s[type=minecraft:vex] run function vh_mode:enhance/vex
+execute if entity @s[type=minecraft:evoker] run function vh_mode:enhance/evoker
+execute if entity @s[type=minecraft:vindicator] run function vh_mode:enhance/vindicator
+execute if entity @s[type=minecraft:ravager] run function vh_mode:enhance/ravager
+execute if entity @s[type=minecraft:pillager] run function vh_mode:enhance/pillager
+execute if entity @s[type=minecraft:witch] run function vh_mode:enhance/witch
+
 execute if entity @s[type=minecraft:shulker] run function vh_mode:enhance/shulker
 execute if entity @s[type=minecraft:shulker_bullet] run function vh_mode:enhance/shulker_bullet
+
 
 execute if entity @s[type=#para7_utils:zombies] run function vh_mode:enhance/zombie
 execute if entity @s[type=#para7_utils:skeletons] run function vh_mode:enhance/skeleton
