@@ -14,6 +14,10 @@ execute if entity @s[type=minecraft:hoglin] run function vh_mode:enhance/hoglin
 execute if entity @s[type=minecraft:slime] run function vh_mode:enhance/slime
 execute if entity @s[type=minecraft:magma_cube] run function vh_mode:enhance/magma_cube
 
+execute if entity @s[type=minecraft:ender_dragon] run function vh_mode:enhance/ender_dragon
+execute if entity @s[type=minecraft:dragon_fireball] run function vh_mode:enhance/dragon_fireball
+execute if entity @s[type=minecraft:wither] run function vh_mode:enhance/wither
+
 execute if entity @s[type=minecraft:vex] run function vh_mode:enhance/vex
 execute if entity @s[type=minecraft:evoker] run function vh_mode:enhance/evoker
 execute if entity @s[type=minecraft:vindicator] run function vh_mode:enhance/vindicator
