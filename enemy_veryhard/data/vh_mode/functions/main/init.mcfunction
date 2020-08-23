@@ -11,6 +11,8 @@ execute if entity @s[type=minecraft:creeper] run function vh_mode:enhance/creepe
 execute if entity @s[type=minecraft:ghast] run function vh_mode:enhance/ghast
 execute if entity @s[type=minecraft:blaze] run function vh_mode:enhance/blaze
 execute if entity @s[type=minecraft:hoglin] run function vh_mode:enhance/hoglin
+execute if entity @s[type=minecraft:slime] run function vh_mode:enhance/slime
+execute if entity @s[type=minecraft:magma_cube] run function vh_mode:enhance/magma_cube
 
 execute if entity @s[type=minecraft:vex] run function vh_mode:enhance/vex
 execute if entity @s[type=minecraft:evoker] run function vh_mode:enhance/evoker
