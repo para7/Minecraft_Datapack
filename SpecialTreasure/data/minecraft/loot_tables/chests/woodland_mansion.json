@@ -3,7 +3,7 @@
     "pools": [
         {
             "rolls": {
-                "min": 3,
+                "min": 2,
                 "max": 5
             },
             "bonus_rolls": {
@@ -13,7 +13,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 1,
                     "name": "minecraft:enchanted_golden_apple",
                     "functions": [
                         {
@@ -27,7 +27,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 2,
                     "quality": 1,
                     "name": "minecraft:diamond_axe",
                     "functions": [
@@ -37,7 +37,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:9999,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:fire_aspect\",lvl:5s},{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
+                            "tag": "{RepairCost:9999,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:fire_aspect\",lvl:5s},{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:8s}]}"
                         },
                         {
                             "function": "set_name",
@@ -69,7 +69,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:1,Enchantments:[{id:\"minecraft:smite\",lvl:11s},{id:\"minecraft:knockback\",lvl:1s}],StoredEnchantments:[{id:\"minecraft:mending\",lvl:1ss}]}"
+                            "tag": "{HideFlags:1,Enchantments:[{id:\"minecraft:smite\",lvl:12s},{id:\"minecraft:knockback\",lvl:1s}],StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}"
                         },
                         {
                             "function": "set_name",
@@ -101,7 +101,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:3,Enchantments:[{id:\"minecraft:sharpness\",lvl:10s},{id:\"minecraft:looting\",lvl:5s}]}"
+                            "tag": "{HideFlags:3,Enchantments:[{id:\"minecraft:sharpness\",lvl:10s},{id:\"minecraft:looting\",lvl:6s}]}"
                         },
                         {
                             "function": "set_lore",
@@ -115,7 +115,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 2,
                     "quality": 1,
                     "name": "minecraft:totem_of_undying",
                     "functions": [
@@ -125,7 +125,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.85,Operation:2,UUID:[I;-254365122,1248676191,-1074666561,-1276396578],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:2,UUID:[I;-335174709,2038515456,-1756402230,-1942866297],Slot:\"offhand\"}]}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.9,Operation:2,UUID:[I;-254365122,1248676191,-1074666561,-1276396578],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:2,UUID:[I;-335174709,2038515456,-1756402230,-1942866297],Slot:\"offhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -156,7 +156,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:1,RepairCost:17,Enchantments:[{id:\"minecraft:sharpness\",lvl:8s},{id:\"minecraft:bane_of_arthropods\",lvl:2s},{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:fire_aspect\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:2s},{id:\"minecraft:power\",lvl:2s},{id:\"minecraft:flame\",lvl:100s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-243240102,785731447,-1830536018,-1231197687],Slot:\"mainhand\"}]}"
+                            "tag": "{HideFlags:1,RepairCost:17,Enchantments:[{id:\"minecraft:sharpness\",lvl:8s},{id:\"minecraft:bane_of_arthropods\",lvl:2s},{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:fire_aspect\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:2s},{id:\"minecraft:power\",lvl:2s},{id:\"minecraft:flame\",lvl:100s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-243240102,785731447,-1830536018,-1231197687],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;-799840495,95372671,-1839416488,-1770938802],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;-1621970514,973032749,-1640589310,234807395],Slot:\"offhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -196,7 +196,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:10s},{id:\"minecraft:fire_protection\",lvl:10s}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:10s},{id:\"minecraft:fire_protection\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:10s}]}"
                         }
                     ]
                 },

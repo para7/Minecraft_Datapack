@@ -9,12 +9,15 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 7,
+                    "weight": 4,
                     "name": "minecraft:zombie_spawn_egg",
                     "functions": [
                         {
                             "function": "set_count",
-                            "count": 1
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
                         },
                         {
                             "function": "set_nbt",
@@ -24,7 +27,7 @@
                             "function": "set_name",
                             "name": [
                                 {
-                                    "text": "ガチャ"
+                                    "text": "レコードガチャ"
                                 }
                             ]
                         },
@@ -110,7 +113,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 3,
+                    "weight": 2,
                     "name": "minecraft:name_tag",
                     "functions": [
                         {
@@ -130,6 +133,21 @@
                                 "min": 1,
                                 "max": 3
                             }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:shield",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;654948631,917979766,-2001728374,-644604244],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;209462944,-1084339070,-2059332698,1354919002],Slot:\"offhand\"}]}"
                         }
                     ]
                 }

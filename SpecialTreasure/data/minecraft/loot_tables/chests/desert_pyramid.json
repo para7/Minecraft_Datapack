@@ -61,7 +61,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:10s},{id:\"minecraft:knockback\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;751527034,-393067062,-2019101658,1804678131],Slot:\"mainhand\"}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:10s},{id:\"minecraft:knockback\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;751527034,-393067062,-2019101658,1804678131],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -258,7 +258,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 7,
+                    "weight": 11,
                     "name": "minecraft:diamond_boots",
                     "functions": [
                         {

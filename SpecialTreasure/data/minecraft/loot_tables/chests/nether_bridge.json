@@ -179,7 +179,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:piercing\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.25,Operation:1,UUID:[I;-828728886,1512983060,-1924063071,1522563587],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.25,Operation:1,UUID:[I;-1591763102,2075936795,-1337807372,-1004546436],Slot:\"offhand\"}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:piercing\",lvl:10s},{id:\"minecraft:quick_charge\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.3,Operation:1,UUID:[I;-828728886,1512983060,-1924063071,1522563587],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.3,Operation:1,UUID:[I;-1591763102,2075936795,-1337807372,-1004546436],Slot:\"offhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -227,7 +227,7 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "なにかの力を感じる"
+                                    "text": "秘められた力を感じる"
                                 }
                             ]
                         }
@@ -241,6 +241,40 @@
                         {
                             "function": "set_count",
                             "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:3,Operation:0,UUID:[I;-1100524953,938755870,-1395144983,537079541],Slot:\"mainhand\"}],CustomPotionEffects:[{Id:20b,Amplifier:0b,Duration:72000}],CustomPotionColor:16776978}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "欲"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "邪法を用い、水を求めさまよう者の"
+                                },
+                                {
+                                    "text": "渇望と絶望を溶かし込んだ"
+                                }
+                            ]
                         }
                     ]
                 }
