@@ -4,13 +4,13 @@
         {
             "rolls": {
                 "min": 1,
-                "max": 2
+                "max": 3
             },
             "bonus_rolls": 1,
             "entries": [
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 8,
                     "name": "minecraft:potion",
                     "functions": [
                         {
@@ -44,7 +44,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 8,
                     "name": "minecraft:trident",
                     "functions": [
                         {
@@ -53,7 +53,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:999,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:impaling\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:8,Operation:0,UUID:[I;-1479114574,1559511808,-2107412415,929928443],Slot:\"mainhand\"}]}"
+                            "tag": "{RepairCost:999,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:looting\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:impaling\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:10,Operation:0,UUID:[I;-1479114574,1559511808,-2107412415,929928443],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -62,12 +62,20 @@
                                     "text": "槍"
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "投げることもできる"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 18,
                     "name": "minecraft:barrel",
                     "functions": [
                         {
@@ -98,7 +106,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 7,
                     "name": "minecraft:music_disc_13",
                     "functions": [
                         {
@@ -107,7 +115,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:32,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:1,Operation:0,UUID:[I;-429237914,975523527,-1372949149,634170670],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:9,Operation:0,UUID:[I;1700727304,-2060957680,-1853575207,374343450],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.6,Operation:1,UUID:[I;300082473,-742243735,-2121245062,-1357940971],Slot:\"mainhand\"}]}"
+                            "tag": "{HideFlags:32,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-429237914,975523527,-1372949149,634170670],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:9,Operation:0,UUID:[I;1700727304,-2060957680,-1853575207,374343450],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.6,Operation:1,UUID:[I;300082473,-742243735,-2121245062,-1357940971],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -132,7 +140,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 11,
                     "name": "minecraft:bow",
                     "functions": [
                         {
@@ -170,7 +178,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 8,
                     "name": "minecraft:potion",
                     "functions": [
                         {
@@ -201,7 +209,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 7,
                     "name": "minecraft:fishing_rod",
                     "functions": [
                         {
@@ -232,7 +240,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 10,
                     "name": "minecraft:leather_leggings",
                     "functions": [
                         {
