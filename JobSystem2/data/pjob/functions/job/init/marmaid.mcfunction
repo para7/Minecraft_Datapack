@@ -1,0 +1,1 @@
+attribute @s minecraft:generic.armor_toughness base set 2

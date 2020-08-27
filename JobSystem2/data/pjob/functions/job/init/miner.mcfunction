@@ -1,0 +1,1 @@
+attribute @s minecraft:generic.luck base set 1

@@ -5,3 +5,5 @@ execute if entity @e[tag=PJJober,distance=..10] run tell @s スキルを変更�
 
 execute unless entity @e[tag=PJJober,distance=..10] run tellraw @s ["",{"text":"近くにギルド管理組合職員がいません"}]
 
+
+
