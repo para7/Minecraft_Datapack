@@ -21,11 +21,6 @@
 # # スキル設定種別
 # scoreboard objectives add PJSkillMode dummy
 
-execute as @e[tag=PJDummy] run tell @a xxx
-execute as @e[tag=PJDummy] run function para7_utils:killme
-
-execute as @a[scores={PJUseSkillExe=1}] run tell @a yyy
-execute as @a[scores={PJUseSkillChange=1}] run tell @a xxx
 
 scoreboard players set @s PJUseSkillExe 0
 scoreboard players set @s PJUseSkillChange 0
