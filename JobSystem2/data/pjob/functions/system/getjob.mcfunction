@@ -2,6 +2,10 @@
 
 # execute if entity @s[nbt={Item:{tag:{PJDocType:1b}}}] run function tellraw 
 
+execute if entity @s[nbt={Item:{tag:{PJDocType:99b}}}] as @a[sort=nearest,limit=1,scores={PJDropPaper=1..}] run me は普通のクラフターに戻った
+execute if entity @s[nbt={Item:{tag:{PJDocType:99b}}}] as @a[sort=nearest,limit=1,scores={PJDropPaper=1..}] run scoreboard players set @a PJJobInfo 0
+execute if entity @s[nbt={Item:{tag:{PJDocType:99b}}}] as @a[sort=nearest,limit=1,scores={PJDropPaper=1..}] run function pjob:system/getjob_effect
+
 execute if entity @s[nbt={Item:{tag:{PJDocType:1b}}}] as @a[sort=nearest,limit=1,scores={PJDropPaper=1..}] run me は戦士になった！
 execute if entity @s[nbt={Item:{tag:{PJDocType:1b}}}] as @a[sort=nearest,limit=1,scores={PJDropPaper=1..}] run scoreboard players set @a PJJobInfo 1
 execute if entity @s[nbt={Item:{tag:{PJDocType:1b}}}] as @a[sort=nearest,limit=1,scores={PJDropPaper=1..}] run function pjob:system/getjob_effect
