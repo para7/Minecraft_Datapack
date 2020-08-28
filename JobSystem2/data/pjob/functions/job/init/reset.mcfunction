@@ -3,7 +3,6 @@ attribute @s minecraft:generic.armor_toughness base set 0
 attribute @s minecraft:generic.attack_damage base set 1
 attribute @s minecraft:generic.movement_speed base set 0.10000000149011612
 
-
 attribute @s minecraft:generic.luck base set 0
 
 # armor 0.0
