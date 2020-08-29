@@ -1,7 +1,7 @@
-attribute @s minecraft:generic.max_health base set 48
+attribute @s minecraft:generic.max_health base set 38
 attribute @s minecraft:generic.attack_damage base set 5
-attribute @s minecraft:generic.knockback_resistance base set 0.6
-attribute @s minecraft:generic.movement_speed base set 0.27
+attribute @s minecraft:generic.knockback_resistance base set 0.5
+attribute @s minecraft:generic.movement_speed base set 0.24
 
 attribute @s minecraft:generic.follow_range base set 150
 

@@ -10,4 +10,4 @@ effect give @s minecraft:instant_damage 1 20 true
 
 data merge entity @s {HandDropChances:[0.00f,0.085f]}
 
-attribute @s minecraft:generic.follow_range base set 128
+attribute @s minecraft:generic.follow_range base set 70

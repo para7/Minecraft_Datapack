@@ -10,7 +10,7 @@ effect give @s minecraft:instant_health 1 20 true
 
 effect give @s minecraft:regeneration 999999 1 true
 
-attribute @s minecraft:generic.follow_range base set 128
+attribute @s minecraft:generic.follow_range base set 22
 
 replaceitem entity @s weapon.offhand shield 1
 

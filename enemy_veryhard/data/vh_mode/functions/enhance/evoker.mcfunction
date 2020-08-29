@@ -9,4 +9,4 @@ attribute @s minecraft:generic.armor_toughness base set 4
 
 effect give @s minecraft:regeneration 999999 1 true
 
-attribute @s minecraft:generic.follow_range base set 80
+# attribute @s minecraft:generic.follow_range base set 40

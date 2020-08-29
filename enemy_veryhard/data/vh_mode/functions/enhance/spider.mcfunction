@@ -10,4 +10,4 @@ tag @s add Skill
 tag @s add Skill_Spider
 
 
-attribute @s[type=cave_spider] minecraft:generic.follow_range base set 60
+# attribute @s[type=cave_spider] minecraft:generic.follow_range base set 60

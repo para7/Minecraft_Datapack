@@ -6,7 +6,7 @@
 attribute @s minecraft:generic.armor base set 12
 # attribute @s minecraft:generic.armor_toughness base set 4
 
-attribute @s minecraft:generic.follow_range base set 27
+attribute @s minecraft:generic.follow_range base set 24
 # effect give @s minecraft:invisibility 45 1 true
 
 effect give @s minecraft:instant_health 1 20 true
