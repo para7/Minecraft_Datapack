@@ -7,5 +7,6 @@ execute unless entity @e[tag=PJJober,distance=..10] run tellraw @s ["",{"text":"
 
 
 scoreboard players add @s PJSkillSelect 1
+execute if entity @s[scores={PJSkillSelect=4}] run scoreboard players set @s PJSkillSelect 1
 
 

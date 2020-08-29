@@ -5,6 +5,8 @@ attribute @s minecraft:generic.movement_speed base set 0.10000000149011612
 
 attribute @s minecraft:generic.luck base set 0
 
+scoreboard players set @s PJSkillSelect 1
+
 # armor 0.0
 # armor_toughness 0.0
 # attack_damage 1.0

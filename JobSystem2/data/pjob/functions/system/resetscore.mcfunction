@@ -21,6 +21,5 @@
 # # スキル設定種別
 # scoreboard objectives add PJSkillMode dummy
 
-
-scoreboard players set @s PJUseSkillExe 0
-scoreboard players set @s PJUseSkillChange 0
+scoreboard players set @a PJUseSkillExe 0
+scoreboard players set @a PJUseSkillChange 0
