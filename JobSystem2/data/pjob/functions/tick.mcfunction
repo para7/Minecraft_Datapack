@@ -2,7 +2,7 @@
 execute as @a[scores={PJDropPaper=1..}] at @s run function pjob:system/checkpaper
 
 # 毎フレーム処理
-execute as @a[scores={PJJobInfo=1..}] run function pjob:job/main
+execute as @a[scores={PJJobInfo=1..}] at @s run function pjob:job/main
 
 # ログイン通知
 execute as @a[tag=!Logined] at @s run function pjob:system/login
@@ -17,3 +17,4 @@ execute as @e[tag=PJDummy] run function para7_utils:killme
 
 execute as @a run function pjob:system/resetscore
 
+execute as @a[scores={PJTradeVil=1..}] at @s run function pjob:summon/check

@@ -14,5 +14,4 @@ execute if entity @s[nbt={Item:{tag:{PJDocType:6b}}}] as @a[sort=nearest,limit=1
 execute if entity @s[nbt={Item:{tag:{PJDocType:7b}}}] as @a[sort=nearest,limit=1,scores={PJDropPaper=1..}] run function pjob:job/init/charmer
 
 
-
 kill @s

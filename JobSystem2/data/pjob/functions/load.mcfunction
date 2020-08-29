@@ -19,13 +19,14 @@ scoreboard objectives add PJUseSkillChange minecraft.used:minecraft.cow_spawn_eg
 # スキルリキャストタイム
 scoreboard objectives add PJSkillRecast dummy
 
-# スキルバフ
-scoreboard objectives add PJSkillBuffTime dummy
+# スキル効果時間
+scoreboard objectives add PJSkillTimer dummy
 
 # スキル設定種別
-scoreboard objectives add PJSkillMode dummy
+scoreboard objectives add PJSkillSelect dummy
 
-
+# 村人との取引判定
+scoreboard objectives add PJTradeVil minecraft.custom:minecraft.talked_to_villager
 
 
 
