@@ -1,6 +1,5 @@
-tellraw @a[distance=..40] [{"text":"海神の祝福を！"}]
+tellraw @a[distance=..7] [{"text":"治療します！"}]
 
-effect give @a[distance=..40] minecraft:water_breathing 120 3
-effect give @a[distance=..40] minecraft:dolphins_grace 30 3
+effect give @a[distance=..7] minecraft:instant_health 1 1
 
-scoreboard players set @s PJSkillRecast 1200
+scoreboard players set @s PJSkillRecast 600
