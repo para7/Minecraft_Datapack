@@ -1,8 +1,8 @@
 #効果発動
 
-effect give @s minecraft:instant_health 1 2
-effect give @s minecraft:resistance 12 1
-effect give @s minecraft:regeneration 10 3
+effect give @s minecraft:instant_health 1 4
+effect give @s minecraft:resistance 20 1
+effect give @s minecraft:regeneration 20 2
 
 effect clear @s minecraft:blindness
 effect clear @s minecraft:hunger
