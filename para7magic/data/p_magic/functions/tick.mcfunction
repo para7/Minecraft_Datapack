@@ -15,7 +15,7 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:beetroot",Count:20b}},sort=rand
 execute as @a[scores={PMag_DropWBook=1..}] at @s run function p_magic:oldmagic/learn/checkbook
 
 #MP回復
-execute as @a[scores={PMag_UseSoup=1..}] at @s run scoreboard players add @s PMag_MP 40
+execute as @a[scores={PMag_UseSoup=1..}] at @s run scoreboard players add @s PMag_MP 50
 
 scoreboard players add @a[scores={PMag_UseBed=1..}] PMag_MP 99999
 

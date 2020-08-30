@@ -10,7 +10,6 @@ knockback_resistance 0.0
 luck 0.0
 max_health 20.0
 
-
 パラシュート
 革の鎧
 落下耐性

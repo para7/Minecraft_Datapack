@@ -1,7 +1,7 @@
 effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:instant_health 1 0
 effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:slowness 10 3
 effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:glowing 10 3
-effect give @e/[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:weakness 4 0
+effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:weakness 4 0
 
 execute at @e[type=#para7_utils:undead,sort=nearest,limit=1] run particle minecraft:happy_villager ~ ~1 ~ 0.5 0.5 0.5 1 30
 
