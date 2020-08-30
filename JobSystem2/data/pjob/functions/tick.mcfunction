@@ -17,5 +17,9 @@ execute as @e[tag=PJDummy] run function para7_utils:killme
 # 村人召喚のチェック
 execute as @a[scores={PJTradeVil=1..}] at @s run function pjob:summon/check
 
+# 死亡時の属性リセット
+execute as @a[tag=PJJobReset,scores={PJHealth=1..}] at @s run function pjob:system/resetattr
+execute as @a[scores={PJDeathCnt=1..}] at @s run tag @s add PJJobReset
+
 # スコアボードの経過更新
 function pjob:system/resetscore

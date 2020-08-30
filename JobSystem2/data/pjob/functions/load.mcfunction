@@ -28,7 +28,9 @@ scoreboard objectives add PJSkillSelect dummy
 # 村人との取引判定
 scoreboard objectives add PJTradeVil minecraft.custom:minecraft.talked_to_villager
 
-
+# 死亡
+scoreboard objectives add PJDeathCnt deathCount
+scoreboard objectives add PJHealth health
 
 # スキルタイマー：パッシブ
 # scoreboard objectives add PJPassiveInter dummy

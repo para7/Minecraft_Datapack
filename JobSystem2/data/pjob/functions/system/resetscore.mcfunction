@@ -36,5 +36,3 @@ scoreboard players remove @a PJBuffTimer 1
 scoreboard players set @a PJUseBow 0
 scoreboard players set @a PJUseSkillExe 0
 scoreboard players set @a PJUseSkillChange 0
-
-
