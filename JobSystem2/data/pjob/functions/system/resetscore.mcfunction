@@ -23,10 +23,12 @@
 
 scoreboard players remove @a PJSkillTimer 1
 tellraw @a[scores={PJSkillTimer=0}] {"text":"スキル効果が切れました"}
+scoreboard players set @a[scores={PJSkillTimer=..-1}] PJSkillTimer -1
 
 
-scoreboard players remove @a PJSkillRecast 1
+scoreboard players remove @a PJSkillRecast 100
 tellraw @a[scores={PJSkillRecast=0}] {"text":"スキルが再発動可能になりました"}
+scoreboard players set @a[scores={PJSkillRecast=..-1}] PJSkillRecast -1
 
 # パッシブバフ
 scoreboard players remove @a PJBuffTimer 1
@@ -34,4 +36,5 @@ scoreboard players remove @a PJBuffTimer 1
 scoreboard players set @a PJUseBow 0
 scoreboard players set @a PJUseSkillExe 0
 scoreboard players set @a PJUseSkillChange 0
+
 
