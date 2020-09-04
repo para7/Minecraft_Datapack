@@ -12,3 +12,5 @@ scoreboard players set @a[scores={MHCInterval=..0}] MHCInterval 0
 # execute as @a[scores={MHCUseTotem=1..}] at @s run tellraw @a ["",{"selector":"@s"},"",{"text":" は不死のトーテムを発動させました"}]
 execute as @a[scores={MHCUseTotem=1..}] at @s run me は不死のトーテムで守られました
 execute as @a[scores={MHCUseTotem=1..}] at @s run scoreboard players remove @s MHCUseTotem 1
+
+execute as @a[scores={MHCTradeVil=1..}] at @s run function multi_hc:tools/check

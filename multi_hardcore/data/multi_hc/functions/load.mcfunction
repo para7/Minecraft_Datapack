@@ -25,3 +25,6 @@ scoreboard objectives add MHCInterval dummy
 
 #トーテム使用通知
 scoreboard objectives add MHCUseTotem minecraft.used:minecraft.totem_of_undying
+
+# 村人との取引判定
+scoreboard objectives add MHCTradeVil minecraft.custom:minecraft.talked_to_villager
