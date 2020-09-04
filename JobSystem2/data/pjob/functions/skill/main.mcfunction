@@ -1,5 +1,6 @@
 
 execute as @s[scores={PJUseSkillExe=1,PJJobInfo=1..98,PJSkillRecast=1..}] run tellraw @s {"text":"まだ再発動できません"}
+execute as @s[scores={PJUseSkillExe=1,PJJobInfo=1..98,PJSkillRecast=1..}] run tellraw @s [{"text":"発動可能になるまで:"},{"score":{"name":"@s","objective":"PJSkillRecast"}}]
 execute as @s[scores={PJUseSkillExe=1,PJJobInfo=1..98,PJSkillRecast=..0}] run function pjob:skill/exe/main
 
 

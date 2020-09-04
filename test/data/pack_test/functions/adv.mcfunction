@@ -1,1 +1,1 @@
-give @s minecraft:ender_pearl 8
+# give @s minecraft:ender_pearl 8
