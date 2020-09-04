@@ -1,6 +1,6 @@
 {
     "pack": {
         "pack_format": 6,
-        "description": "ベッドを使わないと自然回復できない"
+        "description": "ベッドで寝た時に通知する"
     }
 }

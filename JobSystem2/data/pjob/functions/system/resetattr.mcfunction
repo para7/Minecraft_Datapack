@@ -6,7 +6,7 @@ execute if entity @s[scores={PJJobInfo=5}] run function pjob:job/init/medic
 execute if entity @s[scores={PJJobInfo=6}] run function pjob:job/init/marmaid
 execute if entity @s[scores={PJJobInfo=7}] run function pjob:job/init/charmer
 
-tell @a reset
+# tell @a reset
 
 scoreboard players set @s PJDeathCnt 0
 tag @s remove PJJobReset

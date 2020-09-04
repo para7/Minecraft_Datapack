@@ -26,7 +26,7 @@ tellraw @a[scores={PJSkillTimer=0}] {"text":"スキル効果が切れました"}
 scoreboard players set @a[scores={PJSkillTimer=..-1}] PJSkillTimer -1
 
 
-scoreboard players remove @a PJSkillRecast 100
+scoreboard players remove @a PJSkillRecast 1
 tellraw @a[scores={PJSkillRecast=0}] {"text":"スキルが再発動可能になりました"}
 scoreboard players set @a[scores={PJSkillRecast=..-1}] PJSkillRecast -1
 
