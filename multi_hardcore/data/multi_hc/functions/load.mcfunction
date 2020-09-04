@@ -5,6 +5,7 @@ gamerule spectatorsGenerateChunks false
 
 #ハードコア死亡判定
 scoreboard objectives add MHCflag deathCount
+scoreboard players set @a MHCflag 0
 
 #アイテム捨てる判定
 # scoreboard objectives remove MHCUseRevive

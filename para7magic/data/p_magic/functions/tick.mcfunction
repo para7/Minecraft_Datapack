@@ -16,6 +16,8 @@ execute as @a[scores={PMag_DropWBook=1..}] at @s run function p_magic:oldmagic/l
 
 #MP回復
 execute as @a[scores={PMag_UseSoup=1..}] at @s run scoreboard players add @s PMag_MP 50
+execute as @a[scores={PMag_UseBeet=1..}] at @s run scoreboard players add @s PMag_MP 5
+execute as @a[gamemode=creative] at @s run scoreboard players add @s PMag_MP 100000
 
 scoreboard players add @a[scores={PMag_UseBed=1..}] PMag_MP 99999
 
@@ -26,6 +28,7 @@ execute as @e[type=minecraft:ender_dragon] run data modify entity @s DeathLootTa
 scoreboard players set @a PMag_UseWand 0
 scoreboard players set @a PMag_UseBed 0
 scoreboard players set @a PMag_UseSoup 0
+scoreboard players set @a PMag_UseBeet 0
 scoreboard players set @a PMag_Enable 0
 scoreboard players set @a PMag_Equip 0
 scoreboard players set @a PMag_DropWBook 0

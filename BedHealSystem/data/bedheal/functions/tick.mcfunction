@@ -7,3 +7,4 @@ tellraw @a[scores={BH_UseBed=1..}] ["",{"text":"ベッドで休んで体力回�
 scoreboard players remove @a[scores={BH_UseBed=1..}] BH_UseBed 1
 
 # /execute if entity @a[scores={BH_UseBed=1..}] as @a at @s run playsound
+

@@ -1,1 +1,0 @@
-kill @e[name="転生の神官",sort=nearest,limit=1]

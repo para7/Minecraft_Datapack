@@ -8,6 +8,7 @@ scoreboard objectives add PMag_mpregene dummy
 scoreboard objectives add PMag_Level level
 scoreboard objectives add PMag_MaxMP dummy
 scoreboard objectives add PMag_UseSoup minecraft.used:minecraft.beetroot_soup
+scoreboard objectives add PMag_UseBeet minecraft.used:minecraft.beetroot
 scoreboard objectives add PMag_UseBed minecraft.custom:minecraft.sleep_in_bed
 
 # 魔法種別の判定
