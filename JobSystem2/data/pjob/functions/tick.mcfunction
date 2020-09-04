@@ -5,7 +5,7 @@ execute as @a[scores={PJDropPaper=1..}] at @s run function pjob:system/checkpape
 execute as @a[scores={PJJobInfo=1..}] at @s run function pjob:job/main
 
 # ログイン通知
-execute as @a[tag=!Logined] at @s run function pjob:system/login
+# execute as @a[tag=!Logined] at @s run function pjob:system/login
 
 # スキル処理
 execute as @a at @s run function pjob:skill/main

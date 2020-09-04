@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 4,
+        "pack_format": 6,
         "description": "ジョブシステムを追加 /function jobsystem/summon_hr"
     }
 }
