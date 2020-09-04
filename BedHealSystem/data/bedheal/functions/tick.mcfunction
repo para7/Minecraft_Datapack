@@ -8,3 +8,5 @@ scoreboard players remove @a[scores={BH_UseBed=1..}] BH_UseBed 1
 
 # /execute if entity @a[scores={BH_UseBed=1..}] as @a at @s run playsound
 
+# 村人召喚のチェック
+execute as @a[scores={BH_TradeVil=1..}] at @s run function bedheal:check
