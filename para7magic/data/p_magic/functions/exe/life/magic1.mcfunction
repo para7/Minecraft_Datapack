@@ -2,7 +2,7 @@
 
 # execute as @e[distance=..14] if entity @s[type=#para7_utils:undead] if block ~ ~-1 ~ minecraft:blue_ice run 
 
-effect give @e[distance=..10,type=#para7_utils:friendmob] minecraft:instant_health 1 2
+effect give @e[distance=..10,type=#para7_utils:friendmob] minecraft:instant_health 1 1
 
 execute at @e[distance=..10,type=#para7_utils:friendmob] run particle minecraft:heart ~ ~1 ~ 0.5 0.5 0.5 1 6
 
