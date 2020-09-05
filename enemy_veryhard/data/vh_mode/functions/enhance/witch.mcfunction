@@ -12,5 +12,9 @@ attribute @s minecraft:generic.follow_range base set 24
 effect give @s minecraft:instant_health 1 20 true
 # effect give @s minecraft:instant_damage 1 20 true
 
+attribute @s minecraft:generic.follow_range base set 150
+
+attribute @a[distance=..100] minecraft:generic.follow_range base set 150
+
 tag @s add Skill
 tag @s add Skill_WitchBuff
