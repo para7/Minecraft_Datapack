@@ -10,7 +10,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 4,
+                    "weight": 23,
                     "name": "minecraft:gold_ingot",
                     "functions": [
                         {
@@ -24,7 +24,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 10,
                     "name": "minecraft:cooked_porkchop",
                     "functions": [
                         {
@@ -39,7 +39,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 14,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
@@ -62,7 +62,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 14,
                     "name": "minecraft:enchanted_golden_apple",
                     "functions": [
                         {
@@ -88,7 +88,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 12,
                     "name": "minecraft:gold_block",
                     "functions": [
                         {
@@ -97,6 +97,66 @@
                                 "min": 2,
                                 "max": 3
                             }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:golden_helmet",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-208392310,-1247851333,-1430224395,1322874080],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;-948148433,-1316533446,-1598062938,765938144],Slot:\"head\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:golden_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;-586881032,-959888784,-2006348356,-391810473],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;-1457764175,-96056699,-1928315540,253563459],Slot:\"chest\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:golden_leggings",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-55640749,2056015537,-1123875246,1855957822],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;-1248278333,-560509520,-1311116479,-2056302306],Slot:\"legs\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:golden_boots",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:3,Operation:0,UUID:[I;-954045040,-2009315327,-1469187537,-854307367],Slot:\"feet\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:3,Operation:0,UUID:[I;1163744067,-1471133396,-1356014799,823040541],Slot:\"feet\"}]}"
                         }
                     ]
                 }

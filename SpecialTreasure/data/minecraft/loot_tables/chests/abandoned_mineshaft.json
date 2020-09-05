@@ -256,7 +256,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 10,
+                    "weight": 2,
                     "quality": -3,
                     "name": "minecraft:stick",
                     "functions": [
@@ -405,6 +405,20 @@
                             "function": "set_count",
                             "count": {
                                 "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:melon_seeds",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
                                 "max": 5
                             }
                         }

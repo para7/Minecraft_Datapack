@@ -2,12 +2,15 @@
     "type": "chest",
     "pools": [
         {
-            "rolls": 2,
+            "rolls": {
+                "min": 3,
+                "max": 5
+            },
             "bonus_rolls": 1,
             "entries": [
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 25,
                     "name": "minecraft:enchanted_golden_apple",
                     "functions": [
                         {
@@ -21,8 +24,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 5,
-                    "quality": -1,
+                    "weight": 42,
+                    "quality": -8,
                     "name": "minecraft:bamboo",
                     "functions": [
                         {
@@ -56,7 +59,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 18,
                     "name": "minecraft:bamboo",
                     "functions": [
                         {
@@ -87,7 +90,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 3,
+                    "weight": 27,
                     "name": "minecraft:stone_axe",
                     "functions": [
                         {
@@ -96,7 +99,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:999,Enchantments:[{id:\"minecraft:sharpness\",lvl:8s},{id:\"minecraft:smite\",lvl:2s},{id:\"minecraft:efficiency\",lvl:9s},{id:\"minecraft:unbreaking\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;703381697,593774437,-1495950222,-1029811990],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1,Operation:0,UUID:[I;-1686944605,-447723324,-1725127707,-1867618059],Slot:\"mainhand\"}]}"
+                            "tag": "{RepairCost:999,Enchantments:[{id:\"minecraft:sharpness\",lvl:8s},{id:\"minecraft:smite\",lvl:2s},{id:\"minecraft:efficiency\",lvl:9s},{id:\"minecraft:unbreaking\",lvl:4s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;703381697,593774437,-1495950222,-1029811990],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1,Operation:0,UUID:[I;-1686944605,-447723324,-1725127707,-1867618059],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -118,7 +121,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 20,
                     "name": "minecraft:wooden_sword",
                     "functions": [
                         {
@@ -133,8 +136,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 3,
-                    "quality": 15,
+                    "weight": 13,
+                    "quality": 1,
                     "name": "minecraft:leather_chestplate",
                     "functions": [
                         {
@@ -165,7 +168,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 18,
                     "name": "minecraft:bow",
                     "functions": [
                         {
@@ -174,7 +177,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:17,Enchantments:[{id:\"minecraft:power\",lvl:7s},{id:\"minecraft:punch\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.07,Operation:0,UUID:[I;-306192647,-1693365476,-1387397397,1297658471],Slot:\"mainhand\"}]}"
+                            "tag": "{RepairCost:17,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:power\",lvl:7s},{id:\"minecraft:punch\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.07,Operation:0,UUID:[I;-306192647,-1693365476,-1387397397,1297658471],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
