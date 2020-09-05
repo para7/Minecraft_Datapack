@@ -1,4 +1,4 @@
-effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:instant_health 1 0
+effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:instant_health 1 2
 effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:slowness 10 3
 effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:glowing 10 3
 effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:weakness 4 0
