@@ -1,6 +1,6 @@
 tellraw @s [{"text":"傷を消毒した！"}]
 
-effect give @s minecraft:instant_health 1 2
+effect give @s minecraft:instant_health 1 1
 effect clear @s minecraft:poison
 
-scoreboard players set @s PJSkillRecast 3600
+scoreboard players set @s PJSkillRecast 1700

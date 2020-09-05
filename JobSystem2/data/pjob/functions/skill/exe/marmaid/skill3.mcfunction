@@ -1,4 +1,4 @@
-tellraw @a[distance=..30] [{"text":"陸へ上がれるようになった"}]
+tellraw @s [{"text":"陸へ上がれるようになった"}]
 
 scoreboard players set @s PJSkillTimer 3600
 

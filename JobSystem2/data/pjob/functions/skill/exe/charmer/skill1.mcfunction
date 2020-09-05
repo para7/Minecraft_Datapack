@@ -6,4 +6,4 @@ effect give @e[type=#para7_utils:enemymob,distance=..25] minecraft:jump_boost 30
 effect give @s minecraft:slowness 10 5
 effect give @s minecraft:jump_boost 10 129
 
-scoreboard players set @s PJSkillRecast 1500
+scoreboard players set @s PJSkillRecast 600
