@@ -1,4 +1,4 @@
-tellraw @a[distance=..20] [{"text":"海の危険に制裁を！"}]
+tellraw @s[distance=..20] [{"text":"海の危険を滅する！"}]
 
 effect give @e[type=minecraft:drowned,distance=..50] glowing 30 100 true
 effect give @e[type=minecraft:elder_guardian,distance=..50] glowing 30 100 true

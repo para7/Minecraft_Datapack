@@ -1,4 +1,4 @@
-tellraw @s [{"text":"掘るぞ！！"}]
+tellraw @s [{"text":"採掘魂！"}]
 
 effect give @s minecraft:haste 60 4
 

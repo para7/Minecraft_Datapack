@@ -1,4 +1,4 @@
-tellraw @a[distance=..25] [{"text":"茨が地面を覆う！"}]
+tellraw @a[distance=..25] [{"text":"茨が地面を覆い、足を奪う！"}]
 
 effect give @e[type=#para7_utils:enemymob,distance=..25] minecraft:slowness 30 100
 effect give @e[type=#para7_utils:enemymob,distance=..25] minecraft:jump_boost 30 129

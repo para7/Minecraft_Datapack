@@ -1,4 +1,4 @@
-tellraw @a[distance=..7] [{"text":"治療します！"}]
+tellraw @a[distance=..7] [{"text":"治療！"}]
 
 effect give @a[distance=..7] minecraft:instant_health 1 3
 
