@@ -5,7 +5,7 @@ attribute @s minecraft:generic.movement_speed base set 0.10000000149011612
 
 attribute @s minecraft:generic.luck base set 0
 
-scoreboard players set @s PJSkillSelect 1
+execute unless entity @s[scores={PJSkillSelect=1..3}] run scoreboard players set @s PJSkillSelect 1
 
 tellraw @s {"text":"スキル1がセットされた"}
 
