@@ -8,4 +8,5 @@ execute if entity @s[scores={PJUseBow=1..,PJSkillSelect=2,PJSkillTimer=1..}] run
 
 scoreboard players set @s PJBuffTimer 0
 
-effect give @e[type=minecraft:wolf,distance=..10] minecraft:strength 11 2
+effect give @e[type=minecraft:wolf,distance=..4] minecraft:strength 11 1 true
+effect give @e[type=minecraft:wolf,distance=..4] minecraft:resistance 11 1 true
