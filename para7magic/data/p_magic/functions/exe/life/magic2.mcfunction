@@ -1,5 +1,5 @@
 effect give @e[type=#para7_utils:friendmob,distance=..10] minecraft:absorption 180 1
-effect give @e[type=#para7_utils:friendmob,distance=..10] minecraft:resistance 120 0
+# effect give @e[type=#para7_utils:friendmob,distance=..10] minecraft:resistance 120 0
 # effect give @e[type=#para7_utils:friendmob,distance=..10] minecraft:resistance 60 1
 
 execute at @e[distance=..10,type=#para7_utils:friendmob] run particle minecraft:heart ~ ~1 ~ 0.5 0.5 0.5 1 6
