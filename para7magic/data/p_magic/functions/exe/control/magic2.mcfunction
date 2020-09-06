@@ -1,7 +1,7 @@
 
-execute as @e[distance=..25,type=item] at @s run particle minecraft:cloud ~ ~ ~ 0.3 0.3 0.3 1 10 normal
+execute as @e[distance=..35,type=item] at @s run particle minecraft:cloud ~ ~ ~ 0.3 0.3 0.3 1 10 normal
 
-execute as @e[distance=..25,type=item] run tp ~ ~ ~
+execute as @e[distance=..35,type=item] run tp ~ ~ ~
 
 # playsound minecraft:entity.player.levelup player @a ~ ~ ~ 1 2.0
 

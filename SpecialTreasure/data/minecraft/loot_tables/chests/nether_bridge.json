@@ -247,7 +247,7 @@
                 {
                     "type": "item",
                     "weight": 2,
-                    "name": "minecraft:potion",
+                    "name": "minecraft:splash_potion",
                     "functions": [
                         {
                             "function": "set_count",
@@ -255,7 +255,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:3,Operation:0,UUID:[I;-1100524953,938755870,-1395144983,537079541],Slot:\"mainhand\"}],CustomPotionEffects:[{Id:20b,Amplifier:0b,Duration:72000}],CustomPotionColor:16776978}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:2,Operation:0,UUID:[I;701556580,1932281982,-1390401509,298197292],Slot:\"offhand\"}],CustomPotionEffects:[{Id:18b,Amplifier:50b,Duration:72000}],CustomPotionColor:5701632}"
                         },
                         {
                             "function": "set_name",
@@ -269,10 +269,7 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "邪法を用い、水を求めさまよう者の"
-                                },
-                                {
-                                    "text": "渇望と絶望を溶かし込んだ"
+                                    "text": "強い思念が溶け込んでいる"
                                 }
                             ]
                         }
