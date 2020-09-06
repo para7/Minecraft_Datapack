@@ -21,7 +21,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{}],EntityTag:{id:\"minecraft:guardian\",Silent:1b,FallDistance:100f,DeathLootTable:\"sptreasure:entites/music_disks\",Health:1f,ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999},{Id:20b,Amplifier:100b,Duration:999}]}}"
+                            "tag": "{Enchantments:[{}],EntityTag:{OnGround:1b,Silent:1b,FallDistance:100f,DeathLootTable:\"sptreasure:entites/music_disks\",Health:1f,ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999},{Id:20b,Amplifier:100b,Duration:999}]}}"
                         },
                         {
                             "function": "set_name",
@@ -61,6 +61,10 @@
                                 "min": 7,
                                 "max": 13
                             }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EntityTag:{id:\"minecraft:creeper\",ExplosionRadius:3b,Fuse:0}}"
                         },
                         {
                             "function": "set_name",
