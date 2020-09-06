@@ -2,6 +2,10 @@
 execute as @a[nbt={SelectedItem:{tag:{PMshowMP:1b}}}] run function p_magic:system/equipwand
 execute as @a[scores={PMag_Equip=0},nbt={Inventory:[{Slot:-106b,tag:{PMshowMP:1b}}]}] run function p_magic:system/equipwand
 
+# MP回復処理
+function p_magic:system/mp
+
+
 execute as @a[nbt={SelectedItem:{tag:{PMshowMP:2b}}}] run function p_magic:oldmagic/onequip
 execute as @a[scores={PMag_Equip=0},nbt={Inventory:[{Slot:-106b,tag:{PMshowMP:2b}}]}] run function p_magic:oldmagic/onequip
 
