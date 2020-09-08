@@ -1,6 +1,7 @@
 
 # スポンサー
 
+サーバー代寄付先はこちら  
 <https://www.amazon.jp/hz/wishlist/ls/277F9G08R0TT7?ref_=wl_share>
 
 bay leaf さん  
