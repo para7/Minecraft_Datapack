@@ -3,8 +3,12 @@
 
 <https://www.amazon.jp/hz/wishlist/ls/277F9G08R0TT7?ref_=wl_share>
 
-bay leaf  
+bay leaf さん  
 ありがとうございます。動画化する際には東北ずん子で声をつけさせて頂きます。
+
+紲星あかり さん  
+ありがとうございます。かわいさが引き出せるよう頑張って編集します。
+
 
 # ver1.16
 
