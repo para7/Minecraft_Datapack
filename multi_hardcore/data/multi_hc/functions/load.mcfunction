@@ -12,7 +12,7 @@ scoreboard players set @a MHCflag 0
 scoreboard objectives add MHCUseRevive minecraft.dropped:minecraft.emerald
 
 #アイテム全ロストさせるために死んでも保持させる
-gamerule keepInventory true
+# gamerule keepInventory true
 
 #死亡表示
 scoreboard objectives add MHCDeathCnt deathCount "死亡回数"
