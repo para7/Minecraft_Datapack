@@ -1,5 +1,5 @@
 #アブソリュートゼロ
-fill ~-15 ~-2 ~-15 ~15 ~2 ~15 minecraft:frosted_ice replace water
+fill ~-15 ~-3 ~-15 ~15 ~1 ~15 minecraft:frosted_ice replace water
 
 # playsound minecraft:entity.blaze.shoot master @a ~ ~ ~ 1 1
 # playsound minecraft:entity.generic.explode master @a ~ ~ ~
@@ -13,17 +13,26 @@ fill ~-15 ~-2 ~-15 ~15 ~2 ~15 minecraft:frosted_ice replace water
 # execute as @a[distance=..18] at @s unless entity @s[type=minecraft:player] if entity @s[type=!#para7_utils:undead] if block ~ ~-1 ~ minecraft:frosted_ice run effect give @s minecraft:instant_damage 1 1
 
 execute as @e[distance=..18] at @s unless entity @s[type=minecraft:player] if entity @s[type=!#para7_utils:undead] if block ~ ~-1 ~ minecraft:frosted_ice run effect give @s minecraft:instant_damage 1 1
-execute as @e[distance=..18] at @s unless entity @s[type=minecraft:player] if entity @s[type=!#para7_utils:undead] if block ~ ~ ~ minecraft:frosted_ice run effect give @s minecraft:instant_damage 1 1
-execute as @e[distance=..18] at @s unless entity @s[type=minecraft:player] if entity @s[type=!#para7_utils:undead] if block ~ ~-1 ~ minecraft:ice run effect give @s minecraft:instant_damage 1 1
-execute as @e[distance=..18] at @s unless entity @s[type=minecraft:player] if entity @s[type=!#para7_utils:undead] if block ~ ~-1 ~ minecraft:packed_ice run effect give @s minecraft:instant_damage 1 2
-execute as @e[distance=..18] at @s unless entity @s[type=minecraft:player] if entity @s[type=!#para7_utils:undead] if block ~ ~-1 ~ minecraft:blue_ice run effect give @s minecraft:instant_damage 1 4
+execute as @e[distance=..18] at @s unless entity @s[type=minecraft:player] if entity @s[type=!#para7_utils:undead] if block ~ ~ ~ minecraft:frosted_ice run effect give @s minecraft:instant_damage 1 3
+execute as @e[distance=..18] at @s unless entity @s[type=minecraft:player] if entity @s[type=!#para7_utils:undead] if block ~ ~-1 ~ minecraft:ice run effect give @s minecraft:instant_damage 1 3
+execute as @e[distance=..18] at @s unless entity @s[type=minecraft:player] if entity @s[type=!#para7_utils:undead] if block ~ ~-1 ~ minecraft:packed_ice run effect give @s minecraft:instant_damage 1 5
+execute as @e[distance=..18] at @s unless entity @s[type=minecraft:player] if entity @s[type=!#para7_utils:undead] if block ~ ~-1 ~ minecraft:blue_ice run effect give @s minecraft:instant_damage 1 8
 
 
 execute as @e[distance=..18] at @s unless entity @s[type=minecraft:player] if entity @s[type=#para7_utils:undead] if block ~ ~-1 ~ minecraft:frosted_ice run effect give @s minecraft:instant_health 1 1
-execute as @e[distance=..18] at @s unless entity @s[type=minecraft:player] if entity @s[type=#para7_utils:undead] if block ~ ~ ~ minecraft:frosted_ice run effect give @s minecraft:instant_health 1 1
-execute as @e[distance=..18] at @s unless entity @s[type=minecraft:player] if entity @s[type=#para7_utils:undead] if block ~ ~-1 ~ minecraft:ice run effect give @s minecraft:instant_health 1 1
-execute as @e[distance=..18] at @s unless entity @s[type=minecraft:player] if entity @s[type=#para7_utils:undead] if block ~ ~-1 ~ minecraft:packed_ice run effect give @s minecraft:instant_health 1 2
-execute as @e[distance=..18] at @s unless entity @s[type=minecraft:player] if entity @s[type=#para7_utils:undead] if block ~ ~-1 ~ minecraft:blue_ice run effect give @s minecraft:instant_health 1 4
+execute as @e[distance=..18] at @s unless entity @s[type=minecraft:player] if entity @s[type=#para7_utils:undead] if block ~ ~ ~ minecraft:frosted_ice run effect give @s minecraft:instant_health 1 3
+execute as @e[distance=..18] at @s unless entity @s[type=minecraft:player] if entity @s[type=#para7_utils:undead] if block ~ ~-1 ~ minecraft:ice run effect give @s minecraft:instant_health 1 3
+execute as @e[distance=..18] at @s unless entity @s[type=minecraft:player] if entity @s[type=#para7_utils:undead] if block ~ ~-1 ~ minecraft:packed_ice run effect give @s minecraft:instant_health 1 5
+execute as @e[distance=..18] at @s unless entity @s[type=minecraft:player] if entity @s[type=#para7_utils:undead] if block ~ ~-1 ~ minecraft:blue_ice run effect give @s minecraft:instant_health 1 8
+
+execute as @a[distance=..18] at @s if block ~ ~-1 ~ minecraft:frosted_ice run effect give @s minecraft:instant_damage 1 0
+execute as @a[distance=..18] at @s if block ~ ~ ~ minecraft:frosted_ice run effect give @s minecraft:instant_damage 1 1
+execute as @a[distance=..18] at @s if block ~ ~-1 ~ minecraft:ice run effect give @s minecraft:instant_damage 1 0
+execute as @a[distance=..18] at @s if block ~ ~-1 ~ minecraft:packed_ice run effect give @s minecraft:instant_damage 1 0
+execute as @a[distance=..18] at @s if block ~ ~-1 ~ minecraft:blue_ice run effect give @s minecraft:instant_damage 1 0
+
+
+
 
 tellraw @a[distance=..50] [{"selector":"@s"},{"text":" は アブソリュート・ゼロ を唱えた！"}]
 

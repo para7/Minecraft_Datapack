@@ -2,11 +2,11 @@
 execute if entity @s[scores={PMag_MFaith=1,PMag_MSelect=1,PMag_MP=4..}] run function p_magic:exe/element/magic1
 execute if entity @s[scores={PMag_MFaith=1,PMag_MSelect=1,PMag_MP=4..}] run scoreboard players remove @s PMag_MP 4
 
-execute if entity @s[scores={PMag_MFaith=1,PMag_MSelect=2,PMag_MP=5..}] run function p_magic:exe/element/magic2
-execute if entity @s[scores={PMag_MFaith=1,PMag_MSelect=2,PMag_MP=5..}] run scoreboard players remove @s PMag_MP 5
+execute if entity @s[scores={PMag_MFaith=1,PMag_MSelect=2,PMag_MP=11..}] run function p_magic:exe/element/magic2
+execute if entity @s[scores={PMag_MFaith=1,PMag_MSelect=2,PMag_MP=11..}] run scoreboard players remove @s PMag_MP 11
 
-execute if entity @s[scores={PMag_MFaith=1,PMag_MSelect=3,PMag_MP=7..}] run function p_magic:exe/element/magic3
-execute if entity @s[scores={PMag_MFaith=1,PMag_MSelect=3,PMag_MP=7..}] run scoreboard players remove @s PMag_MP 7
+execute if entity @s[scores={PMag_MFaith=1,PMag_MSelect=3,PMag_MP=18..}] run function p_magic:exe/element/magic3
+execute if entity @s[scores={PMag_MFaith=1,PMag_MSelect=3,PMag_MP=18..}] run scoreboard players remove @s PMag_MP 18
 
 # ライフ
 execute if entity @s[scores={PMag_MFaith=2,PMag_MSelect=1,PMag_MP=18..}] run function p_magic:exe/life/magic1
