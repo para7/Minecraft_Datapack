@@ -13,5 +13,6 @@ execute if entity @s[scores={PMag_Enable=0}] run tellraw @s [{"text":"このブ�
 
 execute if entity @s[scores={PMag_Enable=1..}] run xp add @s -1 levels
 execute if entity @s[scores={PMag_Enable=1..}] run scoreboard players set @s PMag_mpregene -4000
+execute if entity @s[scores={PMag_Enable=1..}] run scoreboard players set @s PMag_MP 0
 
 scoreboard players add @s PMag_Enable 1
