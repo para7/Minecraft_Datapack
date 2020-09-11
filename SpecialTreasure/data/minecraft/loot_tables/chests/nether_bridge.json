@@ -37,6 +37,7 @@
                 {
                     "type": "item",
                     "weight": 3,
+                    "quality": 1,
                     "name": "minecraft:leather_chestplate",
                     "functions": [
                         {
@@ -68,6 +69,7 @@
                 {
                     "type": "item",
                     "weight": 1,
+                    "quality": 1,
                     "name": "minecraft:potion",
                     "functions": [
                         {
@@ -99,6 +101,7 @@
                 {
                     "type": "item",
                     "weight": 1,
+                    "quality": 1,
                     "name": "minecraft:shield",
                     "functions": [
                         {
@@ -122,6 +125,7 @@
                 {
                     "type": "item",
                     "weight": 1,
+                    "quality": 1,
                     "name": "minecraft:lava_bucket",
                     "functions": [
                         {
@@ -156,6 +160,7 @@
                 {
                     "type": "item",
                     "weight": 1,
+                    "quality": 2,
                     "name": "minecraft:diamond_hoe",
                     "functions": [
                         {
@@ -205,6 +210,7 @@
                 {
                     "type": "item",
                     "weight": 2,
+                    "quality": 1,
                     "name": "minecraft:shield",
                     "functions": [
                         {
@@ -247,6 +253,7 @@
                 {
                     "type": "item",
                     "weight": 2,
+                    "quality": 10,
                     "name": "minecraft:splash_potion",
                     "functions": [
                         {
