@@ -10,7 +10,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 8,
+                    "weight": 5,
                     "name": "minecraft:gold_ingot",
                     "functions": [
                         {
