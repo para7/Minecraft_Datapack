@@ -12,6 +12,6 @@ effect give @s minecraft:instant_health 1 20 true
 
 loot spawn ~ ~ ~ loot vh_mode:entities/selector_ghast
 
-execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Brute:1b}}},sort=nearest,limit=1] run function para7_utils:killme
-execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Brute:1b}}},sort=nearest,limit=1] run function vh_mode:summon/kingghast
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{King:1b}}},sort=nearest,limit=1] run function para7_utils:killme
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{King:1b}}},sort=nearest,limit=1] run function vh_mode:summon/kingghast
 
