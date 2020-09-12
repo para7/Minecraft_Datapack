@@ -10,5 +10,5 @@ effect give @e[type=!#para7_utils:undead,distance=..2.3] minecraft:instant_damag
 
 summon minecraft:lightning_bolt ~ ~ ~
 
-playsound minecraft:entity.lightning_bolt.impact weather @a ~ ~ ~ 3 1
-playsound minecraft:entity.lightning_bolt.thunder weather @a ~ ~ ~ 3 1
+# playsound minecraft:entity.lightning_bolt.impact weather @a ~ ~ ~ 0.1 1
+# playsound minecraft:entity.lightning_bolt.thunder weather @a ~ ~ ~ 0.1 1

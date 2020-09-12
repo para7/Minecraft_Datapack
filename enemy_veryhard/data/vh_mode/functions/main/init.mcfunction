@@ -1,9 +1,11 @@
 
+tag @s add vh_Edited
 effect give @s[type=#para7_utils:enemymob] minecraft:regeneration 999999 0 true
 
 execute if entity @s[type=minecraft:phantom] run function vh_mode:enhance/phantom
 execute if entity @s[type=minecraft:enderman] run function vh_mode:enhance/enderman
 execute if entity @s[type=minecraft:piglin_brute] run function vh_mode:enhance/piglin_brute
+execute if entity @s[type=minecraft:piglin] run function vh_mode:enhance/piglin
 execute if entity @s[type=minecraft:guardian] run function vh_mode:enhance/guardian
 execute if entity @s[type=minecraft:elder_guardian] run function vh_mode:enhance/elder_guardian
 execute if entity @s[type=minecraft:wither_skeleton] run function vh_mode:enhance/wither_skeleton
@@ -35,4 +37,5 @@ execute if entity @s[type=#para7_utils:zombies] run function vh_mode:enhance/zom
 execute if entity @s[type=#para7_utils:skeletons] run function vh_mode:enhance/skeleton
 execute if entity @s[type=#para7_utils:spiders] run function vh_mode:enhance/spider
 
-tag @s add vh_Edited
+
+kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{SelectKill:1b}}}]
