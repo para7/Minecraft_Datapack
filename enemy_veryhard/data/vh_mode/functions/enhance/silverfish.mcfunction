@@ -7,3 +7,6 @@ attribute @s minecraft:generic.movement_speed base set 0.29
 
 # effect give @s minecraft:jump_boost 999999 1 true
 effect give @s minecraft:instant_health 1 20 true
+
+# ゴキブリ
+# 

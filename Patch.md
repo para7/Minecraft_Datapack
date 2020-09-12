@@ -37,7 +37,7 @@ bay leaf さん
 
 # ver2.x beta 2
 
-最大MPの計算式を変更　レベルあたりの最大MPが1アップ
+最大MPの計算式を変更　レベルあたりの最大MPがアップ
 
 # ver2.x beta 1
 

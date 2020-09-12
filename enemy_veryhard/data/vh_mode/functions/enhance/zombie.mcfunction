@@ -7,3 +7,5 @@ attribute @s minecraft:generic.follow_range base set 150
 
 effect give @s minecraft:jump_boost 999999 1 true
 effect give @s minecraft:instant_damage 1 20 true
+
+
