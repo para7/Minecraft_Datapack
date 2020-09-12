@@ -15,7 +15,7 @@ execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1
 # 2 重匠 おもたくみ
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:2b}}},sort=nearest,limit=1] run attribute @s minecraft:generic.knockback_resistance base set 10
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:2b}}},sort=nearest,limit=1] run attribute @s minecraft:generic.movement_speed base set 0.19
-execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:2b}}},sort=nearest,limit=1] run attribute @s minecraft:generic.max_health base set 6
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:2b}}},sort=nearest,limit=1] run attribute @s minecraft:generic.max_health base set 25
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:2b}}},sort=nearest,limit=1] run data merge entity @s {CustomNameVisible:1b,CustomName:'{"text":"重匠"}'}
 
 # 3 軽匠 かるたくみ
