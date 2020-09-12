@@ -7,7 +7,7 @@ effect clear @s minecraft:regeneration
 
 # data merge entity @s {ExplosionRadius:4b}
 
-loot spawn ~ ~ ~ loot vh_mode:entities/creeper
+loot spawn ~ ~ ~ loot vh_mode:entities/selector_creeper
 
 # 1 巨匠
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:1b}}},sort=nearest,limit=1] run data merge entity @s {powered:1b}
