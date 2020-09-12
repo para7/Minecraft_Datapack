@@ -15,3 +15,10 @@ effect give @s minecraft:regeneration 999999 1 true
 replaceitem entity @s weapon.offhand shield 1
 
 data merge entity @s {HandDropChances:[0.085f,0.00f]}
+
+# summon minecraft:illusioner
+
+loot spawn ~ ~ ~ loot vh_mode:entities/selector_vindicator
+
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{illusioner:1b}}},sort=nearest,limit=1] run function para7_utils:killme
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{illusioner:1b}}},sort=nearest,limit=1] run summon minecraft:illusioner

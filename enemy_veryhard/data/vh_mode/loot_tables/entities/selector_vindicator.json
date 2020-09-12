@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 49,
+                    "weight": 3,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -18,7 +18,12 @@
                             "tag": "{SelectKill:1b}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "はずれ"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -33,10 +38,15 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{King:1b,SelectKill:1b}"
+                            "tag": "{illusioner:1b,SelectKill:1b}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "あたり"
+                                }
+                            ]
                         }
                     ]
                 }
