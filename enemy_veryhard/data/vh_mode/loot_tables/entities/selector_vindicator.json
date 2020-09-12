@@ -18,12 +18,7 @@
                             "tag": "{SelectKill:1b}"
                         },
                         {
-                            "function": "set_name",
-                            "name": [
-                                {
-                                    "text": "はずれ"
-                                }
-                            ]
+                            "function": "set_name"
                         }
                     ]
                 },
@@ -41,12 +36,7 @@
                             "tag": "{illusioner:1b,SelectKill:1b}"
                         },
                         {
-                            "function": "set_name",
-                            "name": [
-                                {
-                                    "text": "あたり"
-                                }
-                            ]
+                            "function": "set_name"
                         }
                     ]
                 }
