@@ -1,7 +1,7 @@
-effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:instant_health 1 2
-effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:slowness 10 4
-effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:glowing 10 0
-effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:weakness 10 5
+effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:instant_health 1 1
+effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:slowness 14 40
+effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:glowing 14 0
+effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:weakness 14 40
 
 execute at @e[type=#para7_utils:undead,sort=nearest,limit=1] run particle minecraft:happy_villager ~ ~1 ~ 0.5 0.5 0.5 1 30
 
