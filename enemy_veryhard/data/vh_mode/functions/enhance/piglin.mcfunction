@@ -1,6 +1,6 @@
 attribute @s minecraft:generic.follow_range base set 32
 
-loot spawn ~ ~ ~ loot vh_mode:entities/piglin
+loot spawn ~ ~ ~ loot vh_mode:entities/selector_piglin
 
 # tell @a pig
 

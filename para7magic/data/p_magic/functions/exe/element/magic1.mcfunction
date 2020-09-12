@@ -2,7 +2,7 @@
 fill ~-7 ~-7 ~-7 ~7 ~7 ~7 fire replace air
 fill ~-1 ~-1 ~-1 ~1 ~1 ~1 air replace fire
 
-execute as @e[distance=1..8] unless block ~ ~-1 ~ minecraft:air run effect give @s minecraft:slowness 5 2
+execute as @e[distance=1..8] unless block ~ ~-1 ~ minecraft:air run effect give @s minecraft:slowness 5 3
 
 execute as @e[distance=1..8,type=#para7_utils:undead] run effect give @s minecraft:instant_health 1 1
 execute as @e[distance=1..8,type=!#para7_utils:undead] run effect give @s minecraft:instant_damage 1 1

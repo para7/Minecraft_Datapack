@@ -4,7 +4,7 @@ attribute @s minecraft:generic.max_health base set 50
 # attribute @s minecraft:generic.knockback_resistance base set 0.7
 attribute @s minecraft:generic.movement_speed base set 0.3
 
-replaceitem entity @s weapon.mainhand stone_sword{Enchantments:[{id:"minecraft:knockback",lvl:3s},{id:"minecraft:fire_aspect",lvl:1s}]} 1
+replaceitem entity @s weapon.mainhand stone_sword{Enchantments:[{id:"minecraft:knockback",lvl:4s},{id:"minecraft:fire_aspect",lvl:1s}]} 1
 
 effect give @s minecraft:instant_damage 1 20 true
 

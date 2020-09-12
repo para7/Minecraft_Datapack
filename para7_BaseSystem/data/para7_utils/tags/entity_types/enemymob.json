@@ -34,6 +34,7 @@
     "minecraft:pillager",
     "minecraft:ravager",
     "minecraft:hoglin",
-    "minecraft:zoglin"
+    "minecraft:zoglin",
+    "minecraft:illusioner"
   ]
 }
