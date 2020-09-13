@@ -1,0 +1,1 @@
+summon bat ~ ~ ~ {CustomNameVisible:1b,Health:20f,Tags:["vh_Edited","Skill_PoisonEffect","Skill"],Passengers:[{id:"minecraft:potion",Item:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:poison"}}}],CustomName:'{"text":"ポイズンオーラ"}',Attributes:[{Name:generic.max_health,Base:20}]}

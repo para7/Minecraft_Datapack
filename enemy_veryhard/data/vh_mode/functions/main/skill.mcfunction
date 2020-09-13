@@ -17,4 +17,6 @@ execute if entity @s[tag=Skill_Infest] run function vh_mode:skill/infest
 execute if entity @s[tag=Skill_BlinkVisible] run function vh_mode:skill/blinkvisible
 
 execute if entity @s[tag=Skill_DragonBall] run function vh_mode:skill/dragonball
+
+execute if entity @s[tag=Skill_PoisonEffect] run function vh_mode:skill/poisoneffect
 # execute if entity @s[tag=Skill_CreeperBuff] run function vh_mode:skill/creeper_buff

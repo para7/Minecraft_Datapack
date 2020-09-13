@@ -17,6 +17,9 @@ execute if entity @s[type=minecraft:slime] run function vh_mode:enhance/slime
 execute if entity @s[type=minecraft:magma_cube] run function vh_mode:enhance/magma_cube
 execute if entity @s[type=minecraft:endermite] run function vh_mode:enhance/endermite
 execute if entity @s[type=minecraft:silverfish] run function vh_mode:enhance/silverfish
+execute if entity @s[type=minecraft:bat] run function vh_mode:enhance/bat
+
+
 
 execute if entity @s[type=minecraft:ender_dragon] run function vh_mode:enhance/ender_dragon
 execute if entity @s[type=minecraft:dragon_fireball] run function vh_mode:enhance/dragon_fireball
@@ -36,6 +39,5 @@ execute if entity @s[type=minecraft:shulker_bullet] run function vh_mode:enhance
 execute if entity @s[type=#para7_utils:zombies] run function vh_mode:enhance/zombie
 execute if entity @s[type=#para7_utils:skeletons] run function vh_mode:enhance/skeleton
 execute if entity @s[type=#para7_utils:spiders] run function vh_mode:enhance/spider
-
 
 kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{SelectKill:1b}}}]
