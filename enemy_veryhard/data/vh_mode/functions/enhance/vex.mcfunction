@@ -5,3 +5,4 @@ effect give @s minecraft:instant_health 1 20 true
 
 effect clear @s minecraft:regeneration
 
+attribute @s minecraft:generic.follow_range base set 34

@@ -10,3 +10,8 @@ attribute @s minecraft:generic.armor_toughness base set 4
 effect give @s minecraft:regeneration 999999 1 true
 
 # attribute @s minecraft:generic.follow_range base set 40
+
+loot spawn ~ ~ ~ loot vh_mode:entities/selector_evoker
+
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:1b}}},sort=nearest,limit=1] run function para7_utils:killme
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:1b}}},sort=nearest,limit=1] run function vh_mode:summon/summoner
