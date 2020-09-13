@@ -10,4 +10,4 @@ scoreboard objectives add EArrowAtk dummy
 scoreboard objectives add EArrowTime dummy
 
 # スニーク時間
-scoreboard objectives add EArrowSneak minecraft.custom:minecraft.sneak_time
+# scoreboard objectives add EArrowSneak minecraft.custom:minecraft.sneak_time

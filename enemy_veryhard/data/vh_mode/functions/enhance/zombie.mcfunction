@@ -8,4 +8,5 @@ attribute @s minecraft:generic.follow_range base set 150
 effect give @s minecraft:jump_boost 999999 1 true
 effect give @s minecraft:instant_damage 1 20 true
 
-
+execute unless entity @p[distance=..32] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:1b}}},sort=nearest,limit=1] run function para7_utils:killme
+execute unless entity @p[distance=..32] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:1b}}},sort=nearest,limit=1] run function vh_mode:summon/zombie_king

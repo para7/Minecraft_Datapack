@@ -2,7 +2,7 @@
 #コマンドは弓で実行している
 
 #武器を生成
-summon item ~ ~ ~ {Item:{id:"minecraft:bow",Count:1b,tag:{display:{Name:'{"text":"シオリの弓","color":"aqua","italic":false}',Lore:['{"text":"矢を射るたびに次の一撃を鋭くする","color":"white","italic":false}','{"text":"エンチャントアローを放てる弓。","color":"white","italic":false}','{"text":"スニークで攻撃力表示","color":"gray","italic":false}']},HideFlags:37,RepairCost:999,EnchantAllow:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:1s},{id:"minecraft:punch",lvl:1s},{id:"minecraft:mending",lvl:1s}]}}}
+summon item ~ ~ ~ {Item:{id:"minecraft:bow",Count:1b,tag:{display:{Name:'{"text":"シオリの弓","color":"aqua","italic":false}',Lore:['{"text":"矢を射るたびに次の一撃を鋭くする","color":"white","italic":false}','{"text":"エンチャントアローを放てる弓。","color":"white","italic":false}']},HideFlags:37,RepairCost:999,EnchantAllow:1b,Enchantments:[{id:"minecraft:punch",lvl:1s},{id:"minecraft:mending",lvl:1s}]}}}
 
 #エフェクト
 playsound minecraft:entity.player.levelup player @a ~ ~ ~ 1 1.2
@@ -14,6 +14,6 @@ particle minecraft:happy_villager ~ ~ ~ 1 1 1 0 120 force
 # playsound minecraft:block.iron_door.open neutral @a ~ ~ ~ 1 2
 
 # クラフトアイテムを削除
-kill @e[sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:diamond",Count:2b}}]
-kill @e[sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:emerald_block",Count:3b}}]
+kill @e[distance=..2,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:diamond",Count:2b}}]
+kill @e[distance=..2,sort=nearest,limit=1,type=item,nbt={Item:{id:"minecraft:emerald_block",Count:3b}}]
 kill @s

@@ -26,4 +26,4 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{EArrowStone:1b}}]}] run particle 
 execute as @s run scoreboard players set @s EArrowTime 2000
 
 #スニーク誤爆が鬱陶しいだろうから射撃するまで再表示なし
-execute as @s run scoreboard players set @s EArrowSneak 0
+# execute as @s run scoreboard players set @s EArrowSneak 0
