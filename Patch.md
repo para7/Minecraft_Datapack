@@ -32,7 +32,6 @@
 
 # Update 9/13
 
-# Update 9/13
 
 ## ver2.x beta 6
 
