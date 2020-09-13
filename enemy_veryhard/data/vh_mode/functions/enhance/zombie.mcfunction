@@ -11,5 +11,5 @@ effect give @s minecraft:instant_damage 1 20 true
 
 loot spawn ~ ~ ~ loot vh_mode:entities/selector_zombie
 
-execute unless entity @p[distance=..40] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:1b}}},sort=nearest,limit=1] run function para7_utils:killme
-execute unless entity @p[distance=..40] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:1b}}},sort=nearest,limit=1] run function vh_mode:summon/zombie_king
+execute unless entity @p[distance=..33] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:1b}}},sort=nearest,limit=1] run function para7_utils:killme
+execute unless entity @p[distance=..33] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:1b}}},sort=nearest,limit=1] run function vh_mode:summon/zombie_king

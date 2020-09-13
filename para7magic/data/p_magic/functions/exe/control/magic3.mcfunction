@@ -1,6 +1,6 @@
 
-effect give @a[distance=..4] minecraft:jump_boost 24 9
-effect give @a[distance=..4] minecraft:slow_falling 30 10
+effect give @a[distance=..7] minecraft:jump_boost 24 9
+effect give @a[distance=..7] minecraft:slow_falling 30 10
 # effect give @a[distance=..4] minecraft:speed 24 0
 
 
