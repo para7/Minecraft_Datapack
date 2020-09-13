@@ -13,7 +13,8 @@ execute store result entity @e[tag=EnchantArrow,nbt=!{inGround:1b},sort=nearest,
 scoreboard players add @s EArrowAtk 1
 #護り石所有時は攻撃力をめちゃくちゃに上昇
 scoreboard players add @s[nbt={Inventory:[{Slot:-106b,tag:{EArrowStone:1b}}]}] EArrowAtk 9
-
+# 攻撃力上限を設定
+scoreboard players set @s[scores={EArrowAtk=60..}] EArrowAtk 60
 
 #発射音
 playsound minecraft:entity.player.levelup player @a ~ ~ ~ 0.6 1.5
