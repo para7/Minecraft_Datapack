@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 400,
+                    "weight": 1,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -24,7 +24,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 6,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -33,7 +33,25 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:1b,SelectKill:1b}"
+                            "tag": "{skill:1b,SelectKill:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{skill:2b,SelectKill:1b}"
                         },
                         {
                             "function": "set_name"
