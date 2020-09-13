@@ -16,19 +16,19 @@ execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:2b}}},sort=nearest,limit=1] run attribute @s minecraft:generic.knockback_resistance base set 10
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:2b}}},sort=nearest,limit=1] run attribute @s minecraft:generic.movement_speed base set 0.19
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:2b}}},sort=nearest,limit=1] run attribute @s minecraft:generic.max_health base set 25
-execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:2b}}},sort=nearest,limit=1] run data merge entity @s {CustomNameVisible:1b,CustomName:'{"text":"重匠"}'}
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:2b}}},sort=nearest,limit=1] run data merge entity @s {CustomName:'{"text":"重匠"}'}
 
 # 3 軽匠 かるたくみ
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:3b}}},sort=nearest,limit=1] run data merge entity @s {ExplosionRadius:2b}
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:3b}}},sort=nearest,limit=1] run attribute @s minecraft:generic.max_health base set 5
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:3b}}},sort=nearest,limit=1] run attribute @s minecraft:generic.movement_speed base set 0.45
-execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:3b}}},sort=nearest,limit=1] run data merge entity @s {CustomNameVisible:1b,CustomName:'{"text":"軽匠"}'}
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:3b}}},sort=nearest,limit=1] run data merge entity @s {CustomName:'{"text":"軽匠"}'}
 
 # 4 水素爆弾
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:4b}}},sort=nearest,limit=1] run data merge entity @s {ExplosionRadius:16b}
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:4b}}},sort=nearest,limit=1] run attribute @s minecraft:generic.movement_speed base set 0.13
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:4b}}},sort=nearest,limit=1] run attribute @s minecraft:generic.max_health base set 50
-execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:4b}}},sort=nearest,limit=1] run data merge entity @s {CustomNameVisible:1b,CustomName:'{"text":"ツァーリ・ボンバ"}'}
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:4b}}},sort=nearest,limit=1] run data merge entity @s {CustomName:'{"text":"ツァーリ・ボンバ"}'}
 
 # 5 恥ずかしがり屋
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:4b}}},sort=nearest,limit=1] run data merge entity @s {CustomName:'{"text":"恥ずかしがり屋"}'}
@@ -37,7 +37,7 @@ execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1
 
 # 6 ストーカー
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:6b}}},sort=nearest,limit=1] run attribute @s minecraft:generic.follow_range base set 128
-execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:6b}}},sort=nearest,limit=1] run data merge entity @s {CustomNameVisible:1b,CustomName:'{"text":"ストーカー"}'}
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:6b}}},sort=nearest,limit=1] run data merge entity @s {CustomName:'{"text":"ストーカー"}'}
 
 
 # tag @s add Skill
