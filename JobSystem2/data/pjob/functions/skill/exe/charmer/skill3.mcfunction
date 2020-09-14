@@ -1,10 +1,6 @@
-tellraw @a[distance=..5] [{"text":"様々な呪いが襲いかかる！"}]
+tellraw @a[distance=..5] [{"text":"吸命の呪い！"}]
 
-effect give @e[type=#para7_utils:enemymob,distance=..17] minecraft:poison 12 1
-effect give @e[type=#para7_utils:enemymob,distance=..17] minecraft:wither 12 0
-execute as @e[distance=..18,type=#para7_utils:enemymob] run data merge entity @s {Fire:391}
+execute as @e[type=#para7_utils:mobs,tag=!PJDummy,distance=0.1..10,sort=nearest,limit=1] at @s run function pjob:skill/exe/charmer/skill3_target
 
-effect give @a[distance=..3.5] minecraft:poison 5 0
-effect give @a[distance=..3.5] minecraft:blindness 12 0
 
-scoreboard players set @s PJSkillRecast 200
+scoreboard players set @s PJSkillRecast 500
