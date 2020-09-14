@@ -26,14 +26,9 @@
 
 -----
 
-
 -----
 
-# Update 9/15
-
------
-
-# ver2.x beta 14 | release 2:30
+# ver2.x beta 14 | release 9/15 2:30
 
 ## ジョブデータパック大幅改修
 
