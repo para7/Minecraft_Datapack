@@ -23,7 +23,7 @@
                 "min": 2,
                 "max": 5
             },
-            "bonus_rolls": 0,
+            "bonus_rolls": 1,
             "entries": [
                 {
                     "type": "item",
@@ -74,7 +74,10 @@
                 "min": 2,
                 "max": 3
             },
-            "bonus_rolls": 3,
+            "bonus_rolls": {
+                "min": 1,
+                "max": 2
+            },
             "entries": [
                 {
                     "type": "item",
@@ -252,7 +255,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:2b,Amplifier:0b,Duration:54000},{Id:11b,Amplifier:0b,Duration:60000},{Id:12b,Amplifier:0b,Duration:72000},{Id:17b,Amplifier:0b,Duration:20000}],CustomPotionColor:853503}"
+                            "tag": "{CustomPotionEffects:[{Id:2b,Amplifier:0b,Duration:54000},{Id:11b,Amplifier:1b,Duration:60000},{Id:12b,Amplifier:0b,Duration:72000},{Id:17b,Amplifier:0b,Duration:20000}],CustomPotionColor:853503}"
                         },
                         {
                             "function": "set_name",
@@ -267,6 +270,29 @@
                             "lore": [
                                 {
                                     "text": "体の芯まで凍りつく"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lapis_lazuli",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;461745618,791433178,-1515885126,-1818058202],Slot:\"offhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:-1,Operation:2,UUID:[I;2001810931,-1594732931,-1385187809,-1688004148],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-956070765,833241701,-1539417394,1277154663],Slot:\"offhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "防御石"
                                 }
                             ]
                         }

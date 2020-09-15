@@ -10,7 +10,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 5,
+                    "weight": 20,
+                    "quality": 3,
                     "name": "minecraft:gold_ingot",
                     "functions": [
                         {
@@ -24,8 +25,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 4,
-                    "quality": 2,
+                    "weight": 15,
+                    "quality": 3,
                     "name": "minecraft:diamond",
                     "functions": [
                         {
@@ -36,8 +37,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 3,
-                    "quality": 1,
+                    "weight": 15,
+                    "quality": 4,
                     "name": "minecraft:leather_chestplate",
                     "functions": [
                         {
@@ -68,8 +69,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
-                    "quality": 1,
+                    "weight": 10,
+                    "quality": 4,
                     "name": "minecraft:potion",
                     "functions": [
                         {
@@ -100,8 +101,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
-                    "quality": 1,
+                    "weight": 20,
+                    "quality": 4,
                     "name": "minecraft:shield",
                     "functions": [
                         {
@@ -124,7 +125,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 25,
                     "quality": 1,
                     "name": "minecraft:lava_bucket",
                     "functions": [
@@ -159,7 +160,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 16,
                     "quality": 2,
                     "name": "minecraft:diamond_hoe",
                     "functions": [
@@ -175,7 +176,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 10,
+                    "quality": 2,
                     "name": "minecraft:crossbow",
                     "functions": [
                         {
@@ -209,8 +211,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 2,
-                    "quality": 1,
+                    "weight": 20,
+                    "quality": 5,
                     "name": "minecraft:shield",
                     "functions": [
                         {
@@ -234,6 +236,9 @@
                             "lore": [
                                 {
                                     "text": "秘められた力を感じる"
+                                },
+                                {
+                                    "text": "左手に持ってみよう"
                                 }
                             ]
                         }
@@ -241,7 +246,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 3,
+                    "weight": 15,
                     "name": "minecraft:name_tag",
                     "functions": [
                         {
@@ -252,8 +257,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 2,
-                    "quality": 10,
+                    "weight": 20,
+                    "quality": 100,
                     "name": "minecraft:splash_potion",
                     "functions": [
                         {
@@ -277,6 +282,73 @@
                             "lore": [
                                 {
                                     "text": "強い思念が溶け込んでいる"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 20,
+                    "quality": 4,
+                    "name": "minecraft:magma_cream",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:fire_protection\",lvl:10s},{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:lure\",lvl:1s},{id:\"minecraft:soul_speed\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;695379652,-552121691,-1561253197,1071663741],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:8,Operation:0,UUID:[I;-1363938398,-53721826,-1336354381,1107729624],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;-1294938308,-580891230,-1466365093,-422244425],Slot:\"mainhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "うごめく結晶"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "柔らかくて硬い、不気味な何か"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "quality": 2,
+                    "name": "minecraft:netherite_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:smite\",lvl:2s},{id:\"minecraft:bane_of_arthropods\",lvl:2s},{id:\"minecraft:looting\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.2,Operation:0,UUID:[I;-1554368912,-372683441,-1514300317,1635042346],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-1597625693,424955647,-2027719116,1350743382],Slot:\"offhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;-415563370,-1713815515,-1797380199,-1829538965],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;851964664,929907307,-1429417566,1263422832],Slot:\"mainhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "選択"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "そのまま使うか、素材とするか。"
+                                },
+                                {
+                                    "text": "さあ、選べ"
                                 }
                             ]
                         }
