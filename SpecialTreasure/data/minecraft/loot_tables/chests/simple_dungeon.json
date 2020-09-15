@@ -173,7 +173,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;253639406,908609274,-1665688960,-1390710172],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1282940416,1662144461,-1174345153,1339552662],Slot:\"chest\"}]}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;253639406,908609274,-1665688960,-1390710172],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1282940416,1662144461,-1174345153,1339552662],Slot:\"chest\"}]}"
                         }
                     ]
                 },
@@ -189,7 +189,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-1899532588,-587641812,-1434729818,1862590468],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;146871514,-1505214357,-2008587262,-1880679326],Slot:\"legs\"}]}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-1899532588,-587641812,-1434729818,1862590468],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;146871514,-1505214357,-2008587262,-1880679326],Slot:\"legs\"}]}"
                         }
                     ]
                 },
