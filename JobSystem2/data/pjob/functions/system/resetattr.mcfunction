@@ -8,5 +8,7 @@ execute if entity @s[scores={PJJobInfo=7}] run function pjob:job/init/charmer
 
 # tell @a reset
 
+
+
 scoreboard players set @s PJDeathCnt 0
 tag @s remove PJJobReset

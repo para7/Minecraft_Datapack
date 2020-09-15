@@ -1,7 +1,7 @@
 #自然回復値を増加
 scoreboard players add @s PMag_mpregene 15
 execute if entity @s[scores={PJJobInfo=0}] run scoreboard players add @s PMag_mpregene 25
-execute if entity @s[scores={PMag_MP=..5}] run scoreboard players add @s PMag_mpregene 5
+execute if entity @s[scores={PMag_MP=..4}] run scoreboard players add @s PMag_mpregene 8
 execute if entity @s[scores={PMag_MP=..15}] run scoreboard players add @s PMag_mpregene 5
 
 

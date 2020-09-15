@@ -6,5 +6,6 @@ tellraw @s[gamemode=creative] ["",{"text":"クリエイティブモードにな�
 tellraw @s[gamemode=survival] ["",{"text":"サバイバルモードになりました"}]
 
 effect give @s minecraft:instant_health 1 10
+effect give @s minecraft:saturation 1 100
 
 scoreboard players set @a dev_carrot 0
