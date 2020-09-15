@@ -61,7 +61,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:10s},{id:\"minecraft:knockback\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;751527034,-393067062,-2019101658,1804678131],Slot:\"mainhand\"}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:10s},{id:\"minecraft:knockback\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;751527034,-393067062,-2019101658,1804678131],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -93,7 +93,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:3,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.99,Operation:2,UUID:[I;1020137953,1124288194,-1200697023,-2041712142]},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-3,Operation:0,UUID:[I;-944485494,424626795,-1961427721,444410230]},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:70,Operation:0,UUID:[I;846088226,1464746582,-1561234090,-810154769],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1.5,Operation:2,UUID:[I;-1048039258,-25670435,-1866204111,560411301],Slot:\"offhand\"}]}"
+                            "tag": "{HideFlags:3,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.99,Operation:2,UUID:[I;1020137953,1124288194,-1200697023,-2041712142]},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-3,Operation:0,UUID:[I;-944485494,424626795,-1961427721,444410230]},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:100,Operation:0,UUID:[I;846088226,1464746582,-1561234090,-810154769],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1.5,Operation:2,UUID:[I;-1048039258,-25670435,-1866204111,560411301],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-99,Operation:0,UUID:[I;1108482325,363612853,-1087092331,77261536]}]}"
                         },
                         {
                             "function": "set_name",
@@ -115,8 +115,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 12,
-                    "quality": -2,
+                    "weight": 10,
+                    "quality": 2,
                     "name": "minecraft:shield",
                     "functions": [
                         {
@@ -125,7 +125,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.06,Operation:0,UUID:[I;1730700830,-1345306120,-1466768277,-394662462],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.06,Operation:0,UUID:[I;-932564320,-922398895,-1337032976,1449597378],Slot:\"offhand\"}],BlockEntityTag:{Patterns:[{Color:0,Pattern:\"ms\"}]}}"
+                            "tag": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.06,Operation:0,UUID:[I;1730700830,-1345306120,-1466768277,-394662462],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.06,Operation:0,UUID:[I;-932564320,-922398895,-1337032976,1449597378],Slot:\"offhand\"}],BlockEntityTag:{Patterns:[{Color:0,Pattern:\"ms\"}]}}"
                         },
                         {
                             "function": "set_name",
@@ -150,8 +150,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 12,
-                    "quality": -14,
+                    "weight": 8,
+                    "quality": 1,
                     "name": "minecraft:orange_terracotta",
                     "functions": [
                         {
@@ -165,8 +165,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 10,
-                    "quality": -2,
+                    "weight": 7,
                     "name": "minecraft:iron_shovel",
                     "functions": [
                         {
@@ -182,6 +181,7 @@
                 {
                     "type": "item",
                     "weight": 4,
+                    "quality": 1,
                     "name": "minecraft:enchanted_golden_apple",
                     "functions": [
                         {
@@ -195,8 +195,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 10,
-                    "quality": -2,
+                    "weight": 7,
                     "name": "minecraft:glass_pane",
                     "functions": [
                         {
@@ -236,7 +235,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:5,Enchantments:[{id:\"minecraft:quick_charge\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.4,Operation:2,UUID:[I;1477785161,1575568935,-1465161690,-98491613],Slot:\"offhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.3,Operation:2,UUID:[I;-214608512,881609154,-1423944597,-1791952104],Slot:\"mainhand\"}]}"
+                            "tag": "{RepairCost:5,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:quick_charge\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.4,Operation:2,UUID:[I;1477785161,1575568935,-1465161690,-98491613],Slot:\"offhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.3,Operation:2,UUID:[I;-214608512,881609154,-1423944597,-1791952104],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -259,6 +258,7 @@
                 {
                     "type": "item",
                     "weight": 11,
+                    "quality": 1,
                     "name": "minecraft:diamond_boots",
                     "functions": [
                         {
@@ -285,6 +285,71 @@
                                 },
                                 {
                                     "text": "道を切り拓くものの足を支える"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 9,
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:1,Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:15s}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "ハエたたき"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "虫だいっきらい！"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 6,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:34,Enchantments:[{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:fortune\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:1,Operation:0,UUID:[I;-1621590264,42944933,-1307684552,-856269856]}],Potion:\"minecraft:luck\"}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "ただの水"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "この地では希少なものだ。"
+                                },
+                                {
+                                    "text": "これを見つけられた君に幸運あれ。"
                                 }
                             ]
                         }

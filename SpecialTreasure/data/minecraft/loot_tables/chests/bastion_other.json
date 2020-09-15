@@ -34,6 +34,14 @@
                         {
                             "function": "set_nbt",
                             "tag": "{HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:0.5,Operation:1,UUID:[I;236889012,1158365221,-1695610664,239078658],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:10,Operation:0,UUID:[I;1554101032,-1347862336,-1615070784,354294310],Slot:\"mainhand\"}]}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "!?"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -48,7 +56,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:20,Enchantments:[{id:\"minecraft:smite\",lvl:3s},{id:\"minecraft:sweeping\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:0,Operation:0,UUID:[I;386610768,-872987502,-1208510302,-1126609176],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:256,Operation:0,UUID:[I;-1866012331,-357216576,-2082053584,62219867],Slot:\"mainhand\"}]}"
+                            "tag": "{RepairCost:100,Enchantments:[{id:\"minecraft:smite\",lvl:4s},{id:\"minecraft:sweeping\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:4s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:0,Operation:0,UUID:[I;386610768,-872987502,-1208510302,-1126609176],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:256,Operation:0,UUID:[I;-1866012331,-357216576,-2082053584,62219867],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -74,7 +82,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:smite\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1345574475,-1358150354,-1336102531,454850200],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-1448662683,-456045862,-1809325395,-1461725138],Slot:\"offhand\"}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:smite\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1345574475,-1358150354,-1336102531,454850200],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-1448662683,-456045862,-1809325395,-1461725138],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;579658568,-585676789,-1844657474,-1061684060],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -157,6 +165,40 @@
                         {
                             "function": "set_nbt",
                             "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:4s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-954045040,-2009315327,-1469187537,-854307367],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1163744067,-1471133396,-1356014799,823040541],Slot:\"feet\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_carrot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:32,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:1,Operation:1,UUID:[I;602689101,-823507197,-1423459510,-109613138]}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "ゴールデンpikupikuニンジン"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "借金10000"
+                                }
+                            ]
                         }
                     ]
                 }

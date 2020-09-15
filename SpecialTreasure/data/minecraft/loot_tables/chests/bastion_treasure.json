@@ -3,8 +3,8 @@
     "pools": [
         {
             "rolls": {
-                "min": 2,
-                "max": 4
+                "min": 1,
+                "max": 2
             },
             "bonus_rolls": 1,
             "entries": [
@@ -75,7 +75,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 3,
                     "name": "minecraft:cooked_porkchop",
                     "functions": [
                         {
@@ -84,7 +84,15 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:0.5,Operation:1,UUID:[I;236889012,1158365221,-1695610664,239078658],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:10,Operation:0,UUID:[I;1554101032,-1347862336,-1615070784,354294310],Slot:\"mainhand\"}]}"
+                            "tag": "{HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;236889012,1158365221,-1695610664,239078658],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:15,Operation:0,UUID:[I;1554101032,-1347862336,-1615070784,354294310],Slot:\"mainhand\"}]}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "!!"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -113,7 +121,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 3,
                     "name": "minecraft:enchanted_golden_apple",
                     "functions": [
                         {
@@ -132,6 +140,32 @@
                             "name": [
                                 {
                                     "text": "エンチャントされたエンチャントされた金のりんご"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:golden_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:10s},{id:\"minecraft:mending\",lvl:1s}]}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "使えそうで使えない、"
+                                },
+                                {
+                                    "text": "ちょっと使えるツルハシ"
                                 }
                             ]
                         }

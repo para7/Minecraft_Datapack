@@ -10,7 +10,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 2,
+                    "quality": 2,
                     "name": "minecraft:ender_pearl",
                     "functions": [
                         {
@@ -19,13 +20,13 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:1,Enchantments:[{id:\"minecraft:knockback\",lvl:20s}]}"
+                            "tag": "{HideFlags:1,Enchantments:[{id:\"minecraft:knockback\",lvl:25s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:1,Operation:1,UUID:[I;-485441551,911427096,-1692593098,-1766978763],Slot:\"head\"}]}"
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 20,
                     "name": "minecraft:ender_pearl",
                     "functions": [
                         {
@@ -35,17 +36,56 @@
                         {
                             "function": "set_nbt",
                             "tag": "{HideFlags:2,Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-1,Operation:0,UUID:[I;-1499445253,-564509896,-1893423248,1107081092]}]}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "光ってるだけだと思う。"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 20,
                     "name": "minecraft:apple",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": 3
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:carved_pumpkin",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-914014550,591415233,-1857023608,-784409436],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1317587340,-931770397,-2080453443,2120977691],Slot:\"head\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "かぼちゃのおまもり"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "見たくないものが、見えないように。"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -176,6 +216,18 @@
                                 "min": 3,
                                 "max": 8
                             }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 1,
+                    "name": "minecraft:trident",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
                         }
                     ]
                 }

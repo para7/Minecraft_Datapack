@@ -4,7 +4,7 @@
         {
             "rolls": {
                 "min": 2,
-                "max": 5
+                "max": 4
             },
             "bonus_rolls": 1,
             "entries": [
@@ -268,6 +268,40 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "weight": 7,
+                    "name": "minecraft:tropical_fish",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:2,Enchantments:[{id:\"minecraft:respiration\",lvl:999s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:1,Operation:1,UUID:[I;1443383227,-2002039897,-1351949635,1817246814],Slot:\"offhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "The Fish"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "まさに魚　魚の中の魚"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -320,6 +354,14 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
                 }
             ]
         },
@@ -328,6 +370,7 @@
                 "min": 1,
                 "max": 2
             },
+            "bonus_rolls": 1,
             "entries": [
                 {
                     "type": "item",
@@ -364,6 +407,31 @@
                             "count": {
                                 "min": 6,
                                 "max": 25
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:trident",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:pufferfish",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
                             }
                         }
                     ]
