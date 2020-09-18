@@ -20,6 +20,10 @@ execute if entity @s[tag=Skill_DragonBall] run function vh_mode:skill/dragonball
 
 execute if entity @s[tag=Skill_PoisonEffect] run function vh_mode:skill/poisoneffect
 
+execute if entity @s[tag=Skill_Teleport] run function vh_mode:skill/teleport
+
+execute if entity @s[tag=Skill_Killme] run function vh_mode:skill/killme
+
 
 execute if entity @s[tag=Skill_ZombieKing] run function vh_mode:skill/zombieking/main
 
