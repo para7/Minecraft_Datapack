@@ -24,5 +24,10 @@ execute as @a[scores={PJTradeVil=1..}] at @s run function pjob:summon/check
 execute as @a[tag=PJJobReset,scores={PJHealth=1..}] at @s run function pjob:system/resetattr
 execute as @a[scores={PJDeathCnt=1..}] at @s run tag @s add PJJobReset
 
+# エンド帰還時の属性リセット
+execute as @a[tag=PJInEnd,nbt=!{Dimension:"minecraft:the_end"}] at @s run function pjob:system/resetattr
+execute as @a[tag=PJInEnd,nbt=!{Dimension:"minecraft:the_end"}] at @s run tag @s remove PJInEnd
+execute as @a[nbt={Dimension:"minecraft:the_end"}] run tag @s add PJInEnd
+
 # スコアボードの経過更新
 function pjob:system/resetscore

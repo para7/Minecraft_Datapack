@@ -32,6 +32,8 @@ scoreboard objectives add PJTradeVil minecraft.custom:minecraft.talked_to_villag
 scoreboard objectives add PJDeathCnt deathCount
 scoreboard objectives add PJHealth health
 
+# scoreboard objectives add PJEndFlag dummy
+
 # スキルタイマー：パッシブ
 # scoreboard objectives add PJPassiveInter dummy
 
