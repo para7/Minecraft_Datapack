@@ -3,6 +3,7 @@
 # effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:glowing 14 0
 # effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:weakness 14 40
 
+effect clear @e[type=#para7_utils:friendmob,distance=..10] minecraft:blindness
 effect clear @e[type=#para7_utils:friendmob,distance=..10] minecraft:mining_fatigue
 effect clear @e[type=#para7_utils:friendmob,distance=..10] minecraft:nausea
 effect clear @e[type=#para7_utils:friendmob,distance=..10] minecraft:poison
