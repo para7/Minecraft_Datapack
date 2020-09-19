@@ -46,10 +46,12 @@ TUSBとオンラインゲームのノリで作られた超強力な裏ボスで�
 
 実装
 
+<https://github.com/para7/Minecraft_Datapack/tree/master/TorchBow>
+
 ## 敵
 
 おばけブーツを弱体化  
-ウーバーイーツの荷物ロスト率を軽減
+ウーバーイーツの荷物ロスト率を軽減  
 
 # ver2.x beta 19 ( 9/19 4:00 released )
 

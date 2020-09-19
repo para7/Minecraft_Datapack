@@ -1,1 +1,1 @@
-summon bat ~ ~ ~ {Tags:["vh_Edited"],Passengers:[{id:"minecraft:creeper",Tags:["vh_Edited"],CustomName:'{"text":"ウーバーイーツ"}'}],CustomName:'{"text":"配達員"}'}
+summon bat ~ ~ ~ {Tags:["vh_Edited"],Passengers:[{id:"minecraft:creeper",Health:4f,powered:1b,Tags:["vh_Edited","Skill","Skill_InfHealing"],CustomName:'{"text":"ウーバーイーツ"}',Attributes:[{Name:generic.max_health,Base:4}]}],CustomName:'{"text":"配達員"}'}

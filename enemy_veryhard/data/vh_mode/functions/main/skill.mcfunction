@@ -24,6 +24,8 @@ execute if entity @s[tag=Skill_Teleport] run function vh_mode:skill/teleport
 
 execute if entity @s[tag=Skill_Killme] run function vh_mode:skill/killme
 
+execute if entity @s[tag=Skill_InfHealing] run function vh_mode:skill/inf_healing
+
 
 execute if entity @s[tag=Skill_ZombieKing] run function vh_mode:skill/zombieking/main
 
