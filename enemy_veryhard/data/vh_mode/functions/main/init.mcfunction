@@ -36,7 +36,8 @@ execute if entity @s[type=minecraft:shulker] run function vh_mode:enhance/shulke
 execute if entity @s[type=minecraft:shulker_bullet] run function vh_mode:enhance/shulker_bullet
 
 
-execute if entity @s[type=#para7_utils:zombies] run function vh_mode:enhance/zombie
+execute if entity @s[type=#para7_utils:zombies,type=!minecraft:zombified_piglin] run function vh_mode:enhance/zombie
+execute if entity @s[type=minecraft:zombified_piglin] run function vh_mode:enhance/zombie_piglin
 execute if entity @s[type=#para7_utils:skeletons] run function vh_mode:enhance/skeleton
 execute if entity @s[type=#para7_utils:spiders] run function vh_mode:enhance/spider
 

@@ -19,4 +19,3 @@ execute unless entity @p[distance=..33] if entity @e[type=minecraft:item,nbt={It
 execute unless entity @p[distance=..33] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:2b}}},sort=nearest,limit=1] run function para7_utils:killme
 execute unless entity @p[distance=..33] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:2b}}},sort=nearest,limit=1] run function vh_mode:summon/ghostboots
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:2b}}},sort=nearest,limit=1] run function vh_mode:summon/ghostboots
-
