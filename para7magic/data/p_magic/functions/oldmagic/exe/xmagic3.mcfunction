@@ -12,4 +12,4 @@ playsound minecraft:entity.evoker.cast_spell player @a ^ ^ ^200 2 0.5
 # tellraw @a[distance=1..30] [{"selector":"@s"},{"text":" は テレポート を唱えた！"}]
 
 scoreboard players add @s PMag_Enable 1
-xp add @s -1 levels
+# xp add @s -1 levels

@@ -45,4 +45,4 @@ tellraw @a[distance=..50] [{"selector":"@s"},{"text":" は リインフォース
 
 scoreboard players add @s PMag_Enable 1
 
-xp add @s -1 levels
+# xp add @s -1 levels
