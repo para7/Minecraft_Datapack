@@ -1,16 +1,16 @@
 # 禁術の使用
 
-execute if entity @s[scores={PMag_MFaith=1,PMag_Xmagic1=1..,PMag_MP=150..}] run function p_magic:oldmagic/exe/xmagic1
-execute if entity @s[scores={PMag_MFaith=1,PMag_Xmagic1=1..,PMag_MP=150..}] run scoreboard players remove @s PMag_MP 150
+execute if entity @s[scores={PMag_MFaith=1,PMag_Xmagic1=1..,PMag_MP=120..}] run function p_magic:oldmagic/exe/xmagic1
+execute if entity @s[scores={PMag_MFaith=1,PMag_Xmagic1=1..,PMag_MP=120..}] run scoreboard players remove @s PMag_MP 120
 
-execute if entity @s[scores={PMag_MFaith=2,PMag_Xmagic2=1..,PMag_MP=150..}] run function p_magic:oldmagic/exe/xmagic2
-execute if entity @s[scores={PMag_MFaith=2,PMag_Xmagic2=1..,PMag_MP=150..}] run scoreboard players remove @s PMag_MP 150
+execute if entity @s[scores={PMag_MFaith=2,PMag_Xmagic2=1..,PMag_MP=120..}] run function p_magic:oldmagic/exe/xmagic2
+execute if entity @s[scores={PMag_MFaith=2,PMag_Xmagic2=1..,PMag_MP=120..}] run scoreboard players remove @s PMag_MP 120
 
-execute if entity @s[scores={PMag_MFaith=3,PMag_Xmagic3=1..,PMag_MP=150..}] run function p_magic:oldmagic/exe/xmagic3
-execute if entity @s[scores={PMag_MFaith=3,PMag_Xmagic3=1..,PMag_MP=150..}] run scoreboard players remove @s PMag_MP 150
+execute if entity @s[scores={PMag_MFaith=3,PMag_Xmagic3=1..,PMag_MP=120..}] run function p_magic:oldmagic/exe/xmagic3
+execute if entity @s[scores={PMag_MFaith=3,PMag_Xmagic3=1..,PMag_MP=120..}] run scoreboard players remove @s PMag_MP 120
 
-execute if entity @s[scores={PMag_MFaith=4,PMag_Xmagic4=1..,PMag_MP=150..}] run function p_magic:oldmagic/exe/xmagic4
-execute if entity @s[scores={PMag_MFaith=4,PMag_Xmagic4=1..,PMag_MP=150..}] run scoreboard players remove @s PMag_MP 150
+execute if entity @s[scores={PMag_MFaith=4,PMag_Xmagic4=1..,PMag_MP=120..}] run function p_magic:oldmagic/exe/xmagic4
+execute if entity @s[scores={PMag_MFaith=4,PMag_Xmagic4=1..,PMag_MP=120..}] run scoreboard players remove @s PMag_MP 120
 
 
 
