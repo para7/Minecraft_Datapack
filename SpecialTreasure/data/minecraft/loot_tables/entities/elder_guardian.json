@@ -25,7 +25,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 80,
+                    "weight": 50,
                     "quality": 2,
                     "name": "minecraft:potion",
                     "functions": [
