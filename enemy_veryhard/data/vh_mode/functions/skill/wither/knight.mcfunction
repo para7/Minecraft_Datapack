@@ -1,0 +1,1 @@
+data merge entity @e[type=minecraft:wither,sort=nearest,limit=1] {Health:1000}
