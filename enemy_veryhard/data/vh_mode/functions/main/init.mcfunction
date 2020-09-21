@@ -22,7 +22,6 @@ execute if entity @s[type=minecraft:bat] run function vh_mode:enhance/bat
 
 
 execute if entity @s[type=minecraft:ender_dragon] run function vh_mode:enhance/ender_dragon
-execute if entity @s[type=minecraft:dragon_fireball] run function vh_mode:enhance/dragon_fireball
 execute if entity @s[type=minecraft:wither] run function vh_mode:enhance/wither
 
 execute if entity @s[type=minecraft:vex] run function vh_mode:enhance/vex

@@ -1,0 +1,1 @@
+summon silverfish ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,CustomNameVisible:0b,PersistenceRequired:1b,NoAI:1b,Tags:["vh_Edited","Skill","Skill_DragonDummy"],CustomName:'{"text":"エンダードラゴン"}',ActiveEffects:[{Id:11b,Amplifier:5b,Duration:99999999,ShowParticles:0b},{Id:14b,Amplifier:5b,Duration:99999999,ShowParticles:0b},{Id:30b,Amplifier:0b,Duration:140}]}

@@ -16,8 +16,6 @@ execute if entity @s[tag=Skill_Infest] run function vh_mode:skill/infest
 
 execute if entity @s[tag=Skill_BlinkVisible] run function vh_mode:skill/blinkvisible
 
-execute if entity @s[tag=Skill_DragonBall] run function vh_mode:skill/dragonball
-
 execute if entity @s[tag=Skill_PoisonEffect] run function vh_mode:skill/poisoneffect
 
 execute if entity @s[tag=Skill_Teleport] run function vh_mode:skill/teleport
@@ -26,6 +24,8 @@ execute if entity @s[tag=Skill_Killme] run function vh_mode:skill/killme
 
 execute if entity @s[tag=Skill_InfHealing] run function vh_mode:skill/inf_healing
 
+execute if entity @s[tag=Skill_EnderDragon] run function vh_mode:skill/dragon/enderdragon
+execute if entity @s[tag=Skill_DragonDummy] run function vh_mode:skill/dragon/dragondummy
 
 execute if entity @s[tag=Skill_ZombieKing] run function vh_mode:skill/zombieking/main
 
