@@ -1,0 +1,1 @@
+summon wither_skeleton ~ ~ ~ {Glowing:1b,Health:60f,Tags:["vh_Edited","Skill","Skill_WitherGuard"],CustomName:'{"text":"黒騎士"}',ArmorItems:[{},{},{id:"minecraft:netherite_chestplate",Count:1b,tag:{Enchantments:[{id:"minecraft:blast_protection",lvl:30s}]}},{}],ArmorDropChances:[0.085F,0.085F,0.000F,0.085F],ActiveEffects:[{Id:11b,Amplifier:10b,Duration:240}]}
