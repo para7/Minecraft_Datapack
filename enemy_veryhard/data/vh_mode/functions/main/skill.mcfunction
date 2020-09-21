@@ -26,6 +26,8 @@ execute if entity @s[tag=Skill_InfHealing] run function vh_mode:skill/inf_healin
 
 execute if entity @s[tag=Skill_LevelEater] run function vh_mode:skill/leveleater
 
+execute if entity @s[tag=Skill_KillBoat] run function vh_mode:skill/killboat
+
 execute if entity @s[tag=Skill_EnderDragon] run function vh_mode:skill/dragon/enderdragon
 execute if entity @s[tag=Skill_DragonDummy] run function vh_mode:skill/dragon/dragondummy
 execute if entity @s[tag=Skill_WitherGuard] run function vh_mode:skill/wither/knight
