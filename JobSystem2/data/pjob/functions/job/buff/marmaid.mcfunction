@@ -16,7 +16,7 @@ execute if entity @s[scores={PJSkillTimer=..0},nbt=!{ActiveEffects:[{Id:13b}]}] 
 playsound minecraft:entity.elder_guardian.curse master @s[scores={PJSkillTimer=400..409}] ~ ~ ~ 0.5 1.5
 tellraw @s[scores={PJSkillTimer=400..409}] {"text":"もうすぐスキル効果が切れます"}
 
-effect give @s[nbt=!{ActiveEffects:[{Id:13b}]}] minecraft:water_breathing 10 0 true
+effect give @s[nbt=!{ActiveEffects:[{Id:13b}]}] minecraft:water_breathing 6 0 true
 
 
 
