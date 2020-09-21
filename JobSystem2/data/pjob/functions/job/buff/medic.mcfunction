@@ -1,2 +1,2 @@
 
-scoreboard players set @s PJBuffTimer 20
+scoreboard players set @s PJBuffTimer 200

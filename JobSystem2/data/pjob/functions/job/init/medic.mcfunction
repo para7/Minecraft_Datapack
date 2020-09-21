@@ -4,4 +4,4 @@ function pjob:system/getjob_effect
 scoreboard players set @s PJJobInfo 5
 
 
-attribute @s minecraft:generic.max_health base set 18
+attribute @s minecraft:generic.max_health base set 16
