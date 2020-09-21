@@ -12,10 +12,18 @@ effect give @s minecraft:instant_damage 1 20 true
 loot spawn ~ ~ ~ loot vh_mode:entities/selector_zombie
 
 # ゾンビキング
-execute unless entity @p[distance=..33] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:1b}}},sort=nearest,limit=1] run function para7_utils:killme
-execute unless entity @p[distance=..33] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:1b}}},sort=nearest,limit=1] run function vh_mode:summon/zombie_king
+execute unless entity @p[distance=..30] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:1b}}},sort=nearest,limit=1] run function para7_utils:killme
+execute unless entity @p[distance=..30] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:1b}}},sort=nearest,limit=1] run function vh_mode:summon/zombie_king
 
 # おばけブーツ
-execute unless entity @p[distance=..33] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:2b}}},sort=nearest,limit=1] run function para7_utils:killme
-execute unless entity @p[distance=..33] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:2b}}},sort=nearest,limit=1] run function vh_mode:summon/ghostboots
-execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:2b}}},sort=nearest,limit=1] run function vh_mode:summon/ghostboots
+execute unless entity @p[distance=..26] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:2b}}},sort=nearest,limit=1] run function para7_utils:killme
+execute unless entity @p[distance=..26] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:2b}}},sort=nearest,limit=1] run function vh_mode:summon/ghostboots
+# execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:2b}}},sort=nearest,limit=1] run function vh_mode:summon/ghostboots
+
+execute unless entity @p[distance=..26] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:3b}}},sort=nearest,limit=1] run function para7_utils:killme
+execute unless entity @p[distance=..26] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:3b}}},sort=nearest,limit=1] run function vh_mode:summon/pummeler
+
+
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:3b}}},sort=nearest,limit=1] run function para7_utils:killme
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:3b}}},sort=nearest,limit=1] run function vh_mode:summon/pummeler
+

@@ -17,3 +17,7 @@ loot spawn ~ ~ ~ loot vh_mode:entities/selector_skeleton
 
 execute unless entity @p[distance=..32] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{elyte:1b}}},sort=nearest,limit=1] run function para7_utils:killme
 execute unless entity @p[distance=..32] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{elyte:1b}}},sort=nearest,limit=1] run function vh_mode:summon/skeleton_elyte
+
+execute unless entity @p[distance=..32] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:1b}}},sort=nearest,limit=1] run function para7_utils:killme
+execute unless entity @p[distance=..32] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:1b}}},sort=nearest,limit=1] run function vh_mode:summon/chimera
+

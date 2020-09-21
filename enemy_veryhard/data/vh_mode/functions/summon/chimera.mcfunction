@@ -1,0 +1,1 @@
+summon spider ~ ~ ~ {CustomNameVisible:0b,Health:50f,Tags:["vh_Edited"],Passengers:[{id:"minecraft:skeleton",CustomNameVisible:0b,Health:80f,Tags:["vh_Edited"],Passengers:[{id:"minecraft:guardian",Health:60f,Tags:["vh_Edited"],CustomName:'{"text":"キマイラ"}',Attributes:[{Name:generic.attack_damage,Base:10}]}],CustomName:'{"text":"Grumm"}'}],CustomName:'{"text":"Grumm"}'}

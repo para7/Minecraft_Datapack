@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 350,
+                    "weight": 400,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -34,6 +34,24 @@
                         {
                             "function": "set_nbt",
                             "tag": "{elyte:1b,SelectKill:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 40,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:1b,SelectKill:1b}"
                         },
                         {
                             "function": "set_name"
