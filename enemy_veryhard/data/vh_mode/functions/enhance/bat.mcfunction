@@ -19,6 +19,13 @@ execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:2b}}},sort=nearest,limit=1] run function para7_utils:killme
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:2b}}},sort=nearest,limit=1] run function vh_mode:summon/poisonbat
 
+
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:3b}}},sort=nearest,limit=1] run data merge entity @s {Glowing:1b,CustomNameVisible:1b,CustomName:'{"text":"レベルイーター"}'}
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:3b}}},sort=nearest,limit=1] run effect give @s minecraft:regeneration 999999 1
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:3b}}},sort=nearest,limit=1] run tag @s add Skill
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:3b}}},sort=nearest,limit=1] run tag @s add Skill_LevelEater
+
+
 # # 1 巨匠
 # execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Type:1b}}},sort=nearest,limit=1] run data merge entity @s {powered:1b}
 

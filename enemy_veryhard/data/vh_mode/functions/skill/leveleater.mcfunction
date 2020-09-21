@@ -1,0 +1,1 @@
+xp add @a[distance=..6] -1 points

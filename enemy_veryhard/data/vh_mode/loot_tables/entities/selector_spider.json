@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 4,
+                    "weight": 100,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -34,42 +34,6 @@
                         {
                             "function": "set_nbt",
                             "tag": "{type:1b,SelectKill:1b}"
-                        },
-                        {
-                            "function": "set_name"
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 5,
-                    "name": "minecraft:paper",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{type:2b,SelectKill:1b}"
-                        },
-                        {
-                            "function": "set_name"
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 3,
-                    "name": "minecraft:paper",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{type:3b,SelectKill:1b}"
                         },
                         {
                             "function": "set_name"
