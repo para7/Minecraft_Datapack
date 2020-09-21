@@ -28,7 +28,7 @@
 
 ------
 
-# ver2.0 ( 9/xx xx:xx will be released )
+# ver2.0 ( 9/22 1:20 released )
 
 ## 魔法
 
