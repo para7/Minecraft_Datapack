@@ -4,6 +4,11 @@
 サーバー代寄付先はこちら  
 <https://www.amazon.jp/hz/wishlist/ls/277F9G08R0TT7?ref_=wl_share>
 
+VPSはConohaで借りてるんだけどカードとかでいけるのか?  
+<https://www.conoha.jp/conohacard/>  
+まあいつ鯖を移動したりするかとか分からないし、幅が広いギフトで問題ないです。
+
+
 ### bay leaf さん  
 ありがとうございます。動画化する際には東北ずん子で声をつけさせて頂きます。
 
