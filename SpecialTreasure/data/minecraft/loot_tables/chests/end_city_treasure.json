@@ -3,8 +3,8 @@
     "pools": [
         {
             "rolls": {
-                "min": 1,
-                "max": 2
+                "min": 0,
+                "max": 1
             },
             "bonus_rolls": {
                 "min": 0,
@@ -79,8 +79,8 @@
         },
         {
             "rolls": {
-                "min": 1,
-                "max": 2
+                "min": 0,
+                "max": 1
             },
             "bonus_rolls": {
                 "min": 0,
@@ -313,7 +313,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 3,
                     "quality": 1,
                     "name": "minecraft:wooden_pickaxe",
                     "functions": [
@@ -345,7 +345,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 2,
                     "quality": 1,
                     "name": "minecraft:shield",
                     "functions": [
@@ -377,7 +377,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 2,
                     "quality": 1,
                     "name": "minecraft:end_crystal",
                     "functions": [
@@ -409,7 +409,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 3,
                     "quality": 1,
                     "name": "minecraft:potion",
                     "functions": [
@@ -441,7 +441,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 2,
                     "quality": 1,
                     "name": "minecraft:lingering_potion",
                     "functions": [
@@ -451,7 +451,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:32,CustomPotionEffects:[{Id:7b,Amplifier:10b,Duration:15}]}"
+                            "tag": "{HideFlags:32,CustomPotionEffects:[{Id:7b,Amplifier:10b,Duration:13}]}"
                         },
                         {
                             "function": "set_name",
@@ -505,7 +505,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 3,
                     "quality": 1,
                     "name": "minecraft:crossbow",
                     "functions": [
@@ -521,7 +521,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 2,
                     "quality": 1,
                     "name": "minecraft:carved_pumpkin",
                     "functions": [
@@ -545,7 +545,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 3,
                     "quality": 1,
                     "name": "minecraft:netherite_ingot",
                     "functions": [
@@ -557,7 +557,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 2,
                     "quality": 1,
                     "name": "minecraft:lingering_potion",
                     "functions": [
@@ -592,7 +592,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 2,
                     "quality": 1,
                     "name": "minecraft:netherite_chestplate",
                     "functions": [
@@ -607,7 +607,7 @@
                         {
                             "function": "set_damage",
                             "damage": {
-                                "min": 0.4,
+                                "min": 0.5,
                                 "max": 0.8
                             }
                         },
@@ -634,7 +634,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 3,
                     "quality": 1,
                     "name": "minecraft:redstone_block",
                     "functions": [
@@ -668,7 +668,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 3,
                     "quality": 1,
                     "name": "minecraft:gold_block",
                     "functions": [
@@ -702,7 +702,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 3,
                     "quality": 1,
                     "name": "minecraft:emerald_block",
                     "functions": [
@@ -712,7 +712,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:depth_strider\",lvl:10s},{id:\"minecraft:frost_walker\",lvl:10s},{id:\"minecraft:sharpness\",lvl:3s},{id:\"minecraft:looting\",lvl:4s},{id:\"minecraft:soul_speed\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:1,Operation:0,UUID:[I;-2053515031,-1128509647,-1282960873,24439618],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:2,Operation:0,UUID:[I;442455498,-981447642,-1496258118,1321730743],Slot:\"offhand\"}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:depth_strider\",lvl:10s},{id:\"minecraft:frost_walker\",lvl:10s},{id:\"minecraft:sharpness\",lvl:10s},{id:\"minecraft:looting\",lvl:4s},{id:\"minecraft:soul_speed\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:1,Operation:0,UUID:[I;-2053515031,-1128509647,-1282960873,24439618],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:2,Operation:0,UUID:[I;442455498,-981447642,-1496258118,1321730743],Slot:\"offhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -736,7 +736,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 3,
                     "quality": 1,
                     "name": "minecraft:book",
                     "functions": [
@@ -746,7 +746,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:14,Operation:0,UUID:[I;1359950663,189550273,-2064358314,162928296],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:-1,Operation:2,UUID:[I;1332340288,-1793504207,-1234259003,1712465994],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:-1,Operation:2,UUID:[I;587193168,-1640282005,-2117160691,557033897],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-1,Operation:2,UUID:[I;-1909655287,-1607185699,-2017760291,-706034382],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-1,Operation:2,UUID:[I;-1823432093,-1807006338,-2129861447,-806998126],Slot:\"offhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:2,Operation:2,UUID:[I;-42624051,-1479982033,-1917103943,1863093085],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:2,Operation:2,UUID:[I;-1178400934,-1009039038,-1433589584,354072433],Slot:\"offhand\"}]}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:14,Operation:0,UUID:[I;1359950663,189550273,-2064358314,162928296],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:-1,Operation:2,UUID:[I;1332340288,-1793504207,-1234259003,1712465994],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:-1,Operation:2,UUID:[I;587193168,-1640282005,-2117160691,557033897],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-1,Operation:2,UUID:[I;-1909655287,-1607185699,-2017760291,-706034382],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-1,Operation:2,UUID:[I;-1823432093,-1807006338,-2129861447,-806998126],Slot:\"offhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:2,Operation:2,UUID:[I;-42624051,-1479982033,-1917103943,1863093085],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:2,Operation:2,UUID:[I;-1178400934,-1009039038,-1433589584,354072433],Slot:\"offhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-1716146889,1203455587,-1697799325,-1268808385],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-1903033555,-899660556,-1577598476,-2084307056],Slot:\"offhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -768,7 +768,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 2,
                     "quality": 1,
                     "name": "minecraft:golden_sword",
                     "functions": [
@@ -793,6 +793,9 @@
                             "lore": [
                                 {
                                     "text": "伝説の騎士剣。王の中の王、真の王者の剣。"
+                                },
+                                {
+                                    "text": "聖属性"
                                 }
                             ]
                         }
@@ -800,7 +803,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 3,
                     "name": "minecraft:netherite_sword",
                     "functions": [
                         {
@@ -855,6 +858,38 @@
                             "lore": [
                                 {
                                     "text": "結界で所有者を守る"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "quality": 1,
+                    "name": "minecraft:netherite_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1b,Enchantments:[{id:\"minecraft:protection\",lvl:20s},{id:\"minecraft:fire_protection\",lvl:10s},{id:\"minecraft:feather_falling\",lvl:10s},{id:\"minecraft:blast_protection\",lvl:10s},{id:\"minecraft:projectile_protection\",lvl:10s},{id:\"minecraft:aqua_affinity\",lvl:1s},{id:\"minecraft:depth_strider\",lvl:3s},{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:vanishing_curse\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-1,Operation:1,UUID:[I;-1275450821,1594248484,-1220037991,482119714],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:10,Operation:0,UUID:[I;-689979463,990003644,-1560156714,-1845133012],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;-744544348,1769687429,-1333715055,419924540],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.2,Operation:0,UUID:[I;-3754875,2108837267,-2146638344,1477058641],Slot:\"chest\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "真王の鎧"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "凄まじい力と引き換えに何かを失う"
                                 }
                             ]
                         }

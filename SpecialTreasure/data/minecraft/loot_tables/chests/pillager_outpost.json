@@ -111,7 +111,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:10,Enchantments:[{id:\"minecraft:unbreaking\",lvl:2s},{id:\"minecraft:multishot\",lvl:1s},{id:\"minecraft:quick_charge\",lvl:2s}]}"
+                            "tag": "{RepairCost:10,Enchantments:[{id:\"minecraft:unbreaking\",lvl:2s},{id:\"minecraft:multishot\",lvl:1s},{id:\"minecraft:piercing\",lvl:1s},{id:\"minecraft:quick_charge\",lvl:2s}]}"
                         }
                     ]
                 }

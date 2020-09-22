@@ -20,7 +20,15 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:1,Enchantments:[{id:\"minecraft:knockback\",lvl:25s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:1,Operation:1,UUID:[I;-485441551,911427096,-1692593098,-1766978763],Slot:\"head\"}]}"
+                            "tag": "{HideFlags:3,Enchantments:[{id:\"minecraft:knockback\",lvl:25s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:1,Operation:1,UUID:[I;-485441551,911427096,-1692593098,-1766978763],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:10,Operation:0,UUID:[I;-1587276701,-1068416650,-1600547062,962388174]}]}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "どちらの手に持っても強い"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -41,7 +49,7 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "光ってるだけだと思う。"
+                                    "text": "光ってるだけ"
                                 }
                             ]
                         }
@@ -69,7 +77,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-914014550,591415233,-1857023608,-784409436],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1317587340,-931770397,-2080453443,2120977691],Slot:\"head\"}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-914014550,591415233,-1857023608,-784409436],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1317587340,-931770397,-2080453443,2120977691],Slot:\"head\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;-136759995,1773489664,-1556086885,199744653],Slot:\"head\"}]}"
                         },
                         {
                             "function": "set_name",

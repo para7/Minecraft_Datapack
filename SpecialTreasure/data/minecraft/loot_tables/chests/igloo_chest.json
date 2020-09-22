@@ -116,6 +116,7 @@
                 {
                     "type": "item",
                     "weight": 2,
+                    "quality": 1,
                     "name": "minecraft:diamond_sword",
                     "functions": [
                         {
@@ -151,6 +152,7 @@
                 {
                     "type": "item",
                     "weight": 3,
+                    "quality": 1,
                     "name": "minecraft:diamond_leggings",
                     "functions": [
                         {
@@ -182,6 +184,7 @@
                 {
                     "type": "item",
                     "weight": 3,
+                    "quality": 1,
                     "name": "minecraft:diamond_boots",
                     "functions": [
                         {
@@ -213,6 +216,7 @@
                 {
                     "type": "item",
                     "weight": 1,
+                    "quality": 1,
                     "name": "minecraft:campfire",
                     "functions": [
                         {
@@ -278,6 +282,7 @@
                 {
                     "type": "item",
                     "weight": 1,
+                    "quality": 1,
                     "name": "minecraft:lapis_lazuli",
                     "functions": [
                         {
@@ -286,7 +291,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;461745618,791433178,-1515885126,-1818058202],Slot:\"offhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:-1,Operation:2,UUID:[I;2001810931,-1594732931,-1385187809,-1688004148],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-956070765,833241701,-1539417394,1277154663],Slot:\"offhand\"}]}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;461745618,791433178,-1515885126,-1818058202],Slot:\"offhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:2,UUID:[I;2001810931,-1594732931,-1385187809,-1688004148],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-956070765,833241701,-1539417394,1277154663],Slot:\"offhand\"}]}"
                         },
                         {
                             "function": "set_name",

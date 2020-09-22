@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:3,Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:6s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:-0.5,Operation:2,UUID:[I;-1858950873,-1686355048,-1607138869,-520843119],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.2,Operation:2,UUID:[I;-671807762,-1033941336,-1707059592,-1523118749],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:18,Operation:0,UUID:[I;-259669831,475483262,-1621677274,-166159320],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:-0.5,Operation:2,UUID:[I;613570485,1641434923,-1190661619,1277315577],Slot:\"offhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.2,Operation:2,UUID:[I;1355809366,1580354827,-1356598541,885618636],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:2,UUID:[I;-1804662034,897797227,-2143127057,248763514],Slot:\"offhand\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-1,Operation:0,UUID:[I;-848255167,-1746318516,-1081136325,1514839512]}]}"
+                            "tag": "{HideFlags:3,Enchantments:[{id:\"minecraft:smite\",lvl:2s},{id:\"minecraft:bane_of_arthropods\",lvl:6s}],AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-0.6,Operation:2,UUID:[I;-1858950873,-1686355048,-1607138869,-520843119],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.2,Operation:2,UUID:[I;-671807762,-1033941336,-1707059592,-1523118749],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:18,Operation:0,UUID:[I;-259669831,475483262,-1621677274,-166159320],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-0.6,Operation:2,UUID:[I;613570485,1641434923,-1190661619,1277315577],Slot:\"offhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.2,Operation:2,UUID:[I;1355809366,1580354827,-1356598541,885618636],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:2,UUID:[I;-1804662034,897797227,-2143127057,248763514],Slot:\"offhand\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-1,Operation:0,UUID:[I;-848255167,-1746318516,-1081136325,1514839512]}]}"
                         },
                         {
                             "function": "set_name",
@@ -204,7 +204,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-386173705,178472134,-1155842015,-1221794821],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:5,Operation:0,UUID:[I;-1918137241,-1354547112,-1733820810,2113239298],Slot:\"mainhand\"}]}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-386173705,178472134,-1155842015,-1221794821],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:99,Operation:0,UUID:[I;-1918137241,-1354547112,-1733820810,2113239298],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -235,7 +235,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:5,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:quick_charge\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.4,Operation:2,UUID:[I;1477785161,1575568935,-1465161690,-98491613],Slot:\"offhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.3,Operation:2,UUID:[I;-214608512,881609154,-1423944597,-1791952104],Slot:\"mainhand\"}]}"
+                            "tag": "{RepairCost:15,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:quick_charge\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.4,Operation:2,UUID:[I;1477785161,1575568935,-1465161690,-98491613],Slot:\"offhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.3,Operation:2,UUID:[I;-214608512,881609154,-1423944597,-1791952104],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -267,7 +267,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:8s},{id:\"minecraft:fire_protection\",lvl:2s},{id:\"minecraft:feather_falling\",lvl:5s},{id:\"minecraft:blast_protection\",lvl:2s},{id:\"minecraft:depth_strider\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:8s},{id:\"minecraft:soul_speed\",lvl:3s}]}"
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:protection\",lvl:8s},{id:\"minecraft:fire_protection\",lvl:2s},{id:\"minecraft:feather_falling\",lvl:5s},{id:\"minecraft:blast_protection\",lvl:2s},{id:\"minecraft:depth_strider\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:9s},{id:\"minecraft:soul_speed\",lvl:3s}]}"
                         },
                         {
                             "function": "set_name",
@@ -301,7 +301,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:1,Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:15s}]}"
+                            "tag": "{HideFlags:1,Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:20s}]}"
                         },
                         {
                             "function": "set_name",
@@ -332,7 +332,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:34,Enchantments:[{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:fortune\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:1,Operation:0,UUID:[I;-1621590264,42944933,-1307684552,-856269856]}],Potion:\"minecraft:luck\"}"
+                            "tag": "{HideFlags:34,Enchantments:[{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:fortune\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:3,Operation:0,UUID:[I;-1621590264,42944933,-1307684552,-856269856]}],Potion:\"minecraft:luck\"}"
                         },
                         {
                             "function": "set_name",

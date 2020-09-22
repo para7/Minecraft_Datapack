@@ -56,7 +56,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 10,
+                    "weight": 5,
                     "quality": 2,
                     "name": "minecraft:saddle",
                     "functions": [
@@ -66,7 +66,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:34,Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.6,Operation:0,UUID:[I;1278019998,965165147,-1874920222,832202585]},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.3,Operation:1,UUID:[I;1933646920,1015041334,-1992017183,338690940]}]}"
+                            "tag": "{HideFlags:34,Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.6,Operation:0,UUID:[I;1278019998,965165147,-1874920222,832202585]},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:-1,Operation:2,UUID:[I;1933646920,1015041334,-1992017183,338690940]}]}"
                         },
                         {
                             "function": "set_name",
@@ -88,7 +88,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 14,
+                    "weight": 12,
                     "quality": 2,
                     "name": "minecraft:name_tag",
                     "functions": [
@@ -141,7 +141,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-1236052341,-1908716283,-1393524342,-2029830423],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-1814940086,-710783680,-1269908498,817538816],Slot:\"head\"}]}"
+                            "tag": "{RepairCost:10,Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-1236052341,-1908716283,-1393524342,-2029830423],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-1814940086,-710783680,-1269908498,817538816],Slot:\"head\"}]}"
                         }
                     ]
                 },
@@ -157,7 +157,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1399277087,-373276429,-2086957840,1915562286],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1191251651,630738602,-1337810885,-1070874021],Slot:\"head\"}]}"
+                            "tag": "{RepairCost:10,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1399277087,-373276429,-2086957840,1915562286],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1191251651,630738602,-1337810885,-1070874021],Slot:\"head\"}]}"
                         }
                     ]
                 },
@@ -173,7 +173,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;253639406,908609274,-1665688960,-1390710172],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1282940416,1662144461,-1174345153,1339552662],Slot:\"chest\"}]}"
+                            "tag": "{RepairCost:10,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;253639406,908609274,-1665688960,-1390710172],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1282940416,1662144461,-1174345153,1339552662],Slot:\"chest\"}]}"
                         }
                     ]
                 },
@@ -189,7 +189,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-1899532588,-587641812,-1434729818,1862590468],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;146871514,-1505214357,-2008587262,-1880679326],Slot:\"legs\"}]}"
+                            "tag": "{RepairCost:10,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-1899532588,-587641812,-1434729818,1862590468],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;146871514,-1505214357,-2008587262,-1880679326],Slot:\"legs\"}]}"
                         }
                     ]
                 },
@@ -205,7 +205,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-49283366,1715815175,-1410863950,1131165187],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-797270496,1811172915,-1885971117,668844248],Slot:\"feet\"}]}"
+                            "tag": "{RepairCost:10,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-49283366,1715815175,-1410863950,1131165187],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-797270496,1811172915,-1885971117,668844248],Slot:\"feet\"}]}"
                         }
                     ]
                 }

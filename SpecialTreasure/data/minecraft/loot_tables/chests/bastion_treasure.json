@@ -50,7 +50,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;-1008358582,276317957,-1088941754,637953280],Slot:\"offhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;-1315857281,-1762836020,-2099212055,-820908277],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:0,UUID:[I;1316267203,-270187780,-1603980726,-1585697883],Slot:\"offhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;472258370,910903492,-1679928312,1214758950],Slot:\"offhand\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:1,Operation:0,UUID:[I;1659875409,-120502718,-1708439280,191719274],Slot:\"offhand\"}]}"
+                            "tag": "{Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;-1008358582,276317957,-1088941754,637953280],Slot:\"offhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;-1315857281,-1762836020,-2099212055,-820908277],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:0,UUID:[I;1316267203,-270187780,-1603980726,-1585697883],Slot:\"offhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:1,UUID:[I;472258370,910903492,-1679928312,1214758950],Slot:\"offhand\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:1,Operation:0,UUID:[I;1659875409,-120502718,-1708439280,191719274],Slot:\"offhand\"}],LodestoneDimension:\"minecraft:the_nether\",LodestoneTracked:1b,LodestonePos:{X:0,Y:0,Z:0}}"
                         },
                         {
                             "function": "set_name",
@@ -84,7 +84,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;236889012,1158365221,-1695610664,239078658],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:15,Operation:0,UUID:[I;1554101032,-1347862336,-1615070784,354294310],Slot:\"mainhand\"}]}"
+                            "tag": "{HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:0.34,Operation:1,UUID:[I;236889012,1158365221,-1695610664,239078658],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;1554101032,-1347862336,-1615070784,354294310],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_lore",
@@ -107,7 +107,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:20,Enchantments:[{id:\"minecraft:smite\",lvl:3s},{id:\"minecraft:sweeping\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:0,Operation:0,UUID:[I;386610768,-872987502,-1208510302,-1126609176],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:256,Operation:0,UUID:[I;-1866012331,-357216576,-2082053584,62219867],Slot:\"mainhand\"}]}"
+                            "tag": "{RepairCost:20,Enchantments:[{id:\"minecraft:smite\",lvl:2s},{id:\"minecraft:sweeping\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:2s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:0,Operation:0,UUID:[I;386610768,-872987502,-1208510302,-1126609176],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:256,Operation:0,UUID:[I;-1866012331,-357216576,-2082053584,62219867],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",

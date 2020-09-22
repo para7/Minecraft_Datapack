@@ -19,7 +19,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:999,Enchantments:[{id:\"minecraft:feather_falling\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1090509179,-1748088083,-1411844534,882786960],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1514412132,27938159,-1566010430,-1046691833],Slot:\"feet\"}]}"
+                            "tag": "{RepairCost:999,Enchantments:[{id:\"minecraft:feather_falling\",lvl:20s},{id:\"minecraft:unbreaking\",lvl:10s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1090509179,-1748088083,-1411844534,882786960],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:0,UUID:[I;1514412132,27938159,-1566010430,-1046691833],Slot:\"feet\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -42,6 +42,7 @@
                 {
                     "type": "item",
                     "weight": 8,
+                    "quality": 4,
                     "name": "minecraft:potion",
                     "functions": [
                         {
@@ -84,7 +85,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:20,Enchantments:[{id:\"minecraft:knockback\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:17,Operation:0,UUID:[I;402515903,-1071296912,-1895608666,236341888],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.85,Operation:2,UUID:[I;261103581,1166888194,-1076839274,836269967],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-0.85,Operation:2,UUID:[I;-321549887,-1074967236,-1989121472,-39641490],Slot:\"mainhand\"}]}"
+                            "tag": "{RepairCost:20,Enchantments:[{id:\"minecraft:knockback\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:17,Operation:0,UUID:[I;402515903,-1071296912,-1895608666,236341888],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.85,Operation:2,UUID:[I;261103581,1166888194,-1076839274,836269967],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-0.85,Operation:2,UUID:[I;-321549887,-1074967236,-1989121472,-39641490],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-1401446750,-276806364,-1427819623,-1409289651],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -155,6 +156,7 @@
                 {
                     "type": "item",
                     "weight": 10,
+                    "quality": 2,
                     "name": "minecraft:netherite_boots",
                     "functions": [
                         {
@@ -170,6 +172,7 @@
                 {
                     "type": "item",
                     "weight": 10,
+                    "quality": 1,
                     "name": "minecraft:shield",
                     "functions": [
                         {
@@ -264,6 +267,18 @@
                         {
                             "function": "set_count",
                             "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 1,
+                    "name": "minecraft:ender_pearl",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 16
                         }
                     ]
                 }

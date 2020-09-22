@@ -37,7 +37,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:9999,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:fire_aspect\",lvl:5s},{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:8s}]}"
+                            "tag": "{RepairCost:9999,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:fire_aspect\",lvl:5s},{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:10s}]}"
                         },
                         {
                             "function": "set_name",
@@ -69,7 +69,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:1,Enchantments:[{id:\"minecraft:smite\",lvl:12s},{id:\"minecraft:knockback\",lvl:1s}],StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}"
+                            "tag": "{HideFlags:1,Enchantments:[{id:\"minecraft:smite\",lvl:25s},{id:\"minecraft:knockback\",lvl:1s}],StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}"
                         },
                         {
                             "function": "set_name",
@@ -101,7 +101,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:3,Enchantments:[{id:\"minecraft:sharpness\",lvl:10s},{id:\"minecraft:looting\",lvl:6s}]}"
+                            "tag": "{HideFlags:3,Enchantments:[{id:\"minecraft:sharpness\",lvl:10s},{id:\"minecraft:looting\",lvl:6s},{id:\"minecraft:fortune\",lvl:6s}],AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:1,Operation:0,UUID:[I;584596212,1689141631,-1781903976,81858888]}]}"
                         },
                         {
                             "function": "set_lore",
@@ -125,7 +125,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.9,Operation:2,UUID:[I;-254365122,1248676191,-1074666561,-1276396578],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:2,UUID:[I;-335174709,2038515456,-1756402230,-1942866297],Slot:\"offhand\"}]}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.9,Operation:2,UUID:[I;-254365122,1248676191,-1074666561,-1276396578],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:2,UUID:[I;-335174709,2038515456,-1756402230,-1942866297],Slot:\"offhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.6,Operation:2,UUID:[I;-1870221541,59393119,-1842107354,1503485026],Slot:\"offhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -196,7 +196,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:10s},{id:\"minecraft:fire_protection\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:10s}]}"
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:protection\",lvl:10s},{id:\"minecraft:fire_protection\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-801619280,-544980225,-1806507682,-1518158237],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-1649060924,1171803184,-1706394794,-113379811],Slot:\"legs\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;2063234893,-1733999378,-1866551593,-595605274],Slot:\"legs\"}]}"
                         }
                     ]
                 },
@@ -211,7 +211,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:999,Enchantments:[{id:\"minecraft:protection\",lvl:10s},{id:\"minecraft:fire_protection\",lvl:2s},{id:\"minecraft:aqua_affinity\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:10s}]}"
+                            "tag": "{RepairCost:999,Enchantments:[{id:\"minecraft:protection\",lvl:10s},{id:\"minecraft:fire_protection\",lvl:2s},{id:\"minecraft:aqua_affinity\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.1,Operation:0,UUID:[I;292567140,1800357935,-1868792460,287065056],Slot:\"head\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;-2144006503,-1354349220,-1456041237,2129984559],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1718639498,-757250592,-1095086869,1451826609],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;171553254,-828813651,-1476029435,-1983679948],Slot:\"head\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -228,6 +228,21 @@
                                     "text": "妖精の王に捧げられると言われる冠"
                                 }
                             ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:netherite_boots",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:protection\",lvl:4s},{id:\"minecraft:feather_falling\",lvl:8s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}]}"
                         }
                     ]
                 }

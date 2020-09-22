@@ -10,7 +10,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 20,
+                    "weight": 24,
                     "quality": 3,
                     "name": "minecraft:enchanted_golden_apple",
                     "functions": [
@@ -35,7 +35,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:9999,Enchantments:[{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:10s}]}"
+                            "tag": "{RepairCost:9999,Enchantments:[{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:15s}]}"
                         },
                         {
                             "function": "set_name",
@@ -57,7 +57,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 14,
+                    "weight": 6,
                     "name": "minecraft:potion",
                     "functions": [
                         {
@@ -69,7 +69,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:1b,Amplifier:1b,Duration:6000},{Id:3b,Amplifier:120b,Duration:6000},{Id:7b,Amplifier:2b,Duration:1},{Id:9b,Amplifier:1b,Duration:300},{Id:12b,Amplifier:1b,Duration:6000},{Id:15b,Amplifier:0b,Duration:40},{Id:16b,Amplifier:1b,Duration:6000},{Id:17b,Amplifier:10b,Duration:6000},{Id:18b,Amplifier:3b,Duration:40},{Id:19b,Amplifier:10b,Duration:200}],CustomPotionColor:1510768}"
+                            "tag": "{CustomPotionEffects:[{Id:1b,Amplifier:1b,Duration:60000},{Id:3b,Amplifier:120b,Duration:60000},{Id:7b,Amplifier:2b,Duration:1},{Id:9b,Amplifier:1b,Duration:300},{Id:12b,Amplifier:1b,Duration:60000},{Id:15b,Amplifier:0b,Duration:40},{Id:16b,Amplifier:1b,Duration:60000},{Id:17b,Amplifier:10b,Duration:60000},{Id:18b,Amplifier:3b,Duration:40},{Id:19b,Amplifier:10b,Duration:200}],CustomPotionColor:1510768}"
                         },
                         {
                             "function": "set_name",
@@ -105,7 +105,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:15,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:blast_protection\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:8s}]}"
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:blast_protection\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:8s}]}"
                         }
                     ]
                 },
@@ -180,7 +180,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 10,
+                    "weight": 14,
                     "name": "minecraft:name_tag",
                     "functions": [
                         {
@@ -247,7 +247,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:fire_aspect\",lvl:1s},{id:\"minecraft:looting\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:-4,Operation:0,UUID:[I;652091383,-214938005,-1272124759,517405609],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-4,Operation:0,UUID:[I;-1930532507,-841529991,-1489291688,-1099045505],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:44,Operation:0,UUID:[I;-644766843,-1420606023,-1610031008,-1645986282],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-4,Operation:0,UUID:[I;463225751,2048279333,-1405333327,359683969],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:1,Operation:0,UUID:[I;-1004530709,-1382789331,-1453050951,1611494762],Slot:\"mainhand\"}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:fire_aspect\",lvl:1s},{id:\"minecraft:looting\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:-4,Operation:0,UUID:[I;652091383,-214938005,-1272124759,517405609],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-4,Operation:0,UUID:[I;-1930532507,-841529991,-1489291688,-1099045505],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:44,Operation:0,UUID:[I;-644766843,-1420606023,-1610031008,-1645986282],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-4,Operation:0,UUID:[I;463225751,2048279333,-1405333327,359683969],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:1,Operation:0,UUID:[I;-1004530709,-1382789331,-1453050951,1611494762],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.44,Operation:1,UUID:[I;-1999096651,-1762898163,-2046798537,-39424878],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -269,7 +269,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 10,
+                    "weight": 14,
                     "name": "minecraft:tnt",
                     "functions": [
                         {

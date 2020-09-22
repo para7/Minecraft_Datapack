@@ -25,7 +25,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 26,
+                    "weight": 18,
                     "quality": 1,
                     "name": "minecraft:bamboo",
                     "functions": [
@@ -70,7 +70,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:3,Enchantments:[{id:\"minecraft:protection\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:0.6,Operation:1,UUID:[I;866147009,1653949810,-1682641787,293163293],Slot:\"offhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:0.6,Operation:1,UUID:[I;1771252345,-1816246585,-1291247711,454567135],Slot:\"mainhand\"}]}"
+                            "tag": "{HideFlags:3,Enchantments:[{id:\"minecraft:protection\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:1,Operation:1,UUID:[I;866147009,1653949810,-1682641787,293163293],Slot:\"offhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:1,Operation:1,UUID:[I;1771252345,-1816246585,-1291247711,454567135],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -150,7 +150,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:15,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:4s},{id:\"minecraft:blast_protection\",lvl:4s},{id:\"minecraft:projectile_protection\",lvl:4s},{id:\"minecraft:thorns\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:10s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;-464021598,-1893184454,-1076191458,-1372965840],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-1588189876,-287289888,-1156535259,1312141855],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.5,Operation:0,UUID:[I;-2070035680,1426409321,-2077117071,1385227577],Slot:\"chest\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-403053096,991907702,-1129417057,387956299],Slot:\"chest\"}]}"
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:4s},{id:\"minecraft:blast_protection\",lvl:4s},{id:\"minecraft:projectile_protection\",lvl:4s},{id:\"minecraft:thorns\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:10s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;-464021598,-1893184454,-1076191458,-1372965840],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-1588189876,-287289888,-1156535259,1312141855],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.5,Operation:0,UUID:[I;-2070035680,1426409321,-2077117071,1385227577],Slot:\"chest\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-403053096,991907702,-1129417057,387956299],Slot:\"chest\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -182,7 +182,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:17,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:power\",lvl:7s},{id:\"minecraft:punch\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.07,Operation:0,UUID:[I;-306192647,-1693365476,-1387397397,1297658471],Slot:\"mainhand\"}]}"
+                            "tag": "{RepairCost:17,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:power\",lvl:8s},{id:\"minecraft:punch\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.07,Operation:0,UUID:[I;-306192647,-1693365476,-1387397397,1297658471],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -214,7 +214,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:power\",lvl:10s}]}"
+                            "tag": "{RepairCost:20,Enchantments:[{id:\"minecraft:power\",lvl:10s}]}"
                         },
                         {
                             "function": "set_name",
@@ -245,13 +245,44 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:999,Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:smite\",lvl:8s},{id:\"minecraft:bane_of_arthropods\",lvl:8s},{id:\"minecraft:looting\",lvl:2s},{id:\"minecraft:impaling\",lvl:8s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;-331532091,264127775,-1467701503,-279981830],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-642920815,1441678092,-1226751741,-137567740],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.2,Operation:1,UUID:[I;-1855316796,-276607877,-1204958921,-952025724],Slot:\"mainhand\"}]}"
+                            "tag": "{RepairCost:999,Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:smite\",lvl:8s},{id:\"minecraft:bane_of_arthropods\",lvl:8s},{id:\"minecraft:looting\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:20s},{id:\"minecraft:impaling\",lvl:8s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;-331532091,264127775,-1467701503,-279981830],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-642920815,1441678092,-1226751741,-137567740],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.2,Operation:1,UUID:[I;-1855316796,-276607877,-1204958921,-952025724],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_lore",
                             "lore": [
                                 {
                                     "text": "全てを断ち切る"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:shield",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:fire_protection\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:10s}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "なべのふた"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "やたらと丈夫な素材で出来ている"
                                 }
                             ]
                         }

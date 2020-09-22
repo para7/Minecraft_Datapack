@@ -84,7 +84,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:10,Operation:0,UUID:[I;1438872233,898256405,-1179265557,1632606429],Slot:\"offhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.1,Operation:1,UUID:[I;1407051304,159468417,-1636281585,1368845720],Slot:\"offhand\"}]}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:10,Operation:0,UUID:[I;1438872233,898256405,-1179265557,1632606429],Slot:\"offhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.1,Operation:1,UUID:[I;1407051304,159468417,-1636281585,1368845720],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-449872009,-1604106236,-1782533893,1616281383],Slot:\"offhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -115,7 +115,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:32,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-429237914,975523527,-1372949149,634170670],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:9,Operation:0,UUID:[I;1700727304,-2060957680,-1853575207,374343450],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.6,Operation:1,UUID:[I;300082473,-742243735,-2121245062,-1357940971],Slot:\"mainhand\"}]}"
+                            "tag": "{HideFlags:32,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-429237914,975523527,-1372949149,634170670],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:9,Operation:0,UUID:[I;1700727304,-2060957680,-1853575207,374343450],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.5,Operation:1,UUID:[I;300082473,-742243735,-2121245062,-1357940971],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -140,7 +140,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 11,
+                    "weight": 10,
                     "name": "minecraft:bow",
                     "functions": [
                         {
@@ -149,7 +149,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:3,RepairCost:999,Enchantments:[{id:\"minecraft:unbreaking\",lvl:50s},{id:\"minecraft:power\",lvl:15s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.4,Operation:2,UUID:[I;1097129700,-216578907,-1575564719,-282338761]},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-0.7,Operation:2,UUID:[I;2132161008,-729330505,-1872176344,-673617930]}]}"
+                            "tag": "{HideFlags:3,RepairCost:999,Enchantments:[{id:\"minecraft:unbreaking\",lvl:60s},{id:\"minecraft:power\",lvl:17s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.4,Operation:2,UUID:[I;1097129700,-216578907,-1575564719,-282338761]},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-0.7,Operation:2,UUID:[I;2132161008,-729330505,-1872176344,-673617930]}]}"
                         },
                         {
                             "function": "set_damage",
@@ -187,7 +187,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:9b,Amplifier:0b,Duration:12000},{Id:22b,Amplifier:4b,Duration:6000}]}"
+                            "tag": "{CustomPotionEffects:[{Id:9b,Amplifier:0b,Duration:12000},{Id:22b,Amplifier:4b,Duration:6000},{Id:26b,Amplifier:0b,Duration:600}]}"
                         },
                         {
                             "function": "set_name",
@@ -283,7 +283,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:2,Enchantments:[{id:\"minecraft:respiration\",lvl:999s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:1,Operation:1,UUID:[I;1443383227,-2002039897,-1351949635,1817246814],Slot:\"offhand\"}]}"
+                            "tag": "{HideFlags:2,Enchantments:[{id:\"minecraft:respiration\",lvl:999s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:0.8,Operation:1,UUID:[I;1443383227,-2002039897,-1351949635,1817246814],Slot:\"offhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -297,7 +297,7 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "まさに魚　魚の中の魚"
+                                    "text": "まさに魚 魚の中の魚"
                                 }
                             ]
                         }
