@@ -39,7 +39,7 @@ execute if entity @s[scores={PMag_MFaith=4,PMag_MSelect=2,PMag_MP=16..}] run sco
 execute if entity @s[scores={PMag_MFaith=4,PMag_MSelect=3,PMag_MP=9..}] run function p_magic:exe/structure/magic3
 execute if entity @s[scores={PMag_MFaith=4,PMag_MSelect=3,PMag_MP=9..}] run scoreboard players remove @s PMag_MP 9
 
-execute if entity @s[scores={PMag_Enable=1}] run effect give @s minecraft:hunger 2 20 true
+execute if entity @s[scores={PMag_Enable=1}] run effect give @s minecraft:hunger 2 10 true
 
 execute if entity @s[scores={PMag_Enable=0}] run tellraw @s ["",{"text":"MPが足りません！"}]
 execute if entity @s[scores={PMag_Enable=0}] run playsound minecraft:block.dispenser.fail master @s ~ ~ ~ 1.0 1.4
