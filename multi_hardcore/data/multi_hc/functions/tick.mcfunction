@@ -9,7 +9,7 @@ scoreboard players remove @a MHCInterval 1
 scoreboard players set @a[scores={MHCInterval=..0}] MHCInterval 0
 
 # スペクテイターで自由に動けないように
-execute as @a[tag=IsGhost,gamemode=spectator] at @s unless entity @a[gamemode=!spectator,distance=..25] run tp @p[gamemode=!spectator]
+execute as @a[tag=IsGhost,gamemode=spectator] at @s unless entity @a[gamemode=!spectator,distance=..30] run tp @p[gamemode=!spectator]
 
 #不死のトーテム使用ログ
 # execute as @a[scores={MHCUseTotem=1..}] at @s run tellraw @a ["",{"selector":"@s"},"",{"text":" は不死のトーテムを発動させました"}]
