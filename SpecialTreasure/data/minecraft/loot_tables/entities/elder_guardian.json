@@ -25,8 +25,8 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 50,
-                    "quality": 2,
+                    "weight": 30,
+                    "quality": 1,
                     "name": "minecraft:potion",
                     "functions": [
                         {
@@ -50,7 +50,7 @@
                 {
                     "type": "item",
                     "weight": 30,
-                    "quality": 5,
+                    "quality": 8,
                     "name": "minecraft:diamond_helmet",
                     "functions": [
                         {
@@ -66,7 +66,7 @@
                 {
                     "type": "item",
                     "weight": 30,
-                    "quality": 5,
+                    "quality": 8,
                     "name": "minecraft:diamond_chestplate",
                     "functions": [
                         {
@@ -82,7 +82,7 @@
                 {
                     "type": "item",
                     "weight": 30,
-                    "quality": 5,
+                    "quality": 8,
                     "name": "minecraft:diamond_leggings",
                     "functions": [
                         {
@@ -98,7 +98,7 @@
                 {
                     "type": "item",
                     "weight": 30,
-                    "quality": 5,
+                    "quality": 8,
                     "name": "minecraft:diamond_boots",
                     "functions": [
                         {

@@ -30,6 +30,8 @@ execute if entity @s[tag=Skill_KillBoat] run function vh_mode:skill/killboat
 
 execute if entity @s[tag=Skill_NotDrowned] run function vh_mode:skill/not_drowned
 
+execute if entity @s[tag=Skill_ElderGuardian] run function vh_mode:skill/elder_guardian
+
 execute if entity @s[tag=Skill_EnderDragon] run function vh_mode:skill/dragon/enderdragon
 execute if entity @s[tag=Skill_DragonDummy] run function vh_mode:skill/dragon/dragondummy
 execute if entity @s[tag=Skill_WitherGuard] run function vh_mode:skill/wither/knight

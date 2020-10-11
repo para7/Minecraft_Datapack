@@ -1,0 +1,46 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SelectKill:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:1b,SelectKill:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
