@@ -1,6 +1,6 @@
 {
     "pack": {
         "pack_format": 6,
-        "description": "ジョブシステムを追加 /function jobsystem/summon_hr"
+        "description": "(非推奨)ジョブシステムを追加 初めにこのコマンドを使用:/function jobsystem/summon_hr"
     }
 }
