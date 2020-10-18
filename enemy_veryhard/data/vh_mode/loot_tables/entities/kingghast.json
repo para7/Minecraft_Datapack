@@ -13,8 +13,8 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 20,
-                                "max": 40
+                                "min": 25,
+                                "max": 64
                             }
                         }
                     ]
@@ -23,6 +23,7 @@
         },
         {
             "rolls": 1,
+            "bonus_rolls": 0,
             "entries": [
                 {
                     "type": "item",
@@ -32,6 +33,10 @@
                         {
                             "function": "set_count",
                             "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:respiration\",lvl:3s},{id:\"minecraft:aqua_affinity\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}]}"
                         }
                     ]
                 },
@@ -43,17 +48,25 @@
                         {
                             "function": "set_count",
                             "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}]}"
                         }
                     ]
                 },
                 {
                     "type": "item",
                     "weight": 3,
-                    "name": "minecraft:netherite_ingot",
+                    "name": "minecraft:netherite_leggings",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}]}"
                         }
                     ]
                 },
@@ -65,6 +78,10 @@
                         {
                             "function": "set_count",
                             "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:feather_falling\",lvl:4s},{id:\"minecraft:depth_strider\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:soul_speed\",lvl:3s}]}"
                         }
                     ]
                 }

@@ -5,8 +5,8 @@ execute if entity @s[scores={PMag_MP=..4}] run scoreboard players add @s PMag_mp
 execute if entity @s[scores={PMag_MP=..15}] run scoreboard players add @s PMag_mpregene 10
 
 
-execute as @s[scores={PMag_mpregene=6400..}] run scoreboard players add @s PMag_MP 1
-execute as @s[scores={PMag_mpregene=6400..}] run scoreboard players set @s PMag_mpregene 0
+execute as @s[scores={PMag_mpregene=6100..}] run scoreboard players add @s PMag_MP 1
+execute as @s[scores={PMag_mpregene=6100..}] run scoreboard players set @s PMag_mpregene 0
 
 #最大MPの計算
 scoreboard players set @s PMag_MaxMP 20
