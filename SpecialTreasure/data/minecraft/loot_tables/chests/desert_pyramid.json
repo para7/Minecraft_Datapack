@@ -150,7 +150,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 8,
+                    "weight": 4,
                     "quality": 1,
                     "name": "minecraft:orange_terracotta",
                     "functions": [
@@ -165,7 +165,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 7,
+                    "weight": 4,
                     "name": "minecraft:iron_shovel",
                     "functions": [
                         {
@@ -332,7 +332,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:34,Enchantments:[{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:fortune\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:3,Operation:0,UUID:[I;-1621590264,42944933,-1307684552,-856269856]}],Potion:\"minecraft:luck\"}"
+                            "tag": "{HideFlags:34,Enchantments:[{id:\"minecraft:looting\",lvl:5s},{id:\"minecraft:fortune\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:3,Operation:0,UUID:[I;-1621590264,42944933,-1307684552,-856269856]}],Potion:\"minecraft:luck\"}"
                         },
                         {
                             "function": "set_name",
@@ -350,6 +350,29 @@
                                 },
                                 {
                                     "text": "これを見つけられた君に幸運あれ。"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_shovel",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:10s}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "神器円匙"
                                 }
                             ]
                         }

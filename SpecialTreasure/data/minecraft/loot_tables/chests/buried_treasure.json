@@ -45,6 +45,7 @@
                 {
                     "type": "item",
                     "weight": 9,
+                    "quality": 2,
                     "name": "minecraft:trident",
                     "functions": [
                         {
@@ -75,7 +76,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 18,
+                    "weight": 14,
+                    "quality": 1,
                     "name": "minecraft:barrel",
                     "functions": [
                         {
@@ -107,6 +109,7 @@
                 {
                     "type": "item",
                     "weight": 8,
+                    "quality": 1,
                     "name": "minecraft:music_disc_13",
                     "functions": [
                         {
@@ -141,6 +144,7 @@
                 {
                     "type": "item",
                     "weight": 10,
+                    "quality": 3,
                     "name": "minecraft:bow",
                     "functions": [
                         {
@@ -178,7 +182,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 8,
+                    "weight": 4,
                     "name": "minecraft:potion",
                     "functions": [
                         {
@@ -218,7 +222,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:impaling\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-1077370898,-1208597320,-1822327848,-1832453188],Slot:\"mainhand\"}]}"
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:impaling\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-1077370898,-1208597320,-1822327848,-1832453188],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -241,6 +245,7 @@
                 {
                     "type": "item",
                     "weight": 10,
+                    "quality": 2,
                     "name": "minecraft:leather_leggings",
                     "functions": [
                         {
@@ -249,7 +254,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{display:{color:16711680},Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:thorns\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;280576171,-58767354,-1952996750,1829040198],Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;1519171584,-137870895,-1556871544,144393304],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;32082667,-1581167790,-1809680222,973729077],Slot:\"legs\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.05,Operation:0,UUID:[I;-712316773,787041984,-1279082771,2140820809],Slot:\"legs\"}]}"
+                            "tag": "{display:{color:16711680},RepairCost:99,Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:thorns\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:4s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;280576171,-58767354,-1952996750,1829040198],Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;1519171584,-137870895,-1556871544,144393304],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;32082667,-1581167790,-1809680222,973729077],Slot:\"legs\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.05,Operation:0,UUID:[I;-712316773,787041984,-1279082771,2140820809],Slot:\"legs\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -298,6 +303,38 @@
                             "lore": [
                                 {
                                     "text": "まさに魚 魚の中の魚"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 8,
+                    "quality": 2,
+                    "name": "minecraft:fishing_rod",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:unbreaking\",lvl:8s},{id:\"minecraft:luck_of_the_sea\",lvl:5s},{id:\"minecraft:lure\",lvl:5s}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "すごいつりざお"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "SUGOI"
                                 }
                             ]
                         }

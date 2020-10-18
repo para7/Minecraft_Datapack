@@ -140,7 +140,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 20,
+                    "weight": 17,
                     "quality": 2,
                     "name": "minecraft:leather_chestplate",
                     "functions": [
@@ -236,8 +236,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 13,
-                    "name": "minecraft:wooden_axe",
+                    "weight": 18,
+                    "name": "minecraft:diamond_axe",
                     "functions": [
                         {
                             "function": "set_count",
@@ -245,13 +245,13 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:999,Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:smite\",lvl:8s},{id:\"minecraft:bane_of_arthropods\",lvl:8s},{id:\"minecraft:looting\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:20s},{id:\"minecraft:impaling\",lvl:8s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;-331532091,264127775,-1467701503,-279981830],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-642920815,1441678092,-1226751741,-137567740],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.2,Operation:1,UUID:[I;-1855316796,-276607877,-1204958921,-952025724],Slot:\"mainhand\"}]}"
+                            "tag": "{RepairCost:999,Enchantments:[{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:10s}]}"
                         },
                         {
-                            "function": "set_lore",
-                            "lore": [
+                            "function": "set_name",
+                            "name": [
                                 {
-                                    "text": "全てを断ち切る"
+                                    "text": "神器斧"
                                 }
                             ]
                         }
@@ -259,7 +259,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 10,
+                    "weight": 8,
                     "name": "minecraft:shield",
                     "functions": [
                         {

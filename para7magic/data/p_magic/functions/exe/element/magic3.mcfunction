@@ -2,7 +2,7 @@
 
 # function 
 
-execute as @e[distance=..17,type=#para7_utils:enemymob,sort=random,limit=2] at @s run function p_magic:exe/element/magic3_effect
+execute as @e[distance=..15,type=#para7_utils:enemymob,sort=random,limit=1] at @s run function p_magic:exe/element/magic3_effect
 
 # execute as @e[distance=..20,tag=MOB_NotFriend,sort=nearest,limit=5] at @s run effect give @s glowing
 
