@@ -4,9 +4,6 @@ attribute @s minecraft:generic.max_health base set 25
 # attribute @s minecraft:generic.knockback_resistance base set 0.7
 attribute @s minecraft:generic.movement_speed base set 0.25
 
-replaceitem entity @s armor.legs golden_leggings{display:{Name:'{"text":"ジャミング"}'},RepairCost:999,Damage:180,Enchantments:[{id:"minecraft:projectile_protection",lvl:6s}]} 1
-
-data merge entity @s {ArmorDropChances:[0.085f,0.00f,0.085f,0.085f]}
 
 effect give @s minecraft:instant_damage 1 20 true
 
@@ -21,3 +18,7 @@ execute unless entity @p[distance=..32] if entity @e[type=minecraft:item,nbt={It
 execute unless entity @p[distance=..32] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:1b}}},sort=nearest,limit=1] run function para7_utils:killme
 execute unless entity @p[distance=..32] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:1b}}},sort=nearest,limit=1] run function vh_mode:summon/chimera
 
+execute unless entity @p[distance=..32] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:2b}}},sort=nearest,limit=1] run replaceitem entity @s armor.legs golden_leggings{display:{Name:'{"text":"ジャミング"}'},RepairCost:999,Damage:180,Enchantments:[{id:"minecraft:projectile_protection",lvl:7s}]} 1
+execute unless entity @p[distance=..32] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:2b}}},sort=nearest,limit=1] run data merge entity @s {ArmorDropChances:[0.085f,0.00f,0.085f,0.085f]}
+
+# tell @a sss

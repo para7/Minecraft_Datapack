@@ -1,4 +1,4 @@
-tellraw @a ["",{"text":"エンチャントアローがインストールされています"}]
+# tellraw @a ["",{"text":"エンチャントアローがインストールされています"}]
 
 #弓使用判定
 scoreboard objectives add EArrowUsed minecraft.used:minecraft.bow

@@ -1,4 +1,4 @@
-tellraw @a ["",{"text":"マルチ用ハードコアモードが有効です"}]
+# tellraw @a ["",{"text":"マルチ用ハードコアモードが有効です"}]
 
 difficulty hard
 gamerule spectatorsGenerateChunks false

@@ -1,4 +1,4 @@
-tellraw @a ["",{"text":"ぱらなの魔法MODが有効です"}]
+# tellraw @a ["",{"text":"ぱらなの魔法MODが有効です"}]
 
 scoreboard objectives add PMag_UseWand minecraft.used:minecraft.carrot_on_a_stick
 

@@ -1,4 +1,4 @@
-tellraw @a ["",{"text":"魔法商人が追加されました"}]
+# tellraw @a ["",{"text":"魔法商人が追加されました"}]
 
 scoreboard objectives add SPEDropSugar minecraft.dropped:minecraft.sugar
 scoreboard objectives add SPEDropClock minecraft.dropped:minecraft.clock
