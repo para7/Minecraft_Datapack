@@ -32,21 +32,9 @@ scoreboard objectives add PJTradeVil minecraft.custom:minecraft.talked_to_villag
 scoreboard objectives add PJDeathCnt deathCount
 scoreboard objectives add PJHealth health
 
-# scoreboard objectives add PJEndFlag dummy
-
-# スキルタイマー：パッシブ
-# scoreboard objectives add PJPassiveInter dummy
-
-# セット中のスキル判定
-# scoreboard objectives add PJ dummy
-
-# ジョブレベル：ジョブ数分
-# scoreboard objectives add PJKnightLevel dummy
-# scoreboard objectives add PJHunterLevel dummy
-# scoreboard objectives add PJMinerLevel dummy
-# scoreboard objectives add PJBardLevel dummy
-# scoreboard objectives add PJMedicLevel dummy
-# scoreboard objectives add PJMermaidLevel dummy
-
+# ジョブ
+scoreboard objectives add PJendermanKill minecraft.killed:minecraft.enderman
+scoreboard objectives add PJdragonKill minecraft.killed:minecraft.ender_dragon
+scoreboard objectives add PJEndJobFlag trigger
 
 # ジョブ経験値計算用ボード：たくさん

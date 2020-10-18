@@ -5,6 +5,7 @@ execute if entity @s[scores={PJJobInfo=4}] run function pjob:job/init/bard
 execute if entity @s[scores={PJJobInfo=5}] run function pjob:job/init/medic
 execute if entity @s[scores={PJJobInfo=6}] run function pjob:job/init/marmaid
 execute if entity @s[scores={PJJobInfo=7}] run function pjob:job/init/charmer
+execute if entity @s[scores={PJJobInfo=90}] run function pjob:job/init/end
 
 # tell @a reset
 

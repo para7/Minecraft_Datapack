@@ -2,7 +2,7 @@
 
 # gamerule universalAnger true
 # gamerule forgiveDeadPlayers false
-gamerule reducedDebugInfo true
+# gamerule reducedDebugInfo true
 
 scoreboard objectives add Pvh_gshake dummy
 # scoreboard objectives add Pvh_gshake dummy
