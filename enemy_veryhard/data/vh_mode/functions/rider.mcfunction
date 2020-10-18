@@ -5,3 +5,4 @@ execute if entity @s[tag=withCaveSpider] unless entity @e[type=minecraft:cave_sp
 
 execute if entity @s[tag=withSkeleton] unless entity @e[type=minecraft:skeleton,distance=..3] run function para7_utils:killme
 execute if entity @s[tag=withSpider] unless entity @e[type=minecraft:spider,distance=..3] run function para7_utils:killme
+execute if entity @s[tag=withGuardian] unless entity @e[type=minecraft:guardian,distance=..3] run function para7_utils:killme
