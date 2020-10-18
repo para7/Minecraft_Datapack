@@ -1,6 +1,11 @@
-tellraw @a[distance=..50] [{"text":"目印を設置した！"}]
+execute if entity @e[type=#para7_utils:enemymob_notboss,distance=0.1..30,tag=!PJDummy,sort=nearest,limit=1] run tellraw @a[distance=..30] [{"selector":"@s"},{"text":"は"},{"selector":"@e[type=#para7_utils:enemymob_notboss,distance=0.1..30,tag=!PJDummy,sort=nearest,limit=1] run tellraw @a[distance=..30]"},{"text":"と入れ替わった！"}]
+execute unless entity @e[type=#para7_utils:enemymob_notboss,distance=0.1..30,tag=!PJDummy,sort=nearest,limit=1] run tellraw @s [{"text":"ワープに失敗した"}]
 
-summon endermite ~ ~ ~ {NoGravity:1b,Silent:1b,CustomNameVisible:1b,DeathLootTable:"null",PersistenceRequired:0b,NoAI:1b,Health:2f,Lifetime:600,PlayerSpawned:0b,CustomName:'{"text":"目印"}',ActiveEffects:[{Id:14b,Amplifier:0b,Duration:100},{Id:24b,Amplifier:0b,Duration:1800}],Attributes:[{Name:generic.max_health,Base:1},{Name:generic.knockback_resistance,Base:10},{Name:generic.attack_damage,Base:0}]}
+execute at @e[type=#para7_utils:enemymob_notboss,distance=0.1..20,tag=!PJDummy,sort=nearest,limit=1] run teleport ~ ~ ~
+teleport @e[type=#para7_utils:enemymob_notboss,distance=0.1..20,tag=!PJDummy,sort=nearest,limit=1] ~ ~ ~
 
-scoreboard players set @s PJSkillRecast 800
+scoreboard players set @s PJSkillRecast 300
 
+execute at @e[type=#para7_utils:friendmob,distance=0.1..30,tag=!PJDummy,sort=nearest,limit=1] run playsound minecraft:entity.enderman.teleport hostile @a ~ ~ ~ 1 1
+execute at @e[type=#para7_utils:friendmob,distance=0.1..30,tag=!PJDummy,sort=nearest,limit=1] run playsound minecraft:entity.experience_orb.pickup hostile @a ~ ~ ~ 1 1.8
+playsound minecraft:entity.enderman.teleport hostile @a ~ ~ ~ 1 1

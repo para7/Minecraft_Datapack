@@ -5,3 +5,4 @@ execute if entity @s[scores={PJJobInfo=4}] run function pjob:job/buff/bard
 execute if entity @s[scores={PJJobInfo=5}] run function pjob:job/buff/medic
 execute if entity @s[scores={PJJobInfo=6}] run function pjob:job/buff/marmaid
 execute if entity @s[scores={PJJobInfo=7}] run function pjob:job/buff/charmer
+execute if entity @s[scores={PJJobInfo=90}] run function pjob:job/buff/end

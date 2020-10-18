@@ -31,4 +31,8 @@ execute if entity @s[scores={PJJobInfo=7,PJSkillSelect=1}] run function pjob:ski
 execute if entity @s[scores={PJJobInfo=7,PJSkillSelect=2}] run function pjob:skill/exe/charmer/skill2
 execute if entity @s[scores={PJJobInfo=7,PJSkillSelect=3}] run function pjob:skill/exe/charmer/skill3
 
+execute if entity @s[scores={PJJobInfo=90,PJSkillSelect=1}] run function pjob:skill/exe/end/skill1
+execute if entity @s[scores={PJJobInfo=90,PJSkillSelect=2}] run function pjob:skill/exe/end/skill2
+execute if entity @s[scores={PJJobInfo=90,PJSkillSelect=3}] run function pjob:skill/exe/end/skill3
+
 playsound minecraft:entity.experience_orb.pickup master @a ~ ~ ~ 1 1.8

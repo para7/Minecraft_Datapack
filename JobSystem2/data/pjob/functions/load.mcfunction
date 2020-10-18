@@ -35,6 +35,7 @@ scoreboard objectives add PJHealth health
 # ジョブ
 scoreboard objectives add PJendermanKill minecraft.killed:minecraft.enderman
 scoreboard objectives add PJdragonKill minecraft.killed:minecraft.ender_dragon
-scoreboard objectives add PJEndJobFlag trigger
+scoreboard objectives add PJEndJobFlag trigger "エンド就職承諾"
+scoreboard objectives add PJUseEnderPearl minecraft.used:minecraft.ender_pearl
 
 # ジョブ経験値計算用ボード：たくさん

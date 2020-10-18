@@ -4,7 +4,4 @@ tellraw @s ["",{"text":"隠しジョブ「エンド」","color":"red"},{"text":"
 
 # /tellraw @a {text:"[正解は何番でしょうか？]",color:green,extra:[{text:" #1",color:white,clickEvent:{action:run_command,value:"/trigger answer set 1"}},{text:" #2",color:gold,clickEvent:{action:run_command,value:"/trigger answer set 2"}},{text:" #3",color:light_purple,clickEvent:{action:run_command,value:"/trigger answer set 3"}},{text:" #4",color:aqua,clickEvent:{action:run_command,value:"/trigger answer set 4"}}]}
 
-
-scoreboard players set @s PJdragonKill 0
-
 # trigger PJEndJobFlag set 1
