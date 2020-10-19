@@ -1,0 +1,1 @@
+summon rabbit ~ ~ ~ {Health:25f,RabbitType:99,Attributes:[{Name:generic.max_health,Base:25},{Name:generic.follow_range,Base:40}]}
