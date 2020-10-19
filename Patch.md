@@ -22,7 +22,7 @@
 
 [松明クロスボウのドキュメント](https://github.com/para7/Minecraft_Datapack/tree/master/TorchBow)
 
-[先行公開中のデータパック紹介動画](https://www.youtube.com/watch?v=MVyLnx0RtEg)
+[先行公開中のデータパック紹介動画(概要のみ)](https://www.youtube.com/watch?v=MVyLnx0RtEg)
 
 -----
 
