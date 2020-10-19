@@ -181,7 +181,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:2,Operation:0,UUID:[I;-1649463171,-197571699,-1391510034,2036445487],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:2,Operation:0,UUID:[I;-652676563,8735967,-1374561444,-628786322],Slot:\"offhand\"}]}"
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:3,Operation:0,UUID:[I;-1649463171,-197571699,-1391510034,2036445487],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:3,Operation:0,UUID:[I;-652676563,8735967,-1374561444,-628786322],Slot:\"offhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -196,6 +196,41 @@
                             "lore": [
                                 {
                                     "text": "竜に挑んだ勇者が使った盾。"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:10,Enchantments:[{id:\"minecraft:power\",lvl:10s},{id:\"minecraft:infinity\",lvl:1s}]}"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": 260
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "龍屠弓"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "来たるべき戦いで役に立つだろう。"
                                 }
                             ]
                         }
