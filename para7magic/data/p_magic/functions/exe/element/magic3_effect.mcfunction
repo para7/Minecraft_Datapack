@@ -5,8 +5,8 @@
 # execute as @e[distance=1..8,type=#para7_utils:undead] run effect give @s minecraft:instant_health 1 3
 # execute as @e[distance=1..8,type=!#para7_utils:undead] run effect give @s minecraft:instant_damage 1 3
 
-effect give @s minecraft:instant_health 1 5
-effect give @s minecraft:instant_damage 1 5
+effect give @s minecraft:instant_health 1 4
+effect give @s minecraft:instant_damage 1 4
 
 execute if block ~ ~ ~ #para7_utils:water run effect give @e[type=#para7_utils:undead,distance=..8.4] minecraft:instant_health 1 5
 execute if block ~ ~ ~ #para7_utils:water run effect give @e[type=!#para7_utils:undead,distance=..8.4] minecraft:instant_damage 1 5
