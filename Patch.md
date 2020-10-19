@@ -15,6 +15,15 @@
 ### ウーロン さん  
 ありがとうございます。畑仕事いつも助かります。
 
+
+# 各種情報
+
+[サーバーログイン情報](https://www.para7.net/minecraft/logininfo.html)
+
+[松明クロスボウのドキュメント](https://github.com/para7/Minecraft_Datapack/tree/master/TorchBow)
+
+[先行公開中のデータパック紹介動画](https://www.youtube.com/watch?v=MVyLnx0RtEg)
+
 -----
 
 ------
