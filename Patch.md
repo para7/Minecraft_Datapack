@@ -24,6 +24,8 @@
 
 [先行公開中のデータパック紹介動画(概要のみ)](https://www.youtube.com/watch?v=MVyLnx0RtEg)
 
+バグ報告など：Discordに編集権限つきGoogleDocumentがピン留めしてあります
+
 -----
 
 ------

@@ -1,0 +1,334 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SelectKill:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:1b,SelectKill:1b,zombieking:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:2b,SelectKill:1b,skeelyte:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:3b,SelectKill:1b,kingghast:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:4b,SelectKill:1b,chimera:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:5b,SelectKill:1b,flyingguardian:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:6b,SelectKill:1b,sat:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:100b,SelectKill:1b,bigcube:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:101b,SelectKill:1b,damagephantom:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:102b,SelectKill:1b,endguardian:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:103b,SelectKill:1b,endhealer:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:104b,SelectKill:1b,hoglinking:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:105b,SelectKill:1b,jeb:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:106b,SelectKill:1b,killer_rabbit:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:107b,SelectKill:1b,neverspider:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:108b,SelectKill:1b,odin:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:109b,SelectKill:1b,sniper:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:110b,SelectKill:1b,voider:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

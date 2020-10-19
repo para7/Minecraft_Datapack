@@ -2,7 +2,7 @@
 
 function multi_hc:give_reviveitem
 function multi_hc:give_reviveitem
-# function multi_hc:give_reviveitem
+function multi_hc:give_reviveitem
 # function multi_hc:give_reviveitem
 # function multi_hc:give_reviveitem
 
