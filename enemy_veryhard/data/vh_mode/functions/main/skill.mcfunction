@@ -32,10 +32,16 @@ execute if entity @s[tag=Skill_NotDrowned] run function vh_mode:skill/not_drowne
 
 execute if entity @s[tag=Skill_ElderGuardian] run function vh_mode:skill/elder_guardian
 
+execute if entity @s[tag=Skill_KingGhast] run function vh_mode:skill/kingghast
+execute if entity @s[tag=Skill_KingFireball] run function vh_mode:skill/king_fireball
+
 execute if entity @s[tag=Skill_EnderDragon] run function vh_mode:skill/dragon/enderdragon
 execute if entity @s[tag=Skill_DragonDummy] run function vh_mode:skill/dragon/dragondummy
 execute if entity @s[tag=Skill_WitherGuard] run function vh_mode:skill/wither/knight
 
+
 execute if entity @s[tag=Skill_ZombieKing] run function vh_mode:skill/zombieking/main
+
+
 
 # execute if entity @s[tag=Skill_CreeperBuff] run function vh_mode:skill/creeper_buff
