@@ -37,6 +37,7 @@ scoreboard players set @a PMag_Enable 0
 scoreboard players set @a PMag_Equip 0
 scoreboard players set @a PMag_DropWBook 0
 scoreboard players set @a PMag_KillDragon 0
+scoreboard players set @a PMag_Sneak 0
 
 # scoreboard players remove @a PMag_MFaithable 1000
 # scoreboard players set @a[scores={PMag_MFaithable=..0}] PMag_MFaithable 0

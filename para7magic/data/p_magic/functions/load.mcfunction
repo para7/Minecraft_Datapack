@@ -27,6 +27,9 @@ scoreboard objectives add PMag_Executable dummy
 # 本を投げた判定
 scoreboard objectives add PMag_DropWBook minecraft.dropped:minecraft.written_book 
 
+# スニーク時間
+scoreboard objectives add PMag_Sneak minecraft.custom:minecraft.sneak_time
+
 # 最上級魔法の習得状況
 scoreboard objectives add PMag_Xmagic1 dummy
 scoreboard objectives add PMag_Xmagic2 dummy
