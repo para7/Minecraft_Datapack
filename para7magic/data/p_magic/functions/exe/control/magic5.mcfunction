@@ -1,5 +1,5 @@
 
-effect give @e[type=#para7_utils:friendmob] minecraft:levitation 17 255
+effect give @a[distance=..7] minecraft:levitation 17 255
 # effect give @a[distance=..4] minecraft:speed 24 0
 
 
