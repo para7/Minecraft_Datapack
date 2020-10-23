@@ -20,7 +20,7 @@ title @s[scores={PMag_MFaith=2,PMag_MSelect=2}] actionbar [{"text":"MP : "},{"sc
 
 title @s[scores={PMag_MFaith=2,PMag_MSelect=3}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  リフレッシュ(17) 周囲の状態異常回復"}]
 
-title @s[scores={PMag_MFaith=2,PMag_MSelect=4}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  ホーリー(26) 近くのアンデッドに特大ダメージ"}]
+title @s[scores={PMag_MFaith=2,PMag_MSelect=4}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  ホーリー(28) 近くのアンデッドに特大ダメージ"}]
 
 title @s[scores={PMag_MFaith=2,PMag_MSelect=5}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  サクリファイス(22) 自分の体力を犠牲に周囲に特大回復"}]
 

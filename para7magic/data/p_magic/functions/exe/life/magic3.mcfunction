@@ -11,7 +11,8 @@ effect clear @e[type=#para7_utils:friendmob,distance=..10] minecraft:slowness
 effect clear @e[type=#para7_utils:friendmob,distance=..10] minecraft:weakness
 effect clear @e[type=#para7_utils:friendmob,distance=..10] minecraft:wither
 
-execute at @e[type=#para7_utils:undead,sort=nearest,limit=1] run particle minecraft:happy_villager ~ ~1 ~ 0.5 0.5 0.5 1 30
+
+execute at @e[distance=..10,type=#para7_utils:friendmob] run particle minecraft:happy_villager ~ ~1 ~ 0.5 0.5 0.5 1 10
 
 playsound minecraft:entity.player.levelup player @a ~ ~ ~ 1 2.0
 
