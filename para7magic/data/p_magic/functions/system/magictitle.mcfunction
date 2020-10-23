@@ -9,9 +9,9 @@ title @s[scores={PMag_MFaith=1,PMag_MSelect=2}] actionbar [{"text":"MP : "},{"sc
 
 title @s[scores={PMag_MFaith=1,PMag_MSelect=3}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  テンペスト(15) 敵1体に雷を落とし周辺に特大ダメージ"}]
 
-title @s[scores={PMag_MFaith=1,PMag_MSelect=4}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  ポイズン(12) 毒とダメージを与え、力を下げる"}]
+title @s[scores={PMag_MFaith=1,PMag_MSelect=4}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  ポイズン(13) 最寄りの敵の周囲に毒を与え、弱体化"}]
 
-title @s[scores={PMag_MFaith=1,PMag_MSelect=5}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  クエイク(13) 地上の敵にダメージ"}]
+title @s[scores={PMag_MFaith=1,PMag_MSelect=5}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  アースシェイク(6) 地上の敵にダメージ"}]
 
 
 title @s[scores={PMag_MFaith=2,PMag_MSelect=1}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  ヒーリング(14) 周囲に即時回復+リジェネ"}]
