@@ -3,7 +3,7 @@
 # effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:glowing 14 0
 # effect give @e[type=#para7_utils:undead,sort=nearest,limit=1] minecraft:weakness 14 40
 
-execute as @e[type=#para7_utils:undead,distance=..9,sort=nearest,limit=1] run effect give @s minecraft:instant_health 1 6 
+execute as @e[type=#para7_utils:undead,distance=..9,sort=nearest,limit=1] run effect give @s minecraft:instant_health 1 5 
 execute at @e[type=#para7_utils:undead,distance=..9,sort=nearest,limit=1] run particle minecraft:happy_villager ~ ~1 ~ 0.5 0.5 0.5 1 50
 
 playsound minecraft:entity.player.levelup player @a ~ ~ ~ 1 2.0
