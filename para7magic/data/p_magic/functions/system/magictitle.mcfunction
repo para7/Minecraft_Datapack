@@ -14,7 +14,7 @@ title @s[scores={PMag_MFaith=1,PMag_MSelect=4}] actionbar [{"text":"MP : "},{"sc
 title @s[scores={PMag_MFaith=1,PMag_MSelect=5}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  クエイク(13) 地上の敵にダメージ"}]
 
 
-title @s[scores={PMag_MFaith=2,PMag_MSelect=1}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  ヒーリング(15) 周囲に即時回復+リジェネ"}]
+title @s[scores={PMag_MFaith=2,PMag_MSelect=1}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  ヒーリング(14) 周囲に即時回復+リジェネ"}]
 
 title @s[scores={PMag_MFaith=2,PMag_MSelect=2}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  バリア(19) 周囲のダメージを緩和"}]
 

@@ -1,6 +1,5 @@
 
-effect give @e[type=#para7_utils:friendmob] minecraft:jump_boost 24 9
-effect give @e[type=#para7_utils:friendmob] minecraft:slow_falling 30 10
+effect give @e[type=#para7_utils:friendmob] minecraft:levitation 17 255
 # effect give @a[distance=..4] minecraft:speed 24 0
 
 
@@ -12,6 +11,6 @@ playsound minecraft:entity.ender_dragon.ambient player @a ~ ~ ~ 0.8 1.5
 playsound minecraft:entity.evoker.cast_spell master @a ~ ~ ~ 2 2
 playsound minecraft:entity.evoker.cast_spell master @a ~ ~ ~ 2 0.5
 
-tellraw @a[distance=..7] [{"selector":"@s"},{"text":" は エアライダー を唱えた！"}]
+tellraw @a[distance=..7] [{"selector":"@s"},{"text":" は ホバリング を唱えた！"}]
 
 scoreboard players add @s PMag_Enable 1

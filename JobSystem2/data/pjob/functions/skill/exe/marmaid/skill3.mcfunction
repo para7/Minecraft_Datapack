@@ -2,7 +2,7 @@ tellraw @s [{"text":"陸へ上がれるようになり、水への適応力を�
 
 # effect give @s minecraft:water_breathing 600 10
 scoreboard players set @s PJSkillTimer 13200
-scoreboard players set @s PJSkillRecast 12000
+scoreboard players set @s PJSkillRecast 7000
 
 effect clear @s minecraft:conduit_power
 
