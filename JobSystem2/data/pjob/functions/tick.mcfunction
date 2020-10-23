@@ -8,7 +8,7 @@ execute as @a[scores={PJJobInfo=1..}] at @s run function pjob:job/main
 # execute as @a[tag=!Logined] at @s run function pjob:system/login
 
 execute as @a[nbt={SelectedItem:{tag:{PJShowInfo:1b}}}] run function pjob:system/showskill
-execute as @a[scores={PMag_Equip=0},nbt={Inventory:[{Slot:-106b,tag:{PJShowInfo:1b}}]}] run function pjob:system/getjob
+execute as @a[nbt={Inventory:[{Slot:-106b,tag:{PJShowInfo:1b}}]}] run function pjob:system/showskill
 
 # 隠しジョブ
 execute as @a[scores={PJEndJobFlag=1..}] at @s run function pjob:job/init/end
