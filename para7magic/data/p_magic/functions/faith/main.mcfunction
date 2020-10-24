@@ -12,7 +12,7 @@ execute if entity @s[scores={PMag_Enable=0}] run playsound minecraft:block.dispe
 execute if entity @s[scores={PMag_Enable=0}] run tellraw @s [{"text":"このブロックからでは祈りは届きません"}]
 
 # execute if entity @s[scores={PMag_Enable=1..}] run xp add @s -1 levels
-execute if entity @s[scores={PMag_Enable=1..}] run scoreboard players set @s PMag_mpregene -600000
+execute if entity @s[scores={PMag_Enable=1..}] run scoreboard players set @s PMag_mpregene -62000
 execute if entity @s[scores={PMag_Enable=1..}] run scoreboard players set @s PMag_MP 0
 
 scoreboard players add @s PMag_Enable 1
