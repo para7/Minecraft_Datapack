@@ -1,7 +1,7 @@
 
 
 # effect give @a[distance=..4] minecraft:speed 24 0
-execute as @e[type=#para7_utils:enemymob,nbt={OnGround:0b},distance=..14] run data merge entity @s {Motion:[0.0,-5.5,0.0]}
+execute as @e[type=#para7_utils:enemymob_notboss,nbt={OnGround:0b},distance=..14] run data merge entity @s {Motion:[0.0,-5.5,0.0]}
 execute as @e[type=minecraft:bat,nbt={OnGround:0b},distance=..14] run data merge entity @s {Motion:[0.0,-5.5,0.0]}
 
 # execute as @e[type=#para7_utils:enemymob,nbt={OnGround:0b}] run effect give @s minecraft:slowness 5 100 
