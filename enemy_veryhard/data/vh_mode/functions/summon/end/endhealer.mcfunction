@@ -1,1 +1,1 @@
-summon cow ~ ~ ~ {DeathLootTable:"vh_mode:entities/endhealer",CustomName:'{"text":"補給ポイント"}'}
+summon cow ~ ~ ~ {DeathLootTable:"vh_mode:entities/endhealer",Tags:["Skill","Skill_Despawn"],CustomName:'{"text":"補給ポイント"}'}
