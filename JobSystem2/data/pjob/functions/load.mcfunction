@@ -39,3 +39,7 @@ scoreboard objectives add PJEndJobFlag trigger "エンド就職承諾"
 scoreboard objectives add PJUseEnderPearl minecraft.used:minecraft.ender_pearl
 
 # ジョブ経験値計算用ボード：たくさん
+
+# 表示用
+scoreboard objectives add Const_Tick dummy
+scoreboard objectives add PJRecastDisplay dummy

@@ -17,12 +17,13 @@ scoreboard objectives add PMag_MSelect dummy
 # 系統変更のクールタイム
 # scoreboard objectives add PMag_MFaithable dummy
 
-#システム
+# システム
 scoreboard objectives add PMag_Enable dummy
+# 計算領域
+
 
 # オフハンド処理のスキップ
 scoreboard objectives add PMag_Equip dummy
-scoreboard objectives add PMag_Executable dummy
 
 # 本を投げた判定
 scoreboard objectives add PMag_DropWBook minecraft.dropped:minecraft.written_book 
@@ -35,5 +36,8 @@ scoreboard objectives add PMag_Xmagic1 dummy
 scoreboard objectives add PMag_Xmagic2 dummy
 scoreboard objectives add PMag_Xmagic3 dummy
 scoreboard objectives add PMag_Xmagic4 dummy
-# scoreboard objectives add PMag_Xchaos dummy
+# scoreboard objectives add PMag_Xmagic5 dummy
 scoreboard objectives add PMag_KillDragon minecraft.killed:minecraft.ender_dragon
+
+# 定数
+# scoreboard objectives add Const_Tick dummy
