@@ -43,4 +43,5 @@ scoreboard objectives add PMag_JobInte dummy
 scoreboard objectives add PMag_ArmorInte dummy
 
 # 定数
-scoreboard objectives add PMag_Hoge dummy
+scoreboard objectives add PMag_hoge dummy
+scoreboard objectives add PMag_piyo dummy
