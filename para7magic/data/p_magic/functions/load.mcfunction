@@ -39,5 +39,8 @@ scoreboard objectives add PMag_Xmagic4 dummy
 # scoreboard objectives add PMag_Xmagic5 dummy
 scoreboard objectives add PMag_KillDragon minecraft.killed:minecraft.ender_dragon
 
+scoreboard objectives add PMag_JobInte dummy
+scoreboard objectives add PMag_ArmorInte dummy
+
 # 定数
-# scoreboard objectives add Const_Tick dummy
+scoreboard objectives add PMag_Hoge dummy

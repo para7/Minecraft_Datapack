@@ -5,9 +5,8 @@ execute unless entity @s[scores={PJJobInfo=1..7}] run title @s actionbar [{"text
 
 # scoreboard objectives add PJRecastDisplay dummy
 
-scoreboard players set @s Const_Tick 19
 scoreboard players operation @s PJRecastDisplay = @s PJSkillRecast
-scoreboard players operation @s PJRecastDisplay += @s Const_Tick
+scoreboard players add @s PJRecastDisplay 19
 scoreboard players set @s Const_Tick 20
 scoreboard players operation @s PJRecastDisplay /= @s Const_Tick
 

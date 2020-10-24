@@ -7,3 +7,5 @@ scoreboard players set @s PJJobInfo 5
 
 attribute @s minecraft:generic.max_health base set 16
 attribute @s minecraft:generic.armor_toughness base set 2
+
+scoreboard players set @s PMag_JobInte 8

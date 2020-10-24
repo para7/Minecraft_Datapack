@@ -6,3 +6,5 @@ scoreboard players set @s PJJobInfo 7
 
 
 attribute @s minecraft:generic.max_health base set 16
+
+scoreboard players set @s PMag_JobInte 3

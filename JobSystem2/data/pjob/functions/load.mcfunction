@@ -43,3 +43,6 @@ scoreboard objectives add PJUseEnderPearl minecraft.used:minecraft.ender_pearl
 # 表示用
 scoreboard objectives add Const_Tick dummy
 scoreboard objectives add PJRecastDisplay dummy
+
+# 魔法データパックの連携
+scoreboard objectives add PMag_JobInte dummy
