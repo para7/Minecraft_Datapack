@@ -1,4 +1,4 @@
-effect give @e[type=#para7_utils:friendmob,distance=..10] minecraft:absorption 180 2
+effect give @e[type=#para7_utils:friendmob,distance=..10] minecraft:absorption 210 2
 # effect give @e[type=#para7_utils:friendmob,distance=..10] minecraft:resistance 120 0
 # effect give @e[type=#para7_utils:friendmob,distance=..10] minecraft:resistance 60 1
 

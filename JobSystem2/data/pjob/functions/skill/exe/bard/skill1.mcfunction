@@ -1,7 +1,8 @@
 tellraw @a[distance=..30] [{"text":"勇猛な詩が力をくれる！"}]
 
 
-effect give @a[distance=..30] minecraft:regeneration 45 0
+effect give @a[distance=..30] minecraft:regeneration 30 0
+effect give @a[distance=..30] minecraft:absorption 190 1
 
 effect give @s minecraft:strength 190 0
 effect give @a[distance=0.1..30] minecraft:strength 190 3
