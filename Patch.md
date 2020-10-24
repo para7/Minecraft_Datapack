@@ -42,7 +42,9 @@
 
 ## 魔法
 
-最大MP計算式の変更
+MP計算式の変更
+
+<https://github.com/para7/Minecraft_Datapack/blob/master/para7magic/document.md>
 
 # ver 3.x beta4 (10/24 3:00 released)
 

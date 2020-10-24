@@ -8,7 +8,7 @@ execute if entity @s[scores={PMag_MP=..4}] run scoreboard players add @s PMag_mp
 execute if entity @s[scores={PMag_MP=..14}] run scoreboard players add @s PMag_mpregene 1
 
 
-execute as @s[scores={PMag_mpregene=320..}] run function p_magic:system/resetmpregeneq
+execute as @s[scores={PMag_mpregene=300..}] run function p_magic:system/resetmpregene
 
 #最大MPの計算
 
