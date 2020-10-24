@@ -30,7 +30,13 @@
 
 ------
 
-# ver 3.x beta5 (10/24 xx:xx released)
+# ver 3.x beta6 (10/24 3:30 released)
+
+## 魔法
+
+魔法商が魔法用装備を交換してくれるように
+
+# ver 3.x beta5 (10/25 1:00 released)
 
 ## ベッド
 
