@@ -40,7 +40,7 @@ scoreboard objectives add PMag_Xmagic4 dummy
 scoreboard objectives add PMag_KillDragon minecraft.killed:minecraft.ender_dragon
 
 scoreboard objectives add PMag_JobInte dummy
-scoreboard objectives add PMag_ArmorInte dummy
+scoreboard objectives add PMag_ArmorInte dummy "魔法補正値"
 
 # 定数
 scoreboard objectives add PMag_hoge dummy
