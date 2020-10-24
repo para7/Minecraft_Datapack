@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 2400,
+                    "weight": 2200,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -16,6 +16,24 @@
                         {
                             "function": "set_nbt",
                             "tag": "{SelectKill:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 120,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SelectKill:1b,leveleater:1b}"
                         },
                         {
                             "function": "set_name"
@@ -42,7 +60,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 30,
+                    "weight": 20,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -78,7 +96,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 210,
+                    "weight": 100,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -96,7 +114,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 30,
+                    "weight": 20,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -114,7 +132,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 120,
+                    "weight": 160,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -132,7 +150,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 40,
+                    "weight": 45,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -150,7 +168,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 90,
+                    "weight": 95,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -168,7 +186,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 40,
+                    "weight": 45,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -186,7 +204,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 100,
+                    "weight": 170,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -222,7 +240,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 190,
+                    "weight": 290,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -240,7 +258,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 200,
+                    "weight": 250,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -258,7 +276,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 40,
+                    "weight": 45,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -276,7 +294,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 20,
+                    "weight": 30,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -294,7 +312,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 300,
+                    "weight": 400,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -312,7 +330,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 200,
+                    "weight": 170,
                     "name": "minecraft:paper",
                     "functions": [
                         {
