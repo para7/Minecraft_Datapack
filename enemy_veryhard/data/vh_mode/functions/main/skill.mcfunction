@@ -36,6 +36,7 @@ execute if entity @s[tag=Skill_Despawn] run function vh_mode:skill/despawn
 
 execute if entity @s[tag=Skill_KingGhast] run function vh_mode:skill/kingghast
 execute if entity @s[tag=Skill_KingFireball] run function vh_mode:skill/king_fireball
+execute if entity @s[tag=Skill_oyakoai] run function vh_mode:skill/oyakoai
 
 execute if entity @s[tag=Skill_EnderDragon] run function vh_mode:skill/dragon/enderdragon
 execute if entity @s[tag=Skill_DragonDummy] run function vh_mode:skill/dragon/dragondummy

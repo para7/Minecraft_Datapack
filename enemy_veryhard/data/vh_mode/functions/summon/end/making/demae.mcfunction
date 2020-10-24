@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {CanPickUpLoot:0b,IsBaby:1b,Tags:["vh_Edited"],Passengers:[{id:"minecraft:creeper",powered:1b,Tags:["vh_Edited"],CustomName:'{"text":"ウーバーイーツ"}',Attributes:[{Name:generic.movement_speed,Base:0}]}],CustomName:'{"text":"出前"}'}

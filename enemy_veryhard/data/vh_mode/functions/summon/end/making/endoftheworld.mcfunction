@@ -1,0 +1,1 @@
+summon creeper ~ ~ ~ {Glowing:1b,CustomNameVisible:1b,Health:100f,powered:1b,ExplosionRadius:127b,Tags:["vh_Edited"],CustomName:'{"text":"End Of The World"}'}

@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {CanPickUpLoot:0b,Health:70f,IsBaby:0b,Tags:["vh_Edited"],Passengers:[{id:"minecraft:zombie",CanPickUpLoot:0b,IsBaby:1b,Tags:["vh_Edited","Skill","Skill_oyakoai"],CustomName:'{"text":"おやこあい"}',Attributes:[{Name:generic.max_health,Base:5}]}],CustomName:'{"text":"おやこあい"}'}

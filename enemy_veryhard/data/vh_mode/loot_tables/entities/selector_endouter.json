@@ -204,7 +204,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 30,
+                    "weight": 50,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -222,7 +222,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 80,
+                    "weight": 90,
                     "name": "minecraft:paper",
                     "functions": [
                         {
