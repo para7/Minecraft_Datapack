@@ -1,4 +1,5 @@
-me は戦士になった！
+# me は戦士になった！
+tellraw @a[distance=..50] [{"selector":"@s"},{"text":"は戦士になった！"}]
 function pjob:job/init/reset
 function pjob:system/getjob_effect
 scoreboard players set @s PJJobInfo 1

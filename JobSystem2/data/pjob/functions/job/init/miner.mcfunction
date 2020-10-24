@@ -1,4 +1,5 @@
-me は炭鉱夫になった！
+# me は炭鉱夫になった！
+tellraw @a[distance=..50] [{"selector":"@s"},{"text":"は炭鉱夫になった！"}]
 function pjob:job/init/reset
 function pjob:system/getjob_effect
 scoreboard players set @s PJJobInfo 3

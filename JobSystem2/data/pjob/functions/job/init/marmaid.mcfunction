@@ -1,4 +1,5 @@
-me は人魚になった！
+# me は人魚になった！
+tellraw @a[distance=..50] [{"selector":"@s"},{"text":"は人魚になった！"}]
 function pjob:job/init/reset
 function pjob:system/getjob_effect
 scoreboard players set @s PJJobInfo 6

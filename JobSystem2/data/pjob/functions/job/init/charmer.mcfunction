@@ -1,4 +1,5 @@
-me は呪術師になった！
+# me は呪術師になった！
+tellraw @a[distance=..50] [{"selector":"@s"},{"text":"は呪術師になった！"}]
 function pjob:job/init/reset
 function pjob:system/getjob_effect
 scoreboard players set @s PJJobInfo 7
