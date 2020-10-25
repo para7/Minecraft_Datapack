@@ -30,7 +30,11 @@
 
 ------
 
-# ver 3.x beta6 (10/24 3:30 released)
+# ver 3.0 (10/25 5:30 released)
+
+エンドアップデート完了
+
+# ver 3.x beta6 (10/25 3:30 released)
 
 ## 魔法
 
