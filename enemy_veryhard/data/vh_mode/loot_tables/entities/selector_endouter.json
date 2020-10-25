@@ -204,7 +204,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 50,
+                    "weight": 70,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -222,7 +222,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 90,
+                    "weight": 80,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -258,7 +258,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 250,
+                    "weight": 200,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -276,7 +276,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 45,
+                    "weight": 40,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -294,7 +294,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 30,
+                    "weight": 25,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -312,7 +312,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 400,
+                    "weight": 320,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -340,6 +340,132 @@
                         {
                             "function": "set_nbt",
                             "tag": "{type:110b,SelectKill:1b,voider:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:111b,SelectKill:1b,accelerator:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 60,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:112b,SelectKill:1b,arrowrain:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 50,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:113b,SelectKill:1b,demae:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:114b,SelectKill:1b,endoftheworld:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 130,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:115b,SelectKill:1b,kusochild:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 90,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:116b,SelectKill:1b,oyakoai:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 80,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:117b,SelectKill:1b,skull:1b}"
                         },
                         {
                             "function": "set_name"

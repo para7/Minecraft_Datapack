@@ -72,6 +72,28 @@ execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"min
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:110b}}}] run function para7_utils:killme
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:110b}}}] run function vh_mode:summon/end/voider
 
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:111b}}}] run tag @s remove Skill_Blind
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:111b}}}] run tag @s add Skill_Accelerator
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:111b}}}] run data merge entity @s {CustomNameVisible:1b,CustomName:'{"text":"アクセラレータ","color":"red"}'}
+
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:112b}}}] run function para7_utils:killme
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:112b}}}] run function vh_mode:summon/end/arrowrain
+
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:113b}}}] run function para7_utils:killme
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:113b}}}] run function vh_mode:summon/end/demae
+
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:114b}}}] run function para7_utils:killme
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:114b}}}] run function vh_mode:summon/end/endoftheworld
+
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:115b}}}] run function para7_utils:killme
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:115b}}}] run function vh_mode:summon/end/kusochild
+
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:116b}}}] run function para7_utils:killme
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:116b}}}] run function vh_mode:summon/end/oyakoai
+
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:117b}}}] run function para7_utils:killme
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:117b}}}] run function vh_mode:summon/end/skull
+
 # execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:b}}}] run function para7_utils:killme
 # execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:b}}}] run function vh_mode:summon/end/
 
