@@ -16,6 +16,7 @@ execute if entity @s[x=0,y=80,z=0,distance=500..] if entity @p[nbt={Dimension:"m
 
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{leveleater:1b}}}] run tag @s add Skill
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{leveleater:1b}}}] run tag @s add Skill_LevelEater
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{leveleater:1b}}}] run data merge entity @s {CustomName:'{"text":"レベルブレイカー"}'}
 
 # 地上モブ
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:1b}}}] run function para7_utils:killme
@@ -25,7 +26,7 @@ execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"min
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:2b}}}] run function vh_mode:summon/skeleton_elyte
 
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:3b}}}] run function para7_utils:killme
-execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:3b}}}] positioned ~ ~50 ~ run function vh_mode:summon/kingghast
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:3b}}}] positioned ~ ~30 ~ run function vh_mode:summon/kingghast
 
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:4b}}}] run function para7_utils:killme
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:4b}}}] run function vh_mode:summon/chimera
