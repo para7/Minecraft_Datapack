@@ -24,6 +24,8 @@
 
 [先行公開中のデータパック紹介動画(概要のみ)](https://www.youtube.com/watch?v=MVyLnx0RtEg)
 
+[エンド情報](https://github.com/para7/Minecraft_Datapack/blob/master/enemy_veryhard/end_document.md)
+
 バグ報告など：Discordに編集権限つきGoogleDocumentがピン留めしてあります
 
 -----
