@@ -11,8 +11,8 @@ playsound minecraft:block.note_block.bell master @s[scores={Pvh_gshake=21}] ~ ~ 
 tellraw @s[scores={Pvh_gshake=11}] {"text":"1"}
 playsound minecraft:block.note_block.bell master @s[scores={Pvh_gshake=11}] ~ ~ ~ 1 0.5
 
-effect give @s[scores={Pvh_gshake=1}] minecraft:levitation 1 8
-effect give @s[scores={Pvh_gshake=1}] minecraft:instant_damage 1 1
+effect give @s[scores={Pvh_gshake=1},nbt={OnGround:1b}] minecraft:levitation 1 8
+effect give @s[scores={Pvh_gshake=1},nbt={OnGround:1b}] minecraft:instant_damage 1 1
 # effect give @s[scores={Pvh_gshake=1}] minecraft:instant_damage 1 0
 playsound minecraft:entity.generic.explode master @s[scores={Pvh_gshake=1}] ~ ~-3 ~ 1 0.5
 
