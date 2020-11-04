@@ -7,16 +7,16 @@ tag @s add Skill_Blind
 
 loot spawn ~ ~ ~ loot vh_mode:entities/selector_enderman
 
-execute if entity @p[nbt={Dimension:"minecraft:the_end"}] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Soul:1b}}},sort=nearest,limit=1] run function para7_utils:killme
-execute if entity @p[nbt={Dimension:"minecraft:the_end"}] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Soul:1b}}},sort=nearest,limit=1] run function vh_mode:summon/dragonsoul
+execute if entity @p[nbt={Dimension:"minecraft:the_end"},distance=..200] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Soul:1b}}},sort=nearest,limit=1] run function para7_utils:killme
+execute if entity @p[nbt={Dimension:"minecraft:the_end"},distance=..200] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{Soul:1b}}},sort=nearest,limit=1] run function vh_mode:summon/dragonsoul
 
 # execute as @e[x=0,y=80,z=0,distance=500..] run tell @a end 
 
-execute if entity @s[x=0,y=80,z=0,distance=500..] if entity @p[nbt={Dimension:"minecraft:the_end"}] run loot spawn ~ ~ ~ loot vh_mode:entities/selector_endouter
+execute if entity @s[x=0,y=80,z=0,distance=500..] if entity @p[nbt={Dimension:"minecraft:the_end"},distance=..200] run loot spawn ~ ~ ~ loot vh_mode:entities/selector_endouter
 
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{leveleater:1b}}}] run tag @s add Skill
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{leveleater:1b}}}] run tag @s add Skill_LevelEater
-execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{leveleater:1b}}}] run data merge entity @s {CustomName:'{"text":"レベルブレイカー"}'}
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{leveleater:1b}}}] run data merge entity @e[type=area_effect_cloud] {CustomNameVisible:1b,CustomName:'{"text":"レベルブレイカー"}'}
 
 # 地上モブ
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:1b}}}] run function para7_utils:killme
