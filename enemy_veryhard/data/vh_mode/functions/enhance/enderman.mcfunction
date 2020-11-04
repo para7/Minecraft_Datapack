@@ -16,7 +16,7 @@ execute if entity @s[x=0,y=80,z=0,distance=500..] if entity @p[nbt={Dimension:"m
 
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{leveleater:1b}}}] run tag @s add Skill
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{leveleater:1b}}}] run tag @s add Skill_LevelEater
-execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{leveleater:1b}}}] run /data merge entity @s {CustomNameVisible:1b,CustomName:'{"text":"レベルブレイカー"}'}
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{leveleater:1b}}}] run data merge entity @s {CustomNameVisible:1b,CustomName:'{"text":"レベルブレイカー"}'}
 
 # 地上モブ
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:1b}}}] run function para7_utils:killme
