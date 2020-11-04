@@ -26,17 +26,21 @@
 
 [エンド情報](https://github.com/para7/Minecraft_Datapack/blob/master/enemy_veryhard/end_document.md)
 
+[今後の更新予定](https://github.com/para7/Minecraft_Datapack/blob/master/Patch_will.md)
+
 バグ報告など：Discordに編集権限つきGoogleDocumentがピン留めしてあります
 
 -----
 
 ------
 
-# ver 3.2 (11/04 17:00 released)
+# ver 3.2 (11/04 18:00 released)
 
 エンドの敵出現率の調整
 
 ノクバドラゴン頭を落とさないように修正
+
+オーディンの性能調整
 
 # ver 3.1 (10/26 19:15 released)
 
