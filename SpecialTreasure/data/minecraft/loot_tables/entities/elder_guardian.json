@@ -59,7 +59,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:8s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:aqua_affinity\",lvl:1s},{id:\"minecraft:depth_strider\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
+                            "tag": "{RepairCost:30,Enchantments:[{id:\"minecraft:protection\",lvl:8s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:aqua_affinity\",lvl:1s},{id:\"minecraft:depth_strider\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
                         }
                     ]
                 },
@@ -75,7 +75,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:8s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:aqua_affinity\",lvl:1s},{id:\"minecraft:depth_strider\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
+                            "tag": "{RepairCost:30,Enchantments:[{id:\"minecraft:protection\",lvl:8s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:aqua_affinity\",lvl:1s},{id:\"minecraft:depth_strider\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
                         }
                     ]
                 },
@@ -91,7 +91,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:8s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:aqua_affinity\",lvl:1s},{id:\"minecraft:depth_strider\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
+                            "tag": "{RepairCost:30,Enchantments:[{id:\"minecraft:protection\",lvl:8s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:aqua_affinity\",lvl:1s},{id:\"minecraft:depth_strider\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
                         }
                     ]
                 },
@@ -107,7 +107,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:8s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:aqua_affinity\",lvl:1s},{id:\"minecraft:depth_strider\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
+                            "tag": "{RepairCost:30,Enchantments:[{id:\"minecraft:protection\",lvl:8s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:aqua_affinity\",lvl:1s},{id:\"minecraft:depth_strider\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
                         }
                     ]
                 }
