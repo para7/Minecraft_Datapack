@@ -22,7 +22,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:13b,Amplifier:1b,Duration:216000}],CustomPotionColor:28344}"
+                            "tag": "{CustomPotionEffects:[{Id:13b,Amplifier:1b,Duration:1728000 ,ShowParticles:0b}],CustomPotionColor:28344}"
                         },
                         {
                             "function": "set_name",

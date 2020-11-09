@@ -34,7 +34,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 20,
+                    "weight": 12,
                     "name": "minecraft:ender_pearl",
                     "functions": [
                         {
@@ -57,7 +57,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 20,
+                    "weight": 13,
                     "name": "minecraft:apple",
                     "functions": [
                         {
@@ -69,6 +69,7 @@
                 {
                     "type": "item",
                     "weight": 4,
+                    "quality": 1,
                     "name": "minecraft:carved_pumpkin",
                     "functions": [
                         {
@@ -77,7 +78,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-914014550,591415233,-1857023608,-784409436],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1317587340,-931770397,-2080453443,2120977691],Slot:\"head\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;-136759995,1773489664,-1556086885,199744653],Slot:\"head\"}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-914014550,591415233,-1857023608,-784409436],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1317587340,-931770397,-2080453443,2120977691],Slot:\"head\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;-136759995,1773489664,-1556086885,199744653],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-780075510,-2031663038,-1914454191,2091972575],Slot:\"head\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -92,6 +93,38 @@
                             "lore": [
                                 {
                                     "text": "見たくないものが、見えないように。"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "quality": 2,
+                    "name": "minecraft:netherite_boots",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.5,Operation:0,UUID:[I;1230426956,-339459716,-1368520015,-1595297281],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.1,Operation:2,UUID:[I;765822864,325996326,-2099142123,-988934165],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1216777499,-663598629,-1901816532,-968096444],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-601190899,-1304474419,-1453925421,758156309],Slot:\"feet\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "スパイクシューズ"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "体を地面にしっかり固定できる"
                                 }
                             ]
                         }

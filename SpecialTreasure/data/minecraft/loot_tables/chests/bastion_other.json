@@ -76,8 +76,8 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 1,
-                                "max": 5
+                                "min": 5,
+                                "max": 15
                             }
                         },
                         {
@@ -96,7 +96,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 12,
+                    "weight": 10,
                     "name": "minecraft:gold_block",
                     "functions": [
                         {
@@ -186,7 +186,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:32,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:1.5,Operation:1,UUID:[I;602689101,-823507197,-1423459510,-109613138]}]}"
+                            "tag": "{HideFlags:32,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:1.5,Operation:1,UUID:[I;602689101,-823507197,-1423459510,-109613138],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:1.5,Operation:1,UUID:[I;1069489438,-1795930051,-2027412792,708449635],Slot:\"offhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -203,6 +203,21 @@
                                     "text": "借金10000"
                                 }
                             ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 6,
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{StoredEnchantments:[{id:\"minecraft:soul_speed\",lvl:3s}]}"
                         }
                     ]
                 }

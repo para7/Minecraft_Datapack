@@ -25,7 +25,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{}],EntityTag:{OnGround:1b,Silent:1b,FallDistance:100f,DeathLootTable:\"sptreasure:entites/music_disks\",Health:1f,ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999},{Id:20b,Amplifier:100b,Duration:999}]}}"
+                            "tag": "{Enchantments:[{}],EntityTag:{id:\"minecraft:silverfish\",OnGround:1b,Silent:1b,FallDistance:100f,DeathLootTable:\"sptreasure:entites/music_disks\",Health:1f,ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999},{Id:20b,Amplifier:100b,Duration:999}],Attributes:[{Name:generic.max_health,Base:1}]}}"
                         },
                         {
                             "function": "set_name",
@@ -125,7 +125,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;654948631,917979766,-2001728374,-644604244],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;209462944,-1084339070,-2059332698,1354919002],Slot:\"offhand\"}]}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;654948631,917979766,-2001728374,-644604244],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;209462944,-1084339070,-2059332698,1354919002],Slot:\"offhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:2,UUID:[I;233341262,287788939,-1889420628,670075860],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:2,UUID:[I;241439068,-935245194,-1738410329,-364586305],Slot:\"offhand\"}]}"
                         }
                     ]
                 },
