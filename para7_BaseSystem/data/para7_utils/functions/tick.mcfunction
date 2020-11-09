@@ -1,2 +1,2 @@
-# kill @e[tag=NextKill]
+kill @e[tag=NextKill]
 execute as @e[tag=VoidWarp] run function para7_utils:warp
