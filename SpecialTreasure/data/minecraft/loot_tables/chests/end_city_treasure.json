@@ -285,7 +285,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:999,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:smite\",lvl:5s},{id:\"minecraft:bane_of_arthropods\",lvl:5s},{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:sweeping\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:15,Operation:0,UUID:[I;24570218,-1456257838,-1483288501,-420148244],Slot:\"mainhand\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:2,Operation:0,UUID:[I;-1736108620,814305260,-1662814827,-325076537],Slot:\"mainhand\"}]}"
+                            "tag": "{RepairCost:999,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:smite\",lvl:5s},{id:\"minecraft:bane_of_arthropods\",lvl:5s},{id:\"minecraft:looting\",lvl:5s},{id:\"minecraft:sweeping\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:15,Operation:0,UUID:[I;24570218,-1456257838,-1483288501,-420148244],Slot:\"mainhand\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:2,Operation:0,UUID:[I;-1736108620,814305260,-1662814827,-325076537],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -1221,6 +1221,224 @@
                             "count": 64
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:999,Enchantments:[{id:\"minecraft:fortune\",lvl:7s}]}"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.3,
+                                "max": 0.6
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "激運ピッケル"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:fire_aspect\",lvl:2s},{id:\"minecraft:looting\",lvl:7s},{id:\"minecraft:fortune\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;1997959989,2002994979,-1702744207,-1246650946],Slot:\"mainhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "きりたんぽ"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "きりたんぽっぽ、たんぽ。"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:30s},{id:\"minecraft:knockback\",lvl:30s}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "乾パン"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "さすがに硬すぎない？"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 64
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:25b,Amplifier:127b,Duration:40}],CustomPotionColor:9891583}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "レビテガの矢"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "スロット"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cobweb",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-1,Operation:2,UUID:[I;1425462631,-1878897462,-1906654234,1238755236],Slot:\"mainhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "拘束糸"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
                 }
             ]
         }
