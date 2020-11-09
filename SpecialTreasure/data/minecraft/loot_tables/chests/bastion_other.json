@@ -24,7 +24,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 10,
+                    "weight": 8,
                     "name": "minecraft:cooked_porkchop",
                     "functions": [
                         {
@@ -47,7 +47,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 14,
+                    "weight": 9,
+                    "quality": 3,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
@@ -97,6 +98,7 @@
                 {
                     "type": "item",
                     "weight": 10,
+                    "quality": -1,
                     "name": "minecraft:gold_block",
                     "functions": [
                         {
@@ -110,8 +112,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 10,
-                    "quality": 2,
+                    "weight": 9,
+                    "quality": 1,
                     "name": "minecraft:golden_helmet",
                     "functions": [
                         {
@@ -126,8 +128,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 10,
-                    "quality": 2,
+                    "weight": 9,
+                    "quality": 1,
                     "name": "minecraft:golden_chestplate",
                     "functions": [
                         {
@@ -142,8 +144,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 10,
-                    "quality": 2,
+                    "weight": 9,
+                    "quality": 1,
                     "name": "minecraft:golden_leggings",
                     "functions": [
                         {
@@ -158,8 +160,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 10,
-                    "quality": 2,
+                    "weight": 9,
+                    "quality": 1,
                     "name": "minecraft:golden_boots",
                     "functions": [
                         {
@@ -175,6 +177,7 @@
                 {
                     "type": "item",
                     "weight": 8,
+                    "quality": 1,
                     "name": "minecraft:golden_carrot",
                     "functions": [
                         {
@@ -208,7 +211,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 6,
+                    "weight": 5,
+                    "quality": 1,
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
