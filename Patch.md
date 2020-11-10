@@ -1,3 +1,5 @@
+<!-- https://densuke.biz/edit?cd=cqxFyb4vRWw6Szta&pw=inw9SsdNsFiAc -->
+
 # スポンサー
 
 サーバー代寄付先はこちら  
@@ -39,8 +41,6 @@
 エンドの敵を全体的に調整
 
 オーディンにコーラスプラントを破壊する能力を付与
-
-
 
 # ver 3.2 (11/04 18:00 released)
 
