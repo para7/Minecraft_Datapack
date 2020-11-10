@@ -6,7 +6,7 @@ scoreboard players set @s PJJobInfo 2
 
 attribute @s minecraft:generic.knockback_resistance base set 2
 
-attribute @s minecraft:generic.movement_speed base set 0.15
+attribute @s minecraft:generic.movement_speed base set 0.13
 
 attribute @s minecraft:generic.attack_damage base set 5
 
