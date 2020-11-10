@@ -1,11 +1,11 @@
 # tell @a target
 execute if entity @s[type=minecraft:player] run effect give @s minecraft:instant_damage 1 1
 execute if entity @s[type=minecraft:player] run tellraw @s [{"selector":"@p[scores={PJUseSkillExe=1,PJJobInfo=7}]"},{"text":"に命を吸い取られた"}]
-execute if entity @s[type=minecraft:player] run effect give @p[scores={PJUseSkillExe=1,PJJobInfo=7}] instant_health 1 1
+execute if entity @s[type=minecraft:player] run effect give @p[scores={PJUseSkillExe=1,PJJobInfo=7}] instant_health 1 2
 execute if entity @s[type=minecraft:player] run tellraw @p[scores={PJUseSkillExe=1,PJJobInfo=7}] [{"selector":"@s"},{"text":"から命を吸った！"}]
 
 execute unless entity @s[type=minecraft:player] if entity @s[type=!#para7_utils:undead] run effect give @s minecraft:instant_damage 1 2
-execute unless entity @s[type=minecraft:player] if entity @s[type=!#para7_utils:undead] run effect give @p[scores={PJUseSkillExe=1,PJJobInfo=7}] instant_health 1 1
+execute unless entity @s[type=minecraft:player] if entity @s[type=!#para7_utils:undead] run effect give @p[scores={PJUseSkillExe=1,PJJobInfo=7}] instant_health 1 2
 execute unless entity @s[type=minecraft:player] if entity @s[type=!#para7_utils:undead] run tellraw @p[scores={PJUseSkillExe=1,PJJobInfo=7}] [{"selector":"@s"},{"text":"から命を吸った！"}]
 
 execute unless entity @s[type=minecraft:player] if entity @s[type=#para7_utils:undead] run effect give @s minecraft:instant_damage 1 2

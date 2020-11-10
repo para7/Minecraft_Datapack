@@ -1,4 +1,4 @@
-# 魔法干渉値の計算
+# 魔法補正値の計算
 function p_magic:system/mpinterference
 
 #自然回復値を増加
@@ -8,7 +8,7 @@ execute if entity @s[scores={PMag_MP=..4}] run scoreboard players add @s PMag_mp
 execute if entity @s[scores={PMag_MP=..14}] run scoreboard players add @s PMag_mpregene 1
 
 
-execute as @s[scores={PMag_mpregene=300..}] run function p_magic:system/resetmpregene
+execute as @s[scores={PMag_mpregene=210..}] run function p_magic:system/resetmpregene
 
 #最大MPの計算
 
