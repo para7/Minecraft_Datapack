@@ -3,15 +3,15 @@
 
 execute unless entity @s[scores={PMag_MFaith=1..4}] run title @s actionbar [{"text":"魔法がセットされていません"}]
 
-title @s[scores={PMag_MFaith=1,PMag_MSelect=1}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  プロミネンス(8) 周囲炎上+ダメージ+移動低下"}]
+title @s[scores={PMag_MFaith=1,PMag_MSelect=1}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  プロミネンス(7) 周囲炎上+ダメージ+移動低下"}]
 
-title @s[scores={PMag_MFaith=1,PMag_MSelect=2}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  アブソリュート・ゼロ(11) 水を凍らせ氷上の存在に大ダメージ"}]
+title @s[scores={PMag_MFaith=1,PMag_MSelect=2}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  アブソリュート・ゼロ(9) 水を凍らせ氷上の存在に大ダメージ"}]
 
-title @s[scores={PMag_MFaith=1,PMag_MSelect=3}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  テンペスト(15) 敵1体に雷を落とし周辺に特大ダメージ"}]
+title @s[scores={PMag_MFaith=1,PMag_MSelect=3}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  テンペスト(13) 敵1体に雷を落とし周辺に特大ダメージ"}]
 
-title @s[scores={PMag_MFaith=1,PMag_MSelect=4}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  ポイズン(13) 最寄りの敵の周囲に毒を与え、弱体化"}]
+title @s[scores={PMag_MFaith=1,PMag_MSelect=4}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  ポイズン(10) 最寄りの敵の周囲に毒を与え、弱体化"}]
 
-title @s[scores={PMag_MFaith=1,PMag_MSelect=5}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  アースシェイク(5) 地上の敵にダメージ"}]
+title @s[scores={PMag_MFaith=1,PMag_MSelect=5}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  アースシェイク(4) 地上の敵にダメージ"}]
 
 
 title @s[scores={PMag_MFaith=2,PMag_MSelect=1}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  ヒーリング(13) 周囲に即時回復+リジェネ"}]
