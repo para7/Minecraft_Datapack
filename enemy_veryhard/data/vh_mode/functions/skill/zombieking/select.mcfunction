@@ -11,5 +11,4 @@ execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1
 # テレポート
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{skill:2b}}},sort=nearest,limit=1] run tellraw @a[distance=..20] [{"selector":"@s"},{"text": "は テレポートした！"}]
 execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{skill:2b}}},sort=nearest,limit=1] run teleport @s @p[distance=..20]
-
-
+execute if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{skill:2b}}},sort=nearest,limit=1] run effect give @s minecraft:weakness 1 100
