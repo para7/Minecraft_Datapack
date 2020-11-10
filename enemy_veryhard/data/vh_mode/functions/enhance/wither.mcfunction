@@ -7,12 +7,11 @@ function vh_mode:summon/boss/blackknight
 function vh_mode:summon/boss/blackknight
 function vh_mode:summon/boss/blackknight
 
-
 tellraw @a[distance=..50] {"text":"ウィザーはイニシャライズを構えた！"}
-tellraw @a[distance=..50] {"text":"どこかから声が聞こえる…"}
-tellraw @a[distance=..50] {"text":"この状態のウィザーには攻撃が通用しない！"}
-tellraw @a[distance=..50] {"text":"まずは周りの騎士から倒すんだ！","color":"red"}
-tellraw @a[distance=..50] {"text":"それから、このウィザーは極めて大きな爆発を起こす！"}
-tellraw @a[distance=..50] {"text":"急いで物陰に隠れろ！","color":"red"}
+# tellraw @a[distance=..50] {"text":"どこかから声が聞こえる…"}
+# tellraw @a[distance=..50] {"text":"この状態のウィザーには攻撃が通用しない！"}
+# tellraw @a[distance=..50] {"text":"まずは周りの騎士から倒すんだ！","color":"red"}
+# tellraw @a[distance=..50] {"text":"それから、このウィザーは極めて大きな爆発を起こす！"}
+# tellraw @a[distance=..50] {"text":"急いで物陰に隠れろ！","color":"red"}
 
 effect clear @a[distance=..50]
