@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "killdragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        }
+      }
+    },
+    "killwither": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hidden:show"
+  }
+}
