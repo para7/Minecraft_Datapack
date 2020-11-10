@@ -7,4 +7,4 @@ execute if entity @e[type=#para7_utils:friendmob,distance=0.1..30,tag=!PJDummy,s
 
 execute at @e[type=#para7_utils:friendmob,distance=0.1..30,tag=!PJDummy,sort=nearest,limit=1] run teleport ~ ~ ~
 
-scoreboard players set @s PJSkillRecast 500
+scoreboard players set @s PJSkillRecast 300

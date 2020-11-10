@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 5000,
+                    "weight": 4500,
                     "name": "minecraft:paper",
                     "functions": [
                         {
@@ -348,7 +348,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 160,
+                    "weight": 800,
                     "name": "minecraft:paper",
                     "functions": [
                         {
