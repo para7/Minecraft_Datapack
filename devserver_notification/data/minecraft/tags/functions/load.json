@@ -1,5 +1,5 @@
 {
     "values": [
-        "serverutils:notice"
+        "serverutils:init"
     ]
 }

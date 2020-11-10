@@ -1,5 +1,3 @@
+tellraw @s ["",{"text":"MODがアップデートされました。11:09 24:00 released\nアップデート情報は"},{"text":"こちら(クリックで開きます)","color":"aqua","clickEvent":{"action":"open_url","value":"https://github.com/para7/Minecraft_Datapack/blob/master/Patch.md"}}]
 
-# scoreboard objectives remove p7sys_Updateinfo dummy
-scoreboard objectives add p7sys_Updateinfo dummy
-scoreboard players set * p7sys_Updateinfo 0
-
+scoreboard players set @s p7sys_Updateinfo 1
