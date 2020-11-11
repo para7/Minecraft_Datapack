@@ -7,5 +7,5 @@ execute as @a[scores={PJEndJobFlag=1..}] at @s run scoreboard players set @s PJe
 scoreboard players set @s PJEndJobFlag 0
 
 scoreboard players set @s PMag_JobInte 2
-
+ 
 scoreboard players set @s PJUseEnderPearl 0
