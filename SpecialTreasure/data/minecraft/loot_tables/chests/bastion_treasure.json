@@ -3,12 +3,8 @@
     "pools": [
         {
             "rolls": {
-                "min": 1,
-                "max": 2
-            },
-            "bonus_rolls": {
-                "min": 1,
-                "max": 2
+                "min": 3,
+                "max": 6
             },
             "entries": [
                 {
@@ -87,36 +83,13 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:0.34,Operation:1,UUID:[I;236889012,1158365221,-1695610664,239078658],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;1554101032,-1347862336,-1615070784,354294310],Slot:\"mainhand\"}]}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:0.4,Operation:1,UUID:[I;236889012,1158365221,-1695610664,239078658],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;1554101032,-1347862336,-1615070784,354294310],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_lore",
                             "lore": [
                                 {
                                     "text": "!!"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:golden_sword",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{RepairCost:20,Enchantments:[{id:\"minecraft:smite\",lvl:2s},{id:\"minecraft:sweeping\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:2s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:0,Operation:0,UUID:[I;386610768,-872987502,-1208510302,-1126609176],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:256,Operation:0,UUID:[I;-1866012331,-357216576,-2082053584,62219867],Slot:\"mainhand\"}]}"
-                        },
-                        {
-                            "function": "set_name",
-                            "name": [
-                                {
-                                    "text": "退魔"
                                 }
                             ]
                         }
@@ -159,7 +132,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:10s},{id:\"minecraft:mending\",lvl:1s}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:9s},{id:\"minecraft:mending\",lvl:1s}]}"
                         },
                         {
                             "function": "set_lore",
@@ -186,13 +159,13 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:1,RepairCost:99,Enchantments:[{id:\"minecraft:fire_protection\",lvl:10s},{id:\"minecraft:blast_protection\",lvl:1s},{id:\"minecraft:projectile_protection\",lvl:4s},{id:\"minecraft:frost_walker\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:20s},{id:\"minecraft:soul_speed\",lvl:60s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;1562366943,1201161320,-1358677033,1851310693],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;645680309,-1495842758,-2079392726,-475781749],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;-1097410383,-1792195050,-1291954989,-2048929621],Slot:\"feet\"}]}"
+                            "tag": "{HideFlags:1,RepairCost:99,Enchantments:[{id:\"minecraft:fire_protection\",lvl:10s},{id:\"minecraft:blast_protection\",lvl:1s},{id:\"minecraft:projectile_protection\",lvl:4s},{id:\"minecraft:thorns\",lvl:10s},{id:\"minecraft:frost_walker\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:20s},{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:soul_speed\",lvl:70s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;1562366943,1201161320,-1358677033,1851310693],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;645680309,-1495842758,-2079392726,-475781749],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;-1097410383,-1792195050,-1291954989,-2048929621],Slot:\"feet\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.4,Operation:0,UUID:[I;-923764165,-227719372,-2120450159,612922952],Slot:\"feet\"}]}"
                         },
                         {
                             "function": "set_name",
                             "name": [
                                 {
-                                    "text": "偏向のブーツ"
+                                    "text": "偏りのブーツ"
                                 }
                             ]
                         },
@@ -200,7 +173,7 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "装備者に極端な性質を与える"
+                                    "text": "装備者にある極端な性質を与える"
                                 }
                             ]
                         }

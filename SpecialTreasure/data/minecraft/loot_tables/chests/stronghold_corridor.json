@@ -3,14 +3,14 @@
     "pools": [
         {
             "rolls": {
-                "min": 1,
-                "max": 2
+                "min": 2,
+                "max": 4
             },
             "bonus_rolls": 1,
             "entries": [
                 {
                     "type": "item",
-                    "weight": 2,
+                    "weight": 3,
                     "quality": 2,
                     "name": "minecraft:ender_pearl",
                     "functions": [
@@ -20,21 +20,13 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:3,Enchantments:[{id:\"minecraft:knockback\",lvl:25s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:1,Operation:1,UUID:[I;-485441551,911427096,-1692593098,-1766978763],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:10,Operation:0,UUID:[I;-1587276701,-1068416650,-1600547062,962388174]}]}"
-                        },
-                        {
-                            "function": "set_lore",
-                            "lore": [
-                                {
-                                    "text": "どちらの手に持っても強い"
-                                }
-                            ]
+                            "tag": "{HideFlags:1,Enchantments:[{id:\"minecraft:knockback\",lvl:35s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:1,Operation:2,UUID:[I;-485441551,911427096,-1692593098,-1766978763],Slot:\"offhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-1587276701,-1068416650,-1600547062,962388174],Slot:\"mainhand\"}]}"
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 12,
+                    "weight": 13,
                     "name": "minecraft:ender_pearl",
                     "functions": [
                         {
@@ -43,7 +35,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:2,Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-1,Operation:0,UUID:[I;-1499445253,-564509896,-1893423248,1107081092]}]}"
+                            "tag": "{HideFlags:2,Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-1,Operation:0,UUID:[I;-1499445253,-564509896,-1893423248,1107081092],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_lore",
@@ -57,7 +49,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 13,
+                    "weight": 17,
                     "name": "minecraft:apple",
                     "functions": [
                         {
@@ -69,7 +61,7 @@
                 {
                     "type": "item",
                     "weight": 4,
-                    "quality": 1,
+                    "quality": 2,
                     "name": "minecraft:carved_pumpkin",
                     "functions": [
                         {
@@ -110,7 +102,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.5,Operation:0,UUID:[I;1230426956,-339459716,-1368520015,-1595297281],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.1,Operation:2,UUID:[I;765822864,325996326,-2099142123,-988934165],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1216777499,-663598629,-1901816532,-968096444],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-601190899,-1304474419,-1453925421,758156309],Slot:\"feet\"}]}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.8,Operation:0,UUID:[I;1230426956,-339459716,-1368520015,-1595297281],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.1,Operation:2,UUID:[I;765822864,325996326,-2099142123,-988934165],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1216777499,-663598629,-1901816532,-968096444],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-601190899,-1304474419,-1453925421,758156309],Slot:\"feet\"}]}"
                         },
                         {
                             "function": "set_name",

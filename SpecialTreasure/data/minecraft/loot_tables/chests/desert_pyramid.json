@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:3,Enchantments:[{id:\"minecraft:smite\",lvl:2s},{id:\"minecraft:bane_of_arthropods\",lvl:6s}],AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-0.6,Operation:2,UUID:[I;-1858950873,-1686355048,-1607138869,-520843119],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.2,Operation:2,UUID:[I;-671807762,-1033941336,-1707059592,-1523118749],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:18,Operation:0,UUID:[I;-259669831,475483262,-1621677274,-166159320],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-0.6,Operation:2,UUID:[I;613570485,1641434923,-1190661619,1277315577],Slot:\"offhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.2,Operation:2,UUID:[I;1355809366,1580354827,-1356598541,885618636],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:2,UUID:[I;-1804662034,897797227,-2143127057,248763514],Slot:\"offhand\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-1,Operation:0,UUID:[I;-848255167,-1746318516,-1081136325,1514839512]}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:smite\",lvl:2s},{id:\"minecraft:bane_of_arthropods\",lvl:6s}],AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-0.4,Operation:2,UUID:[I;-1858950873,-1686355048,-1607138869,-520843119],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.2,Operation:2,UUID:[I;-671807762,-1033941336,-1707059592,-1523118749],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:18,Operation:0,UUID:[I;-259669831,475483262,-1621677274,-166159320],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-0.4,Operation:2,UUID:[I;613570485,1641434923,-1190661619,1277315577],Slot:\"offhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.2,Operation:2,UUID:[I;1355809366,1580354827,-1356598541,885618636],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:2,UUID:[I;-1804662034,897797227,-2143127057,248763514],Slot:\"offhand\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-2,Operation:0,UUID:[I;739142855,-1955314320,-2125494825,1649945935],Slot:\"mainhand\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-2,Operation:0,UUID:[I;1024847528,719276000,-1742072933,-1275347338],Slot:\"offhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -48,7 +48,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 10,
+                    "weight": 8,
                     "quality": 2,
                     "name": "minecraft:cactus",
                     "functions": [
@@ -83,7 +83,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 2,
                     "quality": 1,
                     "name": "minecraft:red_sand",
                     "functions": [
@@ -150,7 +150,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 4,
+                    "weight": 2,
                     "quality": 1,
                     "name": "minecraft:orange_terracotta",
                     "functions": [
@@ -165,7 +165,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 4,
+                    "weight": 3,
                     "name": "minecraft:iron_shovel",
                     "functions": [
                         {
@@ -195,7 +195,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 7,
+                    "weight": 5,
                     "name": "minecraft:glass_pane",
                     "functions": [
                         {
@@ -332,7 +332,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:34,Enchantments:[{id:\"minecraft:looting\",lvl:5s},{id:\"minecraft:fortune\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:3,Operation:0,UUID:[I;-1621590264,42944933,-1307684552,-856269856]}],Potion:\"minecraft:luck\"}"
+                            "tag": "{Enchantments:[{id:\"minecraft:looting\",lvl:5s},{id:\"minecraft:fortune\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:3,Operation:0,UUID:[I;-1621590264,42944933,-1307684552,-856269856],Slot:\"mainhand\"}],Potion:\"minecraft:luck\"}"
                         },
                         {
                             "function": "set_name",
@@ -347,9 +347,6 @@
                             "lore": [
                                 {
                                     "text": "この地では希少なものだ。"
-                                },
-                                {
-                                    "text": "これを見つけられた君に幸運あれ。"
                                 }
                             ]
                         }

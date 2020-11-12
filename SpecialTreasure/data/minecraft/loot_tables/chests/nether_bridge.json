@@ -4,14 +4,14 @@
         {
             "rolls": {
                 "min": 1,
-                "max": 4
+                "max": 5
             },
             "bonus_rolls": 1,
             "entries": [
                 {
                     "type": "item",
-                    "weight": 20,
-                    "quality": 3,
+                    "weight": 12,
+                    "quality": 1,
                     "name": "minecraft:gold_ingot",
                     "functions": [
                         {
@@ -25,7 +25,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 15,
+                    "weight": 14,
                     "quality": 3,
                     "name": "minecraft:diamond",
                     "functions": [
@@ -47,7 +47,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{display:{color:16711680},RepairCost:15,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:10,Operation:0,UUID:[I;1221022957,309281582,-1413483764,1154543196],Slot:\"chest\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-1654926706,-1544532738,-1795507077,1249613522],Slot:\"chest\"}]}"
+                            "tag": "{display:{color:16711680},RepairCost:18,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:10,Operation:0,UUID:[I;1221022957,309281582,-1413483764,1154543196],Slot:\"chest\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-1654926706,-1544532738,-1795507077,1249613522],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:0,UUID:[I;23787605,-1794880559,-1372968244,-2051124769],Slot:\"chest\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -79,7 +79,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:32,CustomPotionEffects:[{Id:12b,Amplifier:0b,Duration:144000}],Potion:\"minecraft:long_fire_resistance\"}"
+                            "tag": "{HideFlags:32,CustomPotionEffects:[{Id:12b,Amplifier:0b,Duration:1440000}],Potion:\"minecraft:long_fire_resistance\"}"
                         },
                         {
                             "function": "set_name",
@@ -101,7 +101,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 20,
+                    "weight": 17,
                     "quality": 4,
                     "name": "minecraft:shield",
                     "functions": [
@@ -135,7 +135,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:2,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:10,Operation:0,UUID:[I;800733173,1002982718,-2066925054,1184686558],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.7,Operation:1,UUID:[I;-1746534285,1758023232,-1957592061,563712953]}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:fire_aspect\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:10,Operation:0,UUID:[I;-503228419,1259686306,-2146335656,-1957437792],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.7,Operation:1,UUID:[I;-921748733,-1028173938,-1209029310,850359573],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.7,Operation:1,UUID:[I;2024962031,-1088926105,-1428426328,1783654308],Slot:\"offhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -170,14 +170,14 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:fortune\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:2,Operation:0,UUID:[I;-1035095815,613564804,-2061393111,-770222892],Slot:\"offhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:2,Operation:0,UUID:[I;1986418896,-548188276,-1405002098,164738771],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-325843694,-2145170037,-1216530954,195141000],Slot:\"mainhand\"}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:fortune\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;-1035095815,613564804,-2061393111,-770222892],Slot:\"offhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;1986418896,-548188276,-1405002098,164738771],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;-325843694,-2145170037,-1216530954,195141000],Slot:\"mainhand\"}]}"
                         }
                     ]
                 },
                 {
                     "type": "item",
                     "weight": 10,
-                    "quality": 2,
+                    "quality": 3,
                     "name": "minecraft:crossbow",
                     "functions": [
                         {
@@ -221,7 +221,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:2,Enchantments:[{id:\"minecraft:unbreaking\",lvl:4s}],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;1819537041,-233026312,-1896998341,-976650581]},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-340808542,298012282,-1616622327,-1217442129],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:0,UUID:[I;2128314101,-2102964447,-1913177214,-1057364730]}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:4s}],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.25,Operation:0,UUID:[I;1819537041,-233026312,-1896998341,-976650581],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-340808542,298012282,-1616622327,-1217442129],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:0,UUID:[I;2128314101,-2102964447,-1913177214,-1057364730],Slot:\"offhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -236,9 +236,6 @@
                             "lore": [
                                 {
                                     "text": "秘められた力を感じる"
-                                },
-                                {
-                                    "text": "左手に持ってみよう"
                                 }
                             ]
                         }
@@ -246,7 +243,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 15,
+                    "weight": 12,
                     "name": "minecraft:name_tag",
                     "functions": [
                         {
@@ -257,8 +254,8 @@
                 },
                 {
                     "type": "item",
-                    "weight": 20,
-                    "quality": 100,
+                    "weight": 17,
+                    "quality": 400,
                     "name": "minecraft:splash_potion",
                     "functions": [
                         {
@@ -299,7 +296,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:fire_protection\",lvl:10s},{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:lure\",lvl:1s},{id:\"minecraft:soul_speed\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;695379652,-552121691,-1561253197,1071663741],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:8,Operation:0,UUID:[I;-1363938398,-53721826,-1336354381,1107729624],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;-1294938308,-580891230,-1466365093,-422244425],Slot:\"mainhand\"}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:fire_protection\",lvl:10s},{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:lure\",lvl:1s},{id:\"minecraft:soul_speed\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.4,Operation:0,UUID:[I;695379652,-552121691,-1561253197,1071663741],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:8,Operation:0,UUID:[I;-1363938398,-53721826,-1336354381,1107729624],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;-1294938308,-580891230,-1466365093,-422244425],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -322,7 +319,7 @@
                 {
                     "type": "item",
                     "weight": 10,
-                    "quality": 2,
+                    "quality": 3,
                     "name": "minecraft:netherite_ingot",
                     "functions": [
                         {
@@ -331,7 +328,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:smite\",lvl:2s},{id:\"minecraft:bane_of_arthropods\",lvl:2s},{id:\"minecraft:looting\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.2,Operation:0,UUID:[I;-1554368912,-372683441,-1514300317,1635042346],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-1597625693,424955647,-2027719116,1350743382],Slot:\"offhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;-415563370,-1713815515,-1797380199,-1829538965],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;851964664,929907307,-1429417566,1263422832],Slot:\"mainhand\"}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:smite\",lvl:2s},{id:\"minecraft:bane_of_arthropods\",lvl:2s},{id:\"minecraft:looting\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.2,Operation:0,UUID:[I;-1554368912,-372683441,-1514300317,1635042346],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-1597625693,424955647,-2027719116,1350743382],Slot:\"offhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;-415563370,-1713815515,-1797380199,-1829538965],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;851964664,929907307,-1429417566,1263422832],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -349,6 +346,30 @@
                                 },
                                 {
                                     "text": "さあ、選べ"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 13,
+                    "quality": 2,
+                    "name": "minecraft:netherite_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:32,Enchantments:[{id:\"minecraft:thorns\",lvl:30s}],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-324407362,-300790303,-2027120964,-593937269],Slot:\"chest\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "リフレクター"
                                 }
                             ]
                         }

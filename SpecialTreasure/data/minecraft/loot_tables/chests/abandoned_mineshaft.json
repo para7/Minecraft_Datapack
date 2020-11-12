@@ -4,9 +4,8 @@
         {
             "rolls": {
                 "min": 2,
-                "max": 4
+                "max": 5
             },
-            "bonus_rolls": 1,
             "entries": [
                 {
                     "type": "item",
@@ -161,6 +160,14 @@
                                     "text": "聖なる松明"
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "穢れた存在を祓う力を持つ"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -180,7 +187,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 14,
+                    "weight": 8,
                     "name": "minecraft:name_tag",
                     "functions": [
                         {
@@ -191,7 +198,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 5,
+                    "weight": 8,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
@@ -200,7 +207,14 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:1,RepairCost:9999,Enchantments:[{id:\"minecraft:sharpness\",lvl:50s}]}"
+                            "tag": "{HideFlags:1,RepairCost:99,Enchantments:[{id:\"minecraft:sharpness\",lvl:100s}]}"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 1,
+                                "max": 0.8
+                            }
                         },
                         {
                             "function": "set_name",
@@ -247,7 +261,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:fire_aspect\",lvl:1s},{id:\"minecraft:looting\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:-2,Operation:0,UUID:[I;652091383,-214938005,-1272124759,517405609],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:22,Operation:0,UUID:[I;-644766843,-1420606023,-1610031008,-1645986282],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-2,Operation:0,UUID:[I;463225751,2048279333,-1405333327,359683969],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-1004530709,-1382789331,-1453050951,1611494762],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.77,Operation:1,UUID:[I;-1999096651,-1762898163,-2046798537,-39424878],Slot:\"mainhand\"}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:fire_aspect\",lvl:1s},{id:\"minecraft:looting\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:-2,Operation:0,UUID:[I;652091383,-214938005,-1272124759,517405609],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:22,Operation:0,UUID:[I;-644766843,-1420606023,-1610031008,-1645986282],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-2,Operation:0,UUID:[I;463225751,2048279333,-1405333327,359683969],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:2,Operation:0,UUID:[I;-1004530709,-1382789331,-1453050951,1611494762],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.77,Operation:1,UUID:[I;-1999096651,-1762898163,-2046798537,-39424878],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:-0.2,Operation:0,UUID:[I;1333215505,-91602732,-1744965845,-287818911],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-2,Operation:0,UUID:[I;-1950542206,-1847834835,-1482703232,-949637272],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",

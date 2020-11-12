@@ -66,7 +66,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:34,Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.7,Operation:0,UUID:[I;1278019998,965165147,-1874920222,832202585]},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:-1,Operation:2,UUID:[I;1933646920,1015041334,-1992017183,338690940]}]}"
+                            "tag": "{HideFlags:32,Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.7,Operation:0,UUID:[I;1278019998,965165147,-1874920222,832202585],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:-1,Operation:2,UUID:[I;1933646920,1015041334,-1992017183,338690940],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.7,Operation:0,UUID:[I;-2059295278,475875908,-2013292755,-1012745681],Slot:\"offhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:-1,Operation:2,UUID:[I;-1262651633,608586564,-1974414580,-593643872],Slot:\"offhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -81,6 +81,12 @@
                             "lore": [
                                 {
                                     "text": "バカには見えない"
+                                },
+                                {
+                                    "text": "自分の足ではないので"
+                                },
+                                {
+                                    "text": "当然踏ん張りは効かない"
                                 }
                             ]
                         }
@@ -221,7 +227,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:3,Enchantments:[{id:\"minecraft:protection\",lvl:10s},{id:\"minecraft:feather_falling\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:8,Operation:0,UUID:[I;1622729352,1308837965,-1603640746,1229346396],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:20,Operation:0,UUID:[I;704385359,534138188,-1267080604,313402083],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:1.8,Operation:2,UUID:[I;-170442298,290539858,-2115293847,-347447784],Slot:\"chest\"}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:10s},{id:\"minecraft:feather_falling\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:8,Operation:0,UUID:[I;1622729352,1308837965,-1603640746,1229346396],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:20,Operation:0,UUID:[I;704385359,534138188,-1267080604,313402083],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:1.8,Operation:2,UUID:[I;-170442298,290539858,-2115293847,-347447784],Slot:\"chest\"}]}"
                         },
                         {
                             "function": "set_name",
