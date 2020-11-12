@@ -1,1 +1,1 @@
-summon creeper ~ ~ ~ {DeathLootTable:"vh_mode:entities/end/endoftheworld",Glowing:1b,CustomNameVisible:1b,Health:100f,powered:1b,ExplosionRadius:127b,Tags:["vh_Edited"],CustomName:'{"text":"End Of The World"}'}
+summon creeper ~ ~ ~ {Glowing:1b,CustomNameVisible:1b,DeathLootTable:"vh_mode:entities/end/endoftheworld",Health:80f,powered:1b,ExplosionRadius:127b,Tags:["vh_Edited"],CustomName:'{"text":"End Of The World"}',Attributes:[{Name:generic.max_health,Base:80}]}

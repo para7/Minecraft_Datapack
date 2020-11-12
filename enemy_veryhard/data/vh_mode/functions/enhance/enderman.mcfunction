@@ -63,8 +63,11 @@ execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"min
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:107b}}}] run function para7_utils:killme
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:107b}}}] run function vh_mode:summon/end/neverspider
 
-execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:108b}}}] run function para7_utils:killme
-execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:108b}}}] run function vh_mode:summon/end/odin
+# execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:108b}}}] run function para7_utils:killme
+# execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:108b}}}] run function vh_mode:summon/end/odin
+
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:108b}}}] run tag @s remove Skill_Blind
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:108b}}}] run tag @s add Skill_SummonOdin
 
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:109b}}}] run function para7_utils:killme
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:109b}}}] run function vh_mode:summon/end/sniper

@@ -38,6 +38,8 @@ execute if entity @s[tag=Skill_Accelerator] run function vh_mode:skill/accelerat
 
 execute if entity @s[tag=Skill_BreakChorus] run function vh_mode:skill/breakchorus
 
+execute if entity @s[tag=Skill_SummonOdin] run function vh_mode:skill/summon_odin
+
 execute if entity @s[tag=Skill_KingGhast] run function vh_mode:skill/kingghast
 execute if entity @s[tag=Skill_KingFireball] run function vh_mode:skill/king_fireball
 execute if entity @s[tag=Skill_oyakoai] run function vh_mode:skill/oyakoai
