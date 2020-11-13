@@ -1067,7 +1067,7 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 3,
+                                "min": 2,
                                 "max": 6
                             }
                         }
@@ -1218,13 +1218,13 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:fortune\",lvl:77s}]}"
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:fortune\",lvl:17s}]}"
                         },
                         {
                             "function": "set_damage",
                             "damage": {
-                                "min": 0.93,
-                                "max": 0.99
+                                "min": 0.1,
+                                "max": 0.2
                             }
                         },
                         {
@@ -1248,7 +1248,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:fire_aspect\",lvl:2s},{id:\"minecraft:looting\",lvl:7s},{id:\"minecraft:fortune\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;1997959989,2002994979,-1702744207,-1246650946],Slot:\"mainhand\"}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:fire_aspect\",lvl:2s},{id:\"minecraft:looting\",lvl:9s},{id:\"minecraft:fortune\",lvl:9s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;1997959989,2002994979,-1702744207,-1246650946],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
@@ -1658,21 +1658,6 @@
                         {
                             "function": "set_nbt",
                             "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:4s},{id:\"minecraft:respiration\",lvl:3s},{id:\"minecraft:aqua_affinity\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1768610389,1519665935,-1268808368,328531863],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;-1486477986,-685881553,-1322630833,1032521901],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-254548029,-2071181370,-1585149092,692946592],Slot:\"head\"}]}"
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:bow",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{RepairCost:20,Enchantments:[{id:\"minecraft:power\",lvl:40s}]}"
                         }
                     ]
                 },

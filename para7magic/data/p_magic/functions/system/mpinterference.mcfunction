@@ -42,9 +42,11 @@ execute if entity @s[nbt={Inventory:[{id:"minecraft:netherite_leggings",Slot:101
 execute if entity @s[nbt={Inventory:[{id:"minecraft:netherite_boots",Slot:100b}]}] run scoreboard players add @s PMag_hoge 3
 
 # エリトラ
-execute if entity @s[nbt={Inventory:[{id:"minecraft:elytra",Slot:102b}]}] run scoreboard players add @s PMag_hoge 6
-execute if entity @s[nbt={Inventory:[{id:"minecraft:carved_pumpkin",Slot:103b}]}] run scoreboard players remove @s PMag_hoge 15
-execute if entity @s[nbt={Inventory:[{id:"minecraft:turtle_helmet",Slot:103b}]}] run scoreboard players add @s PMag_hoge 1
+execute if entity @s[nbt={Inventory:[{id:"minecraft:elytra",Slot:102b}]}] run scoreboard players add @s PMag_hoge 15
+
+execute if entity @s[nbt={Inventory:[{id:"minecraft:carved_pumpkin",Slot:103b}]}] run scoreboard players remove @s PMag_hoge 10
+
+execute if entity @s[nbt={Inventory:[{id:"minecraft:turtle_helmet",Slot:103b}]}] run scoreboard players add @s PMag_hoge 3
 
 execute if entity @s[scores={PMag_hoge=..0}] run scoreboard players set @s PMag_hoge 0
 
