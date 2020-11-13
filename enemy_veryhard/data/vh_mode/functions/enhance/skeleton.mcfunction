@@ -7,7 +7,7 @@ attribute @s minecraft:generic.movement_speed base set 0.25
 
 effect give @s minecraft:instant_damage 1 20 true
 
-attribute @s minecraft:generic.follow_range base set 30
+attribute @s minecraft:generic.follow_range base set 26
 
 
 loot spawn ~ ~ ~ loot vh_mode:entities/selector_skeleton

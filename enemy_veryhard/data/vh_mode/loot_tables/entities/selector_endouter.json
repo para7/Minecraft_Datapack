@@ -471,6 +471,24 @@
                             "function": "set_name"
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "weight": 60,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{type:118b,SelectKill:1b,bonusbox:1b}"
+                        },
+                        {
+                            "function": "set_name"
+                        }
+                    ]
                 }
             ]
         }

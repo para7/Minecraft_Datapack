@@ -14,7 +14,7 @@ effect give @s minecraft:resistance 0 999999 true
 effect give @s minecraft:instant_health 1 20 true
 # effect give @s minecraft:instant_damage 1 20 true
 
-attribute @s minecraft:generic.follow_range base set 150
+attribute @s minecraft:generic.follow_range base set 60
 
 attribute @a[distance=..100] minecraft:generic.follow_range base set 150
 

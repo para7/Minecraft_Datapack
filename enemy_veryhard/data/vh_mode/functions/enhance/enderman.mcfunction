@@ -97,6 +97,9 @@ execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"min
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:117b}}}] run function para7_utils:killme
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:117b}}}] run function vh_mode:summon/end/skull
 
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:118b}}}] run function para7_utils:killme
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:118b}}}] run function vh_mode:summon/end/bonusbox
+
 # execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:b}}}] run function para7_utils:killme
 # execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:b}}}] run function vh_mode:summon/end/
 

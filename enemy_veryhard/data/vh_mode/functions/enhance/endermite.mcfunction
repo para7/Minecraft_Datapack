@@ -4,6 +4,6 @@ replaceitem entity @s weapon.mainhand stone_button{Enchantments:[{id:"minecraft:
 data merge entity @s {HandDropChances:[0.00f,0.085f]}
 
 
-attribute @s minecraft:generic.follow_range base set 150
+attribute @s minecraft:generic.follow_range base set 40
 q
 tell @a hoge
