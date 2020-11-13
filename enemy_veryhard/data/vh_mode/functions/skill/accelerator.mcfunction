@@ -1,2 +1,2 @@
-effect give @a[distance=..2] speed 3 145
-effect give @a[distance=..2] jump_boost 3 11
+effect give @a[distance=..3.3] speed 3 150
+effect give @a[distance=..3.3] jump_boost 3 14
