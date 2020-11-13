@@ -1,13 +1,17 @@
 {
-    "type": "entity",
+    "type": "chest",
     "pools": [
         {
-            "rolls": 1,
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
             "entries": [
                 {
                     "type": "item",
-                    "weight": 3500,
-                    "name": "minecraft:paper",
+                    "weight": 2,
+                    "quality": 1,
+                    "name": "minecraft:netherite_helmet",
                     "functions": [
                         {
                             "function": "set_count",
@@ -15,17 +19,15 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{SelectKill:1b}"
-                        },
-                        {
-                            "function": "set_name"
+                            "tag": "{RepairCost:30,Enchantments:[{id:\"minecraft:protection\",lvl:10s},{id:\"minecraft:blast_protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:4s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1944024834,-1061469105,-1916458126,-1515346263],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;1238411085,142560971,-1991275067,1893226529],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.3,Operation:0,UUID:[I;1248999758,745950848,-1335856670,-1153171803],Slot:\"head\"}]}"
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 960,
-                    "name": "minecraft:paper",
+                    "weight": 2,
+                    "quality": 1,
+                    "name": "minecraft:netherite_chestplate",
                     "functions": [
                         {
                             "function": "set_count",
@@ -33,17 +35,15 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{SelectKill:1b,leveleater:1b}"
-                        },
-                        {
-                            "function": "set_name"
+                            "tag": "{RepairCost:30,Enchantments:[{id:\"minecraft:protection\",lvl:10s},{id:\"minecraft:blast_protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:4s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;-325055972,484199888,-1767864789,-2002466812],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;179099028,1182090934,-1430995010,-45742875],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.3,Operation:0,UUID:[I;956130349,1051676345,-1862798230,762036517],Slot:\"chest\"}]}"
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:paper",
+                    "weight": 2,
+                    "quality": 1,
+                    "name": "minecraft:netherite_leggings",
                     "functions": [
                         {
                             "function": "set_count",
@@ -51,17 +51,15 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:1b,SelectKill:1b,zombieking:1b}"
-                        },
-                        {
-                            "function": "set_name"
+                            "tag": "{RepairCost:30,Enchantments:[{id:\"minecraft:protection\",lvl:10s},{id:\"minecraft:blast_protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:4s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-1437692250,-247968740,-1651932554,1427294633],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;-795154269,-1504622939,-1763157065,-1652638954],Slot:\"legs\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.3,Operation:0,UUID:[I;-406398076,-76329548,-1682048325,1424885220],Slot:\"legs\"}]}"
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 60,
-                    "name": "minecraft:paper",
+                    "weight": 2,
+                    "quality": 1,
+                    "name": "minecraft:netherite_boots",
                     "functions": [
                         {
                             "function": "set_count",
@@ -69,17 +67,50 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:2b,SelectKill:1b,skeelyte:1b}"
+                            "tag": "{RepairCost:30,Enchantments:[{id:\"minecraft:protection\",lvl:10s},{id:\"minecraft:feather_falling\",lvl:4s},{id:\"minecraft:blast_protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:4s},{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:soul_speed\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-1013257747,-1734258871,-1424925429,1976168349],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;-100239703,974343176,-1705228804,1177087845],Slot:\"feet\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.3,Operation:0,UUID:[I;-1686476490,-658616745,-1584889451,-819055779],Slot:\"feet\"}]}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 1,
+                    "name": "minecraft:chainmail_helmet",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:20,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:projectile_protection\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-2067804988,-1307030148,-1783281169,2117772596],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;1608732815,1678262878,-2135524221,-51072269],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.25,Operation:0,UUID:[I;932945187,1061047478,-1107526063,-1709756430],Slot:\"head\"}]}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "スキンを見ながらマイクラを楽しみたい"
+                                },
+                                {
+                                    "text": "おしゃれさんのための装備。"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 30,
-                    "name": "minecraft:paper",
+                    "weight": 2,
+                    "quality": 1,
+                    "name": "minecraft:chainmail_chestplate",
                     "functions": [
                         {
                             "function": "set_count",
@@ -87,17 +118,26 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:3b,SelectKill:1b,kingghast:1b}"
+                            "tag": "{RepairCost:20,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:blast_protection\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:10s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;-879756291,-1724233237,-1819868634,126503450],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;317582877,1670202974,-1328422173,1213954854],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.25,Operation:0,UUID:[I;747277075,1235635408,-2039792430,-968509267],Slot:\"chest\"}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "スキンを見ながらマイクラを楽しみたい"
+                                },
+                                {
+                                    "text": "おしゃれさんのための装備。"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 200,
-                    "name": "minecraft:paper",
+                    "weight": 2,
+                    "quality": 1,
+                    "name": "minecraft:chainmail_leggings",
                     "functions": [
                         {
                             "function": "set_count",
@@ -105,17 +145,26 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:4b,SelectKill:1b,chimera:1b}"
+                            "tag": "{RepairCost:20,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-1734703061,-1400943673,-1885692994,-1607836610],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;-1005084699,1208961562,-1982273204,863637216],Slot:\"legs\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.25,Operation:0,UUID:[I;1533186326,1514030476,-1593910713,-325108159],Slot:\"legs\"}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "スキンを見ながらマイクラを楽しみたい"
+                                },
+                                {
+                                    "text": "おしゃれさんのための装備。"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 45,
-                    "name": "minecraft:paper",
+                    "weight": 2,
+                    "quality": 1,
+                    "name": "minecraft:chainmail_boots",
                     "functions": [
                         {
                             "function": "set_count",
@@ -123,17 +172,47 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:5b,SelectKill:1b,flyingguardian:1b}"
+                            "tag": "{RepairCost:20,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:feather_falling\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;337233176,1489718736,-1112703748,-716783811],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;-731531751,443957999,-1100907138,-242224348],Slot:\"feet\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.25,Operation:0,UUID:[I;-1028793329,-756530376,-1510398623,-388234811],Slot:\"feet\"}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "スキンを見ながらマイクラを楽しみたい"
+                                },
+                                {
+                                    "text": "おしゃれさんのための装備。"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 130,
-                    "name": "minecraft:paper",
+                    "weight": 4,
+                    "name": "minecraft:enchanted_golden_apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 10
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 2,
+                "max": 8
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bamboo",
                     "functions": [
                         {
                             "function": "set_count",
@@ -141,17 +220,30 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:6b,SelectKill:1b,sat:1b}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:45,Operation:0,UUID:[I;-601680653,1560232576,-1245396511,1573468330],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:1,Operation:0,UUID:[I;1349777030,2043101974,-2053667170,519968672],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;748477107,-610451388,-1822379572,1252973533],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;1455351173,-1538636869,-1819902994,-1164948805],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-1789286411,-1456190882,-1910629164,204558283],Slot:\"mainhand\"}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "竹槍"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "最強の槍"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 55,
-                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "name": "minecraft:shield",
                     "functions": [
                         {
                             "function": "set_count",
@@ -159,17 +251,30 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:100b,SelectKill:1b,bigcube:1b}"
+                            "tag": "{RepairCost:35,Enchantments:[{id:\"minecraft:sharpness\",lvl:2s},{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:fire_aspect\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:10,Operation:0,UUID:[I;255284989,667239163,-2143878719,-1881494958],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-182939942,-551664301,-1446190608,-1332766785],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:0.3,Operation:1,UUID:[I;849303291,878659432,-1866964442,-2077768190],Slot:\"offhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;946532861,-159035877,-1463540400,-1804578560],Slot:\"offhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1.5,Operation:0,UUID:[I;-94881894,1540834938,-1313047232,-896362588],Slot:\"offhand\"}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "なべのふた"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "最強の盾"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 120,
-                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "name": "minecraft:diamond_sword",
                     "functions": [
                         {
                             "function": "set_count",
@@ -177,17 +282,30 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:101b,SelectKill:1b,damagephantom:1b}"
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:smite\",lvl:5s},{id:\"minecraft:bane_of_arthropods\",lvl:5s},{id:\"minecraft:looting\",lvl:5s},{id:\"minecraft:sweeping\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:15,Operation:0,UUID:[I;-1892082850,119229449,-1313165319,57607888],Slot:\"mainhand\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:2,Operation:0,UUID:[I;952374629,814106266,-1473370083,328638423],Slot:\"mainhand\"}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "青の剣"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "廃人剣"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 80,
-                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "name": "minecraft:wooden_pickaxe",
                     "functions": [
                         {
                             "function": "set_count",
@@ -195,17 +313,30 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:102b,SelectKill:1b,endguardian:1b}"
+                            "tag": "{RepairCost:99,Unbreakable:1b,Enchantments:[{id:\"minecraft:efficiency\",lvl:10s}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "神木のツルハシ"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "奇跡の逸品"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 110,
-                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "name": "minecraft:shield",
                     "functions": [
                         {
                             "function": "set_count",
@@ -213,17 +344,30 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:103b,SelectKill:1b,endhealer:1b}"
+                            "tag": "{RepairCost:30,Enchantments:[{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-1,Operation:2,UUID:[I;65842085,-744337553,-2128733014,65590384],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-500,Operation:0,UUID:[I;483210222,1821197100,-1446133613,1599829229],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-500,Operation:0,UUID:[I;1586134026,465847815,-1775537709,-1817281183],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:2,UUID:[I;-684887028,1413235449,-1816775428,2133436582],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:2,UUID:[I;-1011585273,1632846244,-1435041166,-303186779],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:10,Operation:0,UUID:[I;1186435237,798639634,-1939097774,1623114134],Slot:\"mainhand\"}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "バンカー"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "防御は最大の攻撃となるか？"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 200,
-                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "name": "minecraft:end_crystal",
                     "functions": [
                         {
                             "function": "set_count",
@@ -231,17 +375,30 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:104b,SelectKill:1b,hoglinking:1b}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:2,UUID:[I;-1054379744,-1494397839,-1334626672,1404222073],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-0.15,Operation:2,UUID:[I;1231513906,-2087565257,-1835474406,-1355871394],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-82147973,1537101752,-2083564480,-1902103793],Slot:\"offhand\"}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "パワークリスタル"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "力がみなぎる"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 250,
-                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "name": "minecraft:potion",
                     "functions": [
                         {
                             "function": "set_count",
@@ -249,17 +406,30 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:105b,SelectKill:1b,jeb:1b}"
+                            "tag": "{CustomPotionEffects:[{Id:32b,Amplifier:5b,Duration:72000}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "幻影薬"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "英雄の幻をまとう"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 220,
-                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "name": "minecraft:lingering_potion",
                     "functions": [
                         {
                             "function": "set_count",
@@ -267,17 +437,30 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:106b,SelectKill:1b,killer_rabbit:1b}"
+                            "tag": "{HideFlags:32,CustomPotionEffects:[{Id:7b,Amplifier:10b,Duration:13}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "液状の死"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "概念が具現化した液体"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 65,
-                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "name": "minecraft:iron_sword",
                     "functions": [
                         {
                             "function": "set_count",
@@ -285,17 +468,30 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:107b,SelectKill:1b,neverspider:1b}"
+                            "tag": "{RepairCost:8,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-869169095,1667124563,-1532531046,223110439],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.2,Operation:2,UUID:[I;-1682732365,247350448,-1988526915,1564108948],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:2,UUID:[I;1057183894,-680311524,-1751147363,880888961],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-0.3,Operation:2,UUID:[I;-1891752972,-1603190672,-1777823029,-704766224],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:-1,Operation:2,UUID:[I;-286576221,298994717,-1576967968,747072514],Slot:\"mainhand\"}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "月下美人"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "美しい装飾の片刃武器"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 25,
-                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "name": "minecraft:carved_pumpkin",
                     "functions": [
                         {
                             "function": "set_count",
@@ -303,17 +499,22 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:108b,SelectKill:1b,odin:1b}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:5,Operation:0,UUID:[I;-1154756604,82265179,-1888005669,-1308537357],Slot:\"head\"}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "ハロウィンヘッド"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 1400,
-                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "name": "minecraft:lingering_potion",
                     "functions": [
                         {
                             "function": "set_count",
@@ -321,17 +522,33 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:109b,SelectKill:1b,sniper:1b}"
+                            "tag": "{HideFlags:32,CustomPotionEffects:[{Id:6b,Amplifier:10b,Duration:15},{Id:10b,Amplifier:0b,Duration:1200}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "女神の祈り"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "生きるものに力を"
+                                },
+                                {
+                                    "text": "生きる屍に救済を"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 1400,
-                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "name": "minecraft:netherite_chestplate",
                     "functions": [
                         {
                             "function": "set_count",
@@ -339,17 +556,40 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:110b,SelectKill:1b,voider:1b}"
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:protection\",lvl:10s},{id:\"minecraft:fire_protection\",lvl:10s},{id:\"minecraft:blast_protection\",lvl:10s},{id:\"minecraft:projectile_protection\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:15s}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.5,
+                                "max": 0.8
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "帝王の鎧"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "かつて世界を支配した者が"
+                                },
+                                {
+                                    "text": "身につけていた最強の鎧"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 800,
-                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "name": "minecraft:redstone_block",
                     "functions": [
                         {
                             "function": "set_count",
@@ -357,17 +597,32 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:111b,SelectKill:1b,accelerator:1b}"
+                            "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:45s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-100,Operation:0,UUID:[I;1146799330,-2022226842,-1325202294,1107873742],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-100,Operation:0,UUID:[I;-1478834316,-572046106,-1762052991,-1293486714],Slot:\"offhand\"}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "赤",
+                                    "color": "red"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "止まれ",
+                                    "color": "red"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 210,
-                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "name": "minecraft:gold_block",
                     "functions": [
                         {
                             "function": "set_count",
@@ -375,17 +630,32 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:112b,SelectKill:1b,arrowrain:1b}"
+                            "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:40s}],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:999.9,Operation:0,UUID:[I;-1908940477,-1406710379,-1211816860,1362670599],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:999.9,Operation:0,UUID:[I;1975333585,1388529255,-1241164218,-532279697],Slot:\"offhand\"}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "黄",
+                                    "color": "yellow"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "注意",
+                                    "color": "yellow"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 130,
-                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "name": "minecraft:emerald_block",
                     "functions": [
                         {
                             "function": "set_count",
@@ -393,17 +663,32 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:113b,SelectKill:1b,demae:1b}"
+                            "tag": "{Enchantments:[{id:\"minecraft:depth_strider\",lvl:10s},{id:\"minecraft:frost_walker\",lvl:10s},{id:\"minecraft:sharpness\",lvl:10s},{id:\"minecraft:looting\",lvl:4s},{id:\"minecraft:soul_speed\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:1,Operation:0,UUID:[I;-2053515031,-1128509647,-1282960873,24439618],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:2,Operation:0,UUID:[I;442455498,-981447642,-1496258118,1321730743],Slot:\"offhand\"}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "緑",
+                                    "color": "green"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "進め",
+                                    "color": "green"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 70,
-                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "name": "minecraft:book",
                     "functions": [
                         {
                             "function": "set_count",
@@ -411,17 +696,30 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:114b,SelectKill:1b,endoftheworld:1b}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:19,Operation:0,UUID:[I;1359950663,189550273,-2064358314,162928296],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:-1,Operation:2,UUID:[I;1332340288,-1793504207,-1234259003,1712465994],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:-1,Operation:2,UUID:[I;587193168,-1640282005,-2117160691,557033897],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-1,Operation:2,UUID:[I;-1909655287,-1607185699,-2017760291,-706034382],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-1,Operation:2,UUID:[I;-1823432093,-1807006338,-2129861447,-806998126],Slot:\"offhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:3.5,Operation:2,UUID:[I;-42624051,-1479982033,-1917103943,1863093085],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:3.5,Operation:2,UUID:[I;-1178400934,-1009039038,-1433589584,354072433],Slot:\"offhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.5,Operation:0,UUID:[I;-1716146889,1203455587,-1697799325,-1268808385],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.5,Operation:0,UUID:[I;-1903033555,-899660556,-1577598476,-2084307056],Slot:\"offhand\"}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "裸の極意"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "己の身ひとつでの戦闘技術"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 200,
-                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "name": "minecraft:golden_sword",
                     "functions": [
                         {
                             "function": "set_count",
@@ -429,17 +727,33 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:115b,SelectKill:1b,kusochild:1b}"
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:protection\",lvl:35s},{id:\"minecraft:smite\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:20s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:21,Operation:0,UUID:[I;-1680864172,-1259976277,-1609244031,-980095053],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.5,Operation:1,UUID:[I;1247720321,-151174538,-1424178846,1518103203],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.5,Operation:1,UUID:[I;1546518564,1349993757,-1942838607,-2117473165],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:5,Operation:0,UUID:[I;-439764653,385302561,-2120077832,-603950215],Slot:\"offhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.6,Operation:0,UUID:[I;-1722384072,2122009379,-2011409228,-1193945606],Slot:\"mainhand\"}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "エクスカリバー"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "伝説の騎士剣。王の中の王、真の王者の剣。"
+                                },
+                                {
+                                    "text": "聖属性"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 150,
-                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "name": "minecraft:netherite_sword",
                     "functions": [
                         {
                             "function": "set_count",
@@ -447,17 +761,30 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:116b,SelectKill:1b,oyakoai:1b}"
+                            "tag": "{RepairCost:5,Enchantments:[{id:\"minecraft:protection\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:8,Operation:0,UUID:[I;-1200118332,-1992931643,-1375450746,689763660],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:0.5,Operation:2,UUID:[I;327302739,2022917213,-1295529579,-1404597401],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-2085931824,365447872,-1825728205,-1272111714],Slot:\"mainhand\"}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "ディフェンダー"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "守りを重視した剣"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "weight": 390,
-                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "name": "minecraft:elytra",
                     "functions": [
                         {
                             "function": "set_count",
@@ -465,10 +792,934 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{type:117b,SelectKill:1b,skull:1b}"
+                            "tag": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;1720833123,1723615874,-1484601139,1435672162],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;-949157347,-1249949002,-1481395971,-299824720],Slot:\"chest\"}]}"
                         },
                         {
-                            "function": "set_name"
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "バリアエリトラ"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "結界で所有者を守る"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:netherite_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:99,Unbreakable:1b,Enchantments:[{id:\"minecraft:protection\",lvl:20s},{id:\"minecraft:fire_protection\",lvl:10s},{id:\"minecraft:feather_falling\",lvl:10s},{id:\"minecraft:blast_protection\",lvl:10s},{id:\"minecraft:projectile_protection\",lvl:10s},{id:\"minecraft:aqua_affinity\",lvl:1s},{id:\"minecraft:thorns\",lvl:10s},{id:\"minecraft:depth_strider\",lvl:3s},{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:vanishing_curse\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-1,Operation:1,UUID:[I;-1275450821,1594248484,-1220037991,482119714],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:12,Operation:0,UUID:[I;-689979463,990003644,-1560156714,-1845133012],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;-744544348,1769687429,-1333715055,419924540],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-3754875,2108837267,-2146638344,1477058641],Slot:\"chest\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:1,Operation:1,UUID:[I;-723292820,1483426300,-1821084850,-1625796538],Slot:\"chest\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:0.5,Operation:1,UUID:[I;1892666324,152455601,-1228947170,-1124685609],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.2,Operation:2,UUID:[I;-716543862,-1231532975,-1904234627,-919343293],Slot:\"chest\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "真王の鎧"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "呪いと引き換えに凄まじい力を得る"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:34,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:blast_protection\",lvl:5s},{id:\"minecraft:projectile_protection\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:500s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:0.3,Operation:1,UUID:[I;-46391215,1071664612,-2140724539,1342182188],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUID:[I;-2017135183,1408517860,-2141242981,889800795],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;-1230145741,1242710262,-1490060981,1053041985],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.4,Operation:0,UUID:[I;989543666,-2044771951,-2074454789,1275501217],Slot:\"head\"}]}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "最強の防具"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:34,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:blast_protection\",lvl:5s},{id:\"minecraft:projectile_protection\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:500s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:0.3,Operation:1,UUID:[I;1718853700,748373050,-2127404618,-935962298],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:10,Operation:0,UUID:[I;-73496682,-1432992963,-2057226812,1047819461],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;2133462184,1490633078,-1835969109,-237641860],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.4,Operation:0,UUID:[I;-1386655814,1923436475,-1724850842,669478130],Slot:\"chest\"}]}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "最強の防具"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:34,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:blast_protection\",lvl:5s},{id:\"minecraft:projectile_protection\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:500s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:0.3,Operation:1,UUID:[I;1922802800,-405060503,-1413447732,-769295608],Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;-1187502624,148326647,-1161003445,-825085150],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;1968750033,1648182550,-1083934986,-1188762977],Slot:\"legs\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.4,Operation:0,UUID:[I;106650143,2024227317,-1131592115,1850455712],Slot:\"legs\"}]}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "最強の防具"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:34,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:feather_falling\",lvl:5s},{id:\"minecraft:blast_protection\",lvl:5s},{id:\"minecraft:projectile_protection\",lvl:5s},{id:\"minecraft:depth_strider\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:500s},{id:\"minecraft:soul_speed\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:0.3,Operation:1,UUID:[I;-393537119,1765360764,-1738541365,-1503025569],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUID:[I;1376311806,-565754589,-1906763728,-776732981],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;-1854527785,1539916356,-1109031699,1806712696],Slot:\"feet\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.4,Operation:0,UUID:[I;-1733925068,-675067119,-1962153795,2104323222],Slot:\"feet\"}]}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "最強の防具"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:30,Enchantments:[{id:\"minecraft:power\",lvl:30s},{id:\"minecraft:punch\",lvl:2s}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "神弓サジタリウス"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "全てを貫く"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:99,Unbreakable:1b,Enchantments:[{id:\"minecraft:power\",lvl:2s},{id:\"minecraft:infinity\",lvl:1s}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "インフィニット∞"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "凄まじい弾幕で相対するものを滅する"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:netherite_boots",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:16,Enchantments:[{id:\"minecraft:soul_speed\",lvl:100s}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "ソウルスケート"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "長距離移動に便利なブーツ"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:999,Enchantments:[{id:\"minecraft:sharpness\",lvl:10s},{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:multishot\",lvl:3s},{id:\"minecraft:piercing\",lvl:5s},{id:\"minecraft:quick_charge\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:13,Operation:0,UUID:[I;1374142629,725240425,-1819291662,-604861937],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.06,Operation:1,UUID:[I;-449241632,-1602401167,-1133691962,1801577798],Slot:\"mainhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "ディスティアーレ"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "兵器級の火力"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:beacon",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:target",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:projectile_protection\",lvl:999s}],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:4.4,Operation:0,UUID:[I;-1677615425,271664711,-2093908197,-409138721],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:4.4,Operation:0,UUID:[I;2144319560,1130646464,-1951807948,-490031546],Slot:\"offhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.44,Operation:1,UUID:[I;2061854577,1014384228,-2079909782,-2086970143],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.44,Operation:1,UUID:[I;-1702617539,-1626386624,-1871097105,-1306520816],Slot:\"offhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "ボロボロのマト"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "次は貴様の番だ",
+                                    "color": "red"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 64
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:13,Operation:0,UUID:[I;295994323,168707823,-1858875507,-2129041952],Slot:\"mainhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "刃矢"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "近接戦闘用の矢"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:netherite_sword",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:64s},{id:\"minecraft:knockback\",lvl:5s},{id:\"minecraft:sweeping\",lvl:3s},{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:6s}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "バグキラー"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "究極の虫嫌いが創造した武器"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:turtle_helmet",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:4s},{id:\"minecraft:respiration\",lvl:5s},{id:\"minecraft:aqua_affinity\",lvl:5s},{id:\"minecraft:thorns\",lvl:8s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;917706769,-1803794534,-1675510049,-758580536],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;2035406702,108874090,-1626972621,-1133568786],Slot:\"head\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:shulker_shell",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 15,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:end_crystal",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 64
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:fortune\",lvl:17s}]}"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.05,
+                                "max": 0.15
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "激運ピッケル"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:fire_aspect\",lvl:2s},{id:\"minecraft:looting\",lvl:8s},{id:\"minecraft:fortune\",lvl:8s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;1997959989,2002994979,-1702744207,-1246650946],Slot:\"mainhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "きりたんぽ"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "きりたんぽっぽ、たんぽ。"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:30s},{id:\"minecraft:knockback\",lvl:30s}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "乾パン"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "さすがに硬すぎない？"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 64
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:25b,Amplifier:127b,Duration:40}],CustomPotionColor:9891583}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "レビテガの矢"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "スロット"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cobweb",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-1,Operation:2,UUID:[I;1425462631,-1878897462,-1906654234,1238755236],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.5,Operation:2,UUID:[I;-1840141009,1404977185,-1786358260,-1847597971],Slot:\"offhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "拘束糸"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "quality": 1,
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:6,Operation:0,UUID:[I;559511248,1894531791,-1735573997,1824847537],Slot:\"offhand\"}],CustomPotionEffects:[{Id:18b,Amplifier:200b,Duration:99999999}],CustomPotionColor:6890275}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "強欲"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:parrot_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "鳥天国"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "スポナーに右クリックで使おう！"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:netherite_axe",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:50s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:netherite_shovel",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:30s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:netherite_hoe",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:30s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:creeper_head",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:blast_protection\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.65,Operation:0,UUID:[I;-1421197477,277891591,-1226647123,1755743718],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;2010030502,407258511,-1086715974,-1246586633],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-30309480,-1997517507,-1608587410,-1975030421],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:0.2,Operation:0,UUID:[I;569660531,-251968151,-1160861963,1487430683],Slot:\"head\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:feather",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:1,Enchantments:[{id:\"minecraft:knockback\",lvl:150s}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "天使の羽"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "敵を昇天させる"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:conduit",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 20
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lodestone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 26
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:shears",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:unbreaking\",lvl:10s},{id:\"minecraft:mending\",lvl:1s}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "庭師の名刀"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{}],CustomPotionEffects:[{Id:1b,Amplifier:1b,Duration:600},{Id:2b,Amplifier:1b,Duration:600},{Id:3b,Amplifier:1b,Duration:600},{Id:4b,Amplifier:1b,Duration:600},{Id:5b,Amplifier:1b,Duration:600},{Id:6b,Amplifier:1b,Duration:600},{Id:7b,Amplifier:1b,Duration:600},{Id:8b,Amplifier:1b,Duration:600},{Id:9b,Amplifier:1b,Duration:600},{Id:10b,Amplifier:1b,Duration:600},{Id:11b,Amplifier:1b,Duration:600},{Id:12b,Amplifier:1b,Duration:600},{Id:13b,Amplifier:1b,Duration:600},{Id:14b,Amplifier:1b,Duration:600},{Id:15b,Amplifier:1b,Duration:600},{Id:16b,Amplifier:1b,Duration:600},{Id:17b,Amplifier:1b,Duration:600},{Id:18b,Amplifier:1b,Duration:600},{Id:19b,Amplifier:1b,Duration:600},{Id:20b,Amplifier:1b,Duration:600},{Id:21b,Amplifier:1b,Duration:600},{Id:22b,Amplifier:1b,Duration:600},{Id:23b,Amplifier:1b,Duration:600},{Id:24b,Amplifier:1b,Duration:600},{Id:25b,Amplifier:1b,Duration:600},{Id:26b,Amplifier:1b,Duration:600},{Id:27b,Amplifier:1b,Duration:600},{Id:28b,Amplifier:1b,Duration:600},{Id:29b,Amplifier:1b,Duration:600},{Id:30b,Amplifier:1b,Duration:600},{Id:31b,Amplifier:1b,Duration:600},{Id:32b,Amplifier:1b,Duration:600}],CustomPotionColor:12648348}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:dragon_head",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:8s},{id:\"minecraft:knockback\",lvl:20s}],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.8,Operation:0,UUID:[I;674864873,1832406510,-1104388641,-24125660],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.8,Operation:0,UUID:[I;-806235528,1956202055,-2070516155,2905077],Slot:\"offhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.8,Operation:0,UUID:[I;-1280405454,1025787270,-1336845576,-1156148834],Slot:\"head\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "ドラゴンヘッド"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ender_eye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:44s},{id:\"minecraft:fire_aspect\",lvl:20s}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "黒龍の邪眼"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "データパック開発者の投稿動画"
+                                },
+                                {
+                                    "text": "「7乙しまくるミラボレアス討伐記」"
+                                },
+                                {
+                                    "text": "よろしくね！"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:totem_of_undying",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.5,Operation:2,UUID:[I;-1654665726,-2098050628,-1776500818,1980821163],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:8,Operation:0,UUID:[I;-1141527786,-1086766354,-1339462540,61743076],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;320224822,-1175238435,-1687304446,-892659118],Slot:\"offhand\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-1,Operation:2,UUID:[I;-394450660,-1031488,-1613548614,-2103674059],Slot:\"offhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "暴王"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "全てを一方的に虐げる"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:carved_pumpkin",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:4s},{id:\"minecraft:respiration\",lvl:3s},{id:\"minecraft:aqua_affinity\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;242596477,-566276403,-1467565181,1134124323],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;328632063,1923107985,-1254839827,-127124217],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-1466773213,1586447692,-1976395204,-1296090292],Slot:\"head\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:trident",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:riptide\",lvl:18s}],AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:1,Operation:0,UUID:[I;252947014,1303594535,-1373619053,-555171445],Slot:\"mainhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "アルティメットスクリュー"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "水の中を超高速で動き回る"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:netherite_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:20,Enchantments:[{id:\"minecraft:thorns\",lvl:100s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:2,UUID:[I;1439673276,681331436,-1363525425,1661095580],Slot:\"mainhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "迎撃システム"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "着る兵器"
+                                }
+                            ]
                         }
                     ]
                 }
