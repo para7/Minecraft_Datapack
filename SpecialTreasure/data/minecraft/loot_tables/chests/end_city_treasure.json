@@ -946,7 +946,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:30,Enchantments:[{id:\"minecraft:power\",lvl:30s},{id:\"minecraft:punch\",lvl:2s}]}"
+                            "tag": "{RepairCost:20,Enchantments:[{id:\"minecraft:power\",lvl:20s},{id:\"minecraft:punch\",lvl:2s}]}"
                         },
                         {
                             "function": "set_name",
