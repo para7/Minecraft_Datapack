@@ -152,7 +152,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:1,RepairCost:99,Enchantments:[{id:\"minecraft:unbreaking\",lvl:60s},{id:\"minecraft:power\",lvl:17s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.4,Operation:2,UUID:[I;1097129700,-216578907,-1575564719,-282338761]},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-0.7,Operation:2,UUID:[I;2132161008,-729330505,-1872176344,-673617930]}]}"
+                            "tag": "{HideFlags:1,RepairCost:99,Enchantments:[{id:\"minecraft:unbreaking\",lvl:50s},{id:\"minecraft:power\",lvl:27s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.9,Operation:2,UUID:[I;1097129700,-216578907,-1575564719,-282338761],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-0.8,Operation:2,UUID:[I;2132161008,-729330505,-1872176344,-673617930],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.9,Operation:2,UUID:[I;-209068901,870270081,-1641639271,-1282898588],Slot:\"offhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-0.8,Operation:2,UUID:[I;-1638246665,1659063371,-1792972819,728862170],Slot:\"offhand\"}]}"
                         },
                         {
                             "function": "set_damage",
