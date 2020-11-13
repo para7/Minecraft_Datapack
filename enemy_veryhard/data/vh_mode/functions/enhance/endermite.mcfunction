@@ -5,3 +5,5 @@ data merge entity @s {HandDropChances:[0.00f,0.085f]}
 
 
 attribute @s minecraft:generic.follow_range base set 150
+q
+tell @a hoge

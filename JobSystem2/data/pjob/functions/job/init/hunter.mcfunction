@@ -4,7 +4,7 @@ function pjob:job/init/reset
 function pjob:system/getjob_effect
 scoreboard players set @s PJJobInfo 2
 
-attribute @s minecraft:generic.knockback_resistance base set 2
+attribute @s minecraft:generic.knockback_resistance base set 0.2
 
 attribute @s minecraft:generic.movement_speed base set 0.13
 
