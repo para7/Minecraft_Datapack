@@ -6,3 +6,4 @@ execute if entity @s[scores={PMag_MP=..14}] run scoreboard players add @s PMag_m
 
 
 function p_magic:system/magictitle
+
