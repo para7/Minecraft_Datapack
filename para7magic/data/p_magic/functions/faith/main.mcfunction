@@ -4,7 +4,7 @@ execute if block ~ ~ ~ minecraft:enchanting_table if entity @s[scores={PMag_Enab
 
 execute if block ~ ~-1 ~ minecraft:grass_block if entity @s[scores={PMag_Enable=0}] run function p_magic:faith/faith2
 
-execute if block ~ ~-1 ~ minecraft:air if entity @s[scores={PMag_Enable=0}] run function p_magic:faith/faith3
+execute if block ~ ~-1 ~ #para7_utils:air if entity @s[scores={PMag_Enable=0}] run function p_magic:faith/faith3
 
 execute if block ~ ~-1 ~ minecraft:stone_bricks if entity @s[scores={PMag_Enable=0}] run function p_magic:faith/faith4
 
