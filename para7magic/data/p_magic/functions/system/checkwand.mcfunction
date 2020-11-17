@@ -17,6 +17,9 @@ execute if entity @s[scores={PMag_Enable=0},nbt={SelectedItem:{tag:{PMwandID:4b}
 # 空腹杖
 execute if entity @s[scores={PMag_Enable=0},nbt={SelectedItem:{tag:{PMwandID:5b}}}] run function p_magic:exe/hunger_main
 
+# 統合杖
+execute if entity @s[scores={PMag_Enable=0},nbt={SelectedItem:{tag:{PMwandID:6b}}}] run function p_magic:system/mergerod_main
+
 
 #選択杖
 execute if entity @s[scores={PMag_Enable=0},nbt={Inventory:[{Slot:-106b,tag:{PMwandID:2b}}]}] run function p_magic:select/main
@@ -31,3 +34,6 @@ execute if entity @s[scores={PMag_Enable=0},nbt={Inventory:[{Slot:-106b,tag:{PMw
 
 # 空腹杖
 execute if entity @s[scores={PMag_Enable=0},nbt={Inventory:[{Slot:-106b,tag:{PMwandID:5b}}]}] run function p_magic:exe/hunger_main
+
+
+execute if entity @s[scores={PMag_Enable=0},nbt={Inventory:[{Slot:-106b,tag:{PMwandID:6b}}]}] run function p_magic:system/mergerod_main

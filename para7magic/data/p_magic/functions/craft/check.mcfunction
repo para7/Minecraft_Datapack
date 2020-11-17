@@ -7,3 +7,5 @@ execute if entity @e[type=item,distance=..0.6,nbt={Item:{id:"minecraft:gold_ingo
 execute if entity @e[type=item,distance=..0.6,nbt={Item:{id:"minecraft:diamond",Count:1b}}] run function p_magic:craft/summon_oldrod
 
 execute if entity @e[type=item,distance=..0.6,nbt={Item:{id:"minecraft:rotten_flesh",Count:1b}}] run function p_magic:craft/summon_hungerrod
+
+execute if entity @e[type=item,distance=..0.6,nbt={Item:{id:"minecraft:redstone",Count:1b}}] run function p_magic:craft/summon_mergerod
