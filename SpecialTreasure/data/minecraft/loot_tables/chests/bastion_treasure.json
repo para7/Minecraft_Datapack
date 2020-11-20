@@ -97,19 +97,19 @@
                 },
                 {
                     "type": "item",
-                    "weight": 3,
+                    "weight": 14,
                     "name": "minecraft:enchanted_golden_apple",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 1,
-                                "max": 3
+                                "min": 5,
+                                "max": 15
                             }
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:smite\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1345574475,-1358150354,-1336102531,454850200],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-1448662683,-456045862,-1809325395,-1461725138],Slot:\"offhand\"}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:smite\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1345574475,-1358150354,-1336102531,454850200],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-1448662683,-456045862,-1809325395,-1461725138],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;579658568,-585676789,-1844657474,-1061684060],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
