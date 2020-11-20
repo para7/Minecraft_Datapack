@@ -206,7 +206,7 @@
         {
             "rolls": {
                 "min": 2,
-                "max": 8
+                "max": 6
             },
             "entries": [
                 {
