@@ -25,7 +25,7 @@ execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"min
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:2b}}}] run function vh_mode:summon/skeleton_elyte
 
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:3b}}}] run function para7_utils:killme
-execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:3b}}}] positioned ~ ~30 ~ run function vh_mode:summon/kingghast
+execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:3b}}}] positioned ~ ~20 ~ run function vh_mode:summon/kingghast
 
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:4b}}}] run function para7_utils:killme
 execute if entity @e[type=minecraft:item,sort=nearest,limit=1,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{type:4b}}}] run function vh_mode:summon/chimera
