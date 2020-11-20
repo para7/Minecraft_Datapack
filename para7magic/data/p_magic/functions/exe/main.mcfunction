@@ -65,7 +65,7 @@ execute if entity @s[scores={PMag_MFaith=4,PMag_MSelect=5,PMag_MP=14..}] run sco
 
 
 
-execute if entity @s[scores={PMag_Enable=1}] run effect give @s minecraft:hunger 2 14 true
+# execute if entity @s[scores={PMag_Enable=1}] run effect give @s minecraft:hunger 2 14 true
 
 execute if entity @s[scores={PMag_Enable=0}] run tellraw @s ["",{"text":"MPが足りません！"}]
 execute if entity @s[scores={PMag_Enable=0}] run playsound minecraft:block.dispenser.fail master @s ~ ~ ~ 1.0 1.4
