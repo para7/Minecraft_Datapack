@@ -16,7 +16,7 @@ execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:2b}}}} r
 execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:2b}}}} run function vh_mode:summon/skeleton_elyte
 
 execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:3b}}}} run function para7_utils:killme
-execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:3b}}}} positioned ~ ~20 ~ run function vh_mode:summon/kingghast
+execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:3b}}}} positioned ~ 70 ~ run function vh_mode:summon/kingghast
 
 execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:4b}}}} run function para7_utils:killme
 execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:4b}}}} run function vh_mode:summon/chimera
