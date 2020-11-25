@@ -351,7 +351,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 17,
+                    "weight": 1,
                     "name": "minecraft:chest",
                     "functions": [
                         {
