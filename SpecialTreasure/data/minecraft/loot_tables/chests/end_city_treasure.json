@@ -1460,7 +1460,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:blast_protection\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.65,Operation:0,UUID:[I;-1421197477,277891591,-1226647123,1755743718],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;2010030502,407258511,-1086715974,-1246586633],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-30309480,-1997517507,-1608587410,-1975030421],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:0.2,Operation:0,UUID:[I;569660531,-251968151,-1160861963,1487430683],Slot:\"head\"}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:blast_protection\",lvl:10s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.65,Operation:2,UUID:[I;-1421197477,277891591,-1226647123,1755743718],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;2010030502,407258511,-1086715974,-1246586633],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-30309480,-1997517507,-1608587410,-1975030421],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:0.2,Operation:2,UUID:[I;569660531,-251968151,-1160861963,1487430683],Slot:\"head\"}]}"
                         }
                     ]
                 },
