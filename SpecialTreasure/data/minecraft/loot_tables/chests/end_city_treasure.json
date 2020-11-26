@@ -977,7 +977,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:99,Unbreakable:1b,Enchantments:[{id:\"minecraft:power\",lvl:2s},{id:\"minecraft:infinity\",lvl:1s}]}"
+                            "tag": "{RepairCost:23,Enchantments:[{id:\"minecraft:infinity\",lvl:1s},{id:\"minecraft:mending\",lvl:1s}]}"
                         },
                         {
                             "function": "set_name",
