@@ -1703,7 +1703,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:20,Enchantments:[{id:\"minecraft:thorns\",lvl:100s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:2,UUID:[I;1439673276,681331436,-1363525425,1661095580],Slot:\"mainhand\"}]}"
+                            "tag": "{RepairCost:20,Enchantments:[{id:\"minecraft:thorns\",lvl:100s},{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:2,UUID:[I;1439673276,681331436,-1363525425,1661095580],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
