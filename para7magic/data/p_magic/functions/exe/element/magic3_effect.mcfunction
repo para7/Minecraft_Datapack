@@ -18,11 +18,11 @@ execute unless block ~ ~ ~ #para7_utils:water run effect give @e[type=!#para7_ut
 # effect give @e[type=!#para7_utils:undead,distance=..1.4] minecraft:instant_damage 1 3
 
 
-summon minecraft:lightning_bolt ~ ~ ~
-execute if block ~ ~ ~ #para7_utils:water run summon minecraft:lightning_bolt ~2 ~ ~2
-execute if block ~ ~ ~ #para7_utils:water run summon minecraft:lightning_bolt ~-2 ~ ~2
-execute if block ~ ~ ~ #para7_utils:water run summon minecraft:lightning_bolt ~2 ~ ~-2
-execute if block ~ ~ ~ #para7_utils:water run summon minecraft:lightning_bolt ~-2 ~ ~-2
+summon minecraft:lightning_bolt ~ ~2 ~
+execute if block ~ ~ ~ #para7_utils:water run summon minecraft:lightning_bolt ~2 ~1 ~2
+execute if block ~ ~ ~ #para7_utils:water run summon minecraft:lightning_bolt ~-2 ~1 ~2
+execute if block ~ ~ ~ #para7_utils:water run summon minecraft:lightning_bolt ~2 ~1 ~-2
+execute if block ~ ~ ~ #para7_utils:water run summon minecraft:lightning_bolt ~-2 ~1 ~-2
 
 # summon minecraft:lightning_bolt ~ ~ ~
 # summon minecraft:lightning_bolt ~ ~ ~

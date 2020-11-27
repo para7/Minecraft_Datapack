@@ -3,7 +3,7 @@
 
 title @s actionbar [{"text":"魔法を習得していません"}]
 
-title @s[scores={PMag_MFaith=1,PMag_Xmagic1=1..}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  ディザスター(70)"}]
+title @s[scores={PMag_MFaith=1,PMag_Xmagic1=1..}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  ディザスター(30)"}]
 
 title @s[scores={PMag_MFaith=2,PMag_Xmagic2=1..}] actionbar [{"text":"MP : "},{"score":{"name":"@s","objective":"PMag_MP"}},{"text":"  フェニックス(60)"}]
 
