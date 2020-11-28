@@ -186,7 +186,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 400,
+                    "weight": 200,
                     "name": "minecraft:paper",
                     "functions": [
                         {
