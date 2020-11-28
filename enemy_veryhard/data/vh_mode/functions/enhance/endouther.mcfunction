@@ -37,7 +37,7 @@ execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:101b}}}}
 execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:101b}}}} run function vh_mode:summon/end/damagephantom
 
 execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:102b}}}} run function para7_utils:killme
-execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:102b}}}} run function vh_mode:summon/end/endgurdian
+execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:102b}}}} run function vh_mode:summon/end/endguardian
 
 execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:103b}}}} run function para7_utils:killme
 execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:103b}}}} run function vh_mode:summon/end/endhealer
