@@ -1,1 +1,1 @@
-summon rabbit ~ ~ ~ {DeathLootTable:"vh_mode:entities/end/outercommon",Health:25f,RabbitType:99,Tags:["Skill","Skill_Despawn"],Attributes:[{Name:generic.max_health,Base:25},{Name:generic.follow_range,Base:40}]}
+summon rabbit ~ ~ ~ {DeathLootTable:"vh_mode:entities/end/outercommon",Health:25f,RabbitType:99,Tags:["Skill","Skill_Despawn"],ActiveEffects:[{Id:5b,Amplifier:1b,Duration:99999999,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:25},{Name:generic.follow_range,Base:40}]}
