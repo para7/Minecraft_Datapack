@@ -44,6 +44,9 @@ execute if entity @s[tag=Skill_BumperStorm] run function vh_mode:skill/bumpersto
 
 execute if entity @s[tag=Skill_Beacon] run function vh_mode:skill/beaconman
 
+execute if entity @s[tag=Skill_VoidMaker] run function vh_mode:skill/voidmaker
+execute if entity @s[tag=Skill_VoidMakerEffect] run function vh_mode:skill/voidmaker_effect
+
 execute if entity @s[tag=Skill_KingGhast] run function vh_mode:skill/kingghast
 execute if entity @s[tag=Skill_KingFireball] run function vh_mode:skill/king_fireball
 execute if entity @s[tag=Skill_oyakoai] run function vh_mode:skill/oyakoai

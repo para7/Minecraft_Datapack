@@ -1,0 +1,1 @@
+summon vindicator ~ ~ ~ {Silent:1b,CustomNameVisible:1b,DeathLootTable:"vh_mode:entities/end/outercommon",Health:20f,Tags:["Skill","Skill_VoidMaker","vh_Edited"],CustomName:'{"text":"void maker"}',Attributes:[{Name:generic.max_health,Base:20}]}

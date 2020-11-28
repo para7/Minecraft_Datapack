@@ -1,7 +1,7 @@
 #MP処理とMP、装備魔法表示
 #TODO:関数に分離して軽量化
 
-execute unless entity @s[scores={PJJobInfo=1..7}] run title @s actionbar [{"text":"ジョブがセットされていません"}]
+execute unless entity @s[scores={PJJobInfo=1..90}] run title @s actionbar [{"text":"ジョブがセットされていません"}]
 
 # scoreboard objectives add PJRecastDisplay dummy
 

@@ -91,6 +91,15 @@ execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:117b}}}}
 execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:118b}}}} run function para7_utils:killme
 execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:118b}}}} run function vh_mode:summon/end/bonusbox
 
+execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:119b}}}} run function para7_utils:killme
+execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:119b}}}} run function vh_mode:summon/end/beaconman
+
+execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:120b}}}} run function para7_utils:killme
+execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:120b}}}} run function vh_mode:summon/end/bumperstorm
+
+execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:121b}}}} run function para7_utils:killme
+execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:121b}}}} run function vh_mode:summon/end/voidmaker
+
 # エンド商
 
 execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:200b}}}} run function para7_utils:killme
