@@ -68,7 +68,7 @@ execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:110b}}}}
 
 execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:111b}}}} run tag @s remove Skill_Blind
 execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:111b}}}} run tag @s add Skill_Accelerator
-execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:111b}}}} run data merge entity @s {CustomNameVisible:1b,CustomName:'{"text":"アクセラレータ","color":"red"}'}
+execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:111b}}}} run data merge entity @s {CustomName:'{"text":"アクセラレータ","color":"red"}'}
 
 execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:112b}}}} run function para7_utils:killme
 execute if data storage para7sys:spawnselect {enderman:{Item:{tag:{type:112b}}}} run function vh_mode:summon/end/arrowrain
