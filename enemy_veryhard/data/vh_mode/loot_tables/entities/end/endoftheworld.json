@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 7,
+                    "weight": 5,
                     "quality": 1,
                     "name": "minecraft:diamond",
                     "functions": [
@@ -18,7 +18,7 @@
                 {
                     "type": "item",
                     "weight": 1,
-                    "quality": 1,
+                    "quality": 3,
                     "name": "minecraft:chest",
                     "functions": [
                         {
