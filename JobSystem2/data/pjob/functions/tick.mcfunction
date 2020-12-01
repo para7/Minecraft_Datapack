@@ -11,7 +11,7 @@ execute as @a[nbt={SelectedItem:{tag:{PJShowInfo:1b}}}] run function pjob:system
 execute as @a[nbt={Inventory:[{Slot:-106b,tag:{PJShowInfo:1b}}]}] run function pjob:system/showskill
 
 # 隠しジョブ
-execute as @a[scores={PJEndJobFlag=1..}] at @s run function pjob:job/init/end
+execute as @a[scores={PJEndJobFlag=1}] at @s run function pjob:job/init/end
 execute as @a[scores={PJendermanKill=100..,PJdragonKill=1..}] at @s run function pjob:system/end_notice
 
 # スキル処理
