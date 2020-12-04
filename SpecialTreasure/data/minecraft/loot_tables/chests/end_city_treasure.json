@@ -1722,6 +1722,106 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:30,Enchantments:[{id:\"minecraft:punch\",lvl:100s}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "暴弓トルネード"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:20,Enchantments:[{id:\"minecraft:respiration\",lvl:100s}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "酸素ボンベ"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:netherite_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:efficiency\",lvl:10s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:mending\",lvl:1s}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "神器鶴橋・改"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "耐久力を犠牲に、修復力を得た"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.4,Operation:1,UUID:[I;438594866,325274288,-1458883438,-30874102],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:20,Operation:0,UUID:[I;-731391554,-840019972,-1497835350,657746155],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:1,Operation:0,UUID:[I;1957443851,1167803548,-1179420570,483847863],Slot:\"mainhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "エスパーダ・ロペラ"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }
