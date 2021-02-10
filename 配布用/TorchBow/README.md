@@ -28,7 +28,7 @@
 その他確認したいことがありましたら連絡先にお願いします。
 
 連絡先
-twitter: https://twitter.com/lilyclover4
+twitter: <https://twitter.com/lilyclover4>
 
 匿名で送りたい時
-マシュマロ: 
+マシュマロ: <https://marshmallow-qa.com/lilyclover4?utm_medium=url_text&utm_source=promotion>
