@@ -17,6 +17,14 @@ scoreboard objectives add PJstDefence dummy
 scoreboard objectives add PJstKnockback dummy
 scoreboard objectives add PJstSpd dummy
 
+# エッグ系
+scoreboard objectives add PJUseSkill1 minecraft.used:minecraft.pig_spawn_egg
+scoreboard objectives add PJUseSkill2 minecraft.used:minecraft.drowned_spawn_egg
+scoreboard objectives add PJUseSkill3 minecraft.used:minecraft.bee_spawn_egg
+
+# scoreboard objectives add PJUseSkill1 minecraft.used:minecraft.sheep_spawn_egg
+# scoreboard objectives add PJUseSkill2 minecraft.used:minecraft.silverfish_spawn_egg
+# scoreboard objectives add PJUseSkill3 minecraft.used:minecraft.endermite_spawn_egg
 
 # # 転職タイマー
 # # scoreboard objectives add PJChangeTimer dummy
