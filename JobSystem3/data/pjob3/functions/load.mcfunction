@@ -21,6 +21,13 @@ scoreboard objectives add PJstSpd dummy
 scoreboard objectives add PJUseSkill1 minecraft.used:minecraft.pig_spawn_egg
 scoreboard objectives add PJUseSkill2 minecraft.used:minecraft.drowned_spawn_egg
 scoreboard objectives add PJUseSkill3 minecraft.used:minecraft.bee_spawn_egg
+scoreboard objectives add PJUseSkill dummy
+
+
+scoreboard objectives add PJDropSkill1 minecraft.dropped:minecraft.pig_spawn_egg
+scoreboard objectives add PJDropSkill2 minecraft.dropped:minecraft.drowned_spawn_egg
+scoreboard objectives add PJDropSkill3 minecraft.dropped:minecraft.bee_spawn_egg
+scoreboard objectives add PJDropSkill dummy
 
 # scoreboard objectives add PJUseSkill1 minecraft.used:minecraft.sheep_spawn_egg
 # scoreboard objectives add PJUseSkill2 minecraft.used:minecraft.silverfish_spawn_egg
