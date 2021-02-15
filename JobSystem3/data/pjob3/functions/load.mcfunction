@@ -2,6 +2,12 @@
 
 # 就職など
 scoreboard objectives add PJJobChange minecraft.custom:minecraft.traded_with_villager
+scoreboard objectives add PJJCTimer dummy
+
+# scoreboard objectives add PJJobChange minecraft.pickup:minecraft.traded_with_villager
+
+# ジョブID
+scoreboard objectives add PJJobID dummy
 
 # スキル設定情報
 scoreboard objectives add PJSkillSlot1 dummy
