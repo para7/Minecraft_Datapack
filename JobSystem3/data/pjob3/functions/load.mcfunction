@@ -1,9 +1,6 @@
 # tellraw @a ["",{"text":"が有効です"}]
 
 # 就職など
-scoreboard objectives add PJJobChange minecraft.custom:minecraft.traded_with_villager
-scoreboard objectives add PJJCTimer dummy
-
 # scoreboard objectives add PJJobChange minecraft.pickup:minecraft.traded_with_villager
 
 # ジョブID
@@ -34,6 +31,19 @@ scoreboard objectives add PJDropSkill1 minecraft.dropped:minecraft.pig_spawn_egg
 scoreboard objectives add PJDropSkill2 minecraft.dropped:minecraft.drowned_spawn_egg
 scoreboard objectives add PJDropSkill3 minecraft.dropped:minecraft.bee_spawn_egg
 scoreboard objectives add PJDropSkill dummy
+
+# スキル装備処理用
+# スキル選択番号
+scoreboard objectives add PJSSetSkillNum trigger
+# セットするスロット番号
+scoreboard objectives add PJSSetSlot dummy
+# タイマー
+# scoreboard objectives add PJSSetTimer dummy
+
+
+
+
+
 
 # scoreboard objectives add PJUseSkill1 minecraft.used:minecraft.sheep_spawn_egg
 # scoreboard objectives add PJUseSkill2 minecraft.used:minecraft.silverfish_spawn_egg
