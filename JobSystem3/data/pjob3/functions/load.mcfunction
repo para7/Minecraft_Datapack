@@ -24,7 +24,10 @@ scoreboard objectives add PJstSpd dummy
 scoreboard objectives add PJUseSkill1 minecraft.used:minecraft.pig_spawn_egg
 scoreboard objectives add PJUseSkill2 minecraft.used:minecraft.drowned_spawn_egg
 scoreboard objectives add PJUseSkill3 minecraft.used:minecraft.bee_spawn_egg
+# どれかを使えばこれがオンになる
 scoreboard objectives add PJUseSkill dummy
+# 使ったスキル番号の一時保存用
+scoreboard objectives add PJUseSkillNum dummy
 
 
 scoreboard objectives add PJDropSkill1 minecraft.dropped:minecraft.pig_spawn_egg
