@@ -8,5 +8,6 @@ playsound minecraft:entity.experience_orb.pickup master @a ~ ~ ~ 1 1.8
 
 # ジョブごとに分岐
 
+execute if entity @s[scores={PJUseSkillNum=1}] run function pjob3:skill/exe/active/1_nagasi
 execute if entity @s[scores={PJUseSkillNum=5}] run function pjob3:skill/exe/active/5_defform
 execute if entity @s[scores={PJUseSkillNum=6}] run function pjob3:skill/exe/active/6_atkform

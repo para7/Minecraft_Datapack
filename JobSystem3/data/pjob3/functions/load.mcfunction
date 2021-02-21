@@ -3,6 +3,10 @@
 # 就職など
 # scoreboard objectives add PJJobChange minecraft.pickup:minecraft.traded_with_villager
 
+# 計算領域
+scoreboard objectives add PJDummy1 dummy
+scoreboard objectives add PJDummy2 dummy
+
 # ジョブID
 scoreboard objectives add PJJobID dummy
 
@@ -10,6 +14,14 @@ scoreboard objectives add PJJobID dummy
 scoreboard objectives add PJSkillSlot1 dummy
 scoreboard objectives add PJSkillSlot2 dummy
 scoreboard objectives add PJSkillSlot3 dummy
+
+# 消費JP
+scoreboard objectives add PJSkilljp1 dummy
+scoreboard objectives add PJSkilljp2 dummy
+scoreboard objectives add PJSkilljp3 dummy
+
+# 剣スキルなど
+scoreboard objectives add PJSkillWeapon dummy
 
 # スロット開放状況
 
