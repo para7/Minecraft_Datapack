@@ -1,0 +1,27 @@
+{
+    "parent": "pjob3:root",
+    "display": {
+        "title": "",
+        "description": "",
+        "icon": {
+            "item": "air"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "nbt": "{SelectedItem:{id:\"minecraft:netherite_sword\"}}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pjob3:advfunc/sword"
+    }
+}
