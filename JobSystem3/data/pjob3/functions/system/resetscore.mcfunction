@@ -10,3 +10,5 @@ scoreboard players set @a PJDropSkill 0
 
 scoreboard players set @a PJJobChange 0
 scoreboard players remove @a PJJCTimer 1
+
+scoreboard players remove @a[scores={PJWepSkillInter=1..}] PJWepSkillInter 1

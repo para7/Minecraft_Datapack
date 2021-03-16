@@ -22,6 +22,7 @@ scoreboard objectives add PJSkilljp3 dummy
 
 # 剣スキルなど
 scoreboard objectives add PJSkillWeapon dummy
+scoreboard objectives add PJWepSkillInter dummy
 
 # スロット開放状況
 
