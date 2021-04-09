@@ -1,5 +1,5 @@
 # フラグチェック
-execute unless score @s PJWepSkillInter matches 1.. if score @s PJSkillWeapon matches 1.. run function pjob3:skill/exe/weapon_main
+execute unless score @s PJWepSkillInter matches 1.. if score @s PJSkillWeapon matches 1.. run function pjob3:skill/exe/sword/main
 execute unless score @s PJWepSkillInter matches 1.. run scoreboard players set @s PJWepSkillInter 2
 
 advancement revoke @s only pjob3:swords/diaswordatk

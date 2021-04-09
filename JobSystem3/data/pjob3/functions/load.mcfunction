@@ -26,6 +26,8 @@ scoreboard objectives add PJWepSkillInter dummy
 
 # スロット開放状況
 
+# バフフラグ
+scoreboard objectives add PJBuffTameru dummy
 
 # ステータス計算用
 scoreboard objectives add PJstAttack dummy
