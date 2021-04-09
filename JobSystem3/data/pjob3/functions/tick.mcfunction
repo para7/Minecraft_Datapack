@@ -10,8 +10,14 @@ execute as @e[tag=PJDummy] run function para7_utils:killme
 # execute as @a[scores={PJJobChange=1..}] at @s run function pjob3:job/tradejob
 execute as @a[nbt={Inventory:[{id:"minecraft:paper",tag:{PJDocument:1b}}]}] at @s run function pjob3:job/tradejob
 
+
 execute as @a[scores={PJUseSkill=1..}] at @s run function pjob3:skill/exe/main
 execute as @a[scores={PJDropSkill=1..}] at @s run function pjob3:skill/change/main
+
+execute as @a[scores={PJDamageDealt=1..}] at @s run function pjob3:skill/event/attack
+
+# バフの処理
+execute as @a at @s run function pjob3:skill/exe/auto/buff
 
 # スキルのセット
 execute as @a[scores={PJSSetSkillNum=1..}] at @s run function pjob3:skill/change/onclick
