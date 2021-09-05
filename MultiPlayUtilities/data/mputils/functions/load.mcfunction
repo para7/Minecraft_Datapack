@@ -16,6 +16,10 @@ scoreboard objectives add Dummy dummy
 
 scoreboard objectives add MPU_logout minecraft.custom:minecraft.leave_game
 
+# ベッド通知
+scoreboard objectives add BedNotification minecraft.custom:minecraft.sleep_in_bed
+data merge storage para7sys:mpu {bed: true}
+
 # 死亡数カウント
 
 
