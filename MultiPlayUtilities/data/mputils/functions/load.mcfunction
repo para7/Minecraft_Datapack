@@ -24,3 +24,4 @@ data merge storage para7sys:mpu {bed: true}
 
 
 # realmsハードコアモード
+tellraw @a [{"text":"enable datapack: MultiPlayUtilities"}]
