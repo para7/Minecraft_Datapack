@@ -1,3 +1,7 @@
+# 再始動のため、リポジトリ移行しました
+
+https://github.com/para7/magic_and_frontier
+
 # 必須
 
 ## para7_BaseSystem
